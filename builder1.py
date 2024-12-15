@@ -98,7 +98,7 @@ def format_entry(entry):
     cnx_info = get_cnx_info(entry)
     original_word_info = get_original_word_info(entry)
 
-    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t{head_dep_info}\t{cnx_info}"
+    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t-\t-\t{head_dep_info}\t{cnx_info}"
 
 def format_sentence(sentence_data):
     """Format the parser output for a single sentence."""

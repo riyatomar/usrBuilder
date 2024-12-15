@@ -1,15 +1,15 @@
 <sent_id=1>
 #राम , श्याम और मोहन दिल्ली जाएंगे ।
-rAma	1	-	7:k1	9:begin
-SyAma	3	-	7:k1	10:begin
-mohana	5	-	7:k1	11:begin
-xillI	6	-	7:k2p	12:begin
-jAeMge	7	-	0:main	-
-[ne_1]	9	per	-	13:op1
-[ne_2]	10	per	-	13:op2
-[ne_3]	11	per	-	13:op3
-[ne_4]	12	place	-	-
-[conj_1]	13	-	-	-
+rAma	1	-	-	7:k1	-	-	-	9:begin
+SyAma	3	-	-	7:k1	-	-	-	10:begin
+mohana	5	-	-	7:k1	-	-	-	11:begin
+xillI	6	-	-	7:k2p	-	-	-	12:begin
+jAeMge	7	-	-	0:main	-	-	-	-
+[ne_1]	9	per	-	-	-	-	-	13:op1
+[ne_2]	10	per	-	-	-	-	-	13:op2
+[ne_3]	11	per	-	-	-	-	-	13:op3
+[ne_4]	12	place	-	-	-	-	-	-
+[conj_1]	13	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -17,12 +17,12 @@ jAeMge	7	-	0:main	-
 
 <sent_id=2>
 #मोहन लाल बाजार गया था ।
-mohana	1	-	2:pof__cn	7:begin
-lAla	2	-	4:k1	7:inside
-bAjAra	3	-	4:k2p	-
-gayA	4	-	0:main	-
-WA	5	-	4:lwg__vaux	-
-[ne_1]	7	per	-	-
+mohana	1	-	-	2:pof__cn	-	-	-	7:begin
+lAla	2	-	-	4:k1	-	-	-	7:inside
+bAjAra	3	-	-	4:k2p	-	-	-	-
+gayA	4	-	-	0:main	-	-	-	-
+WA	5	-	-	4:lwg__vaux	-	-	-	-
+[ne_1]	7	per	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -30,11 +30,11 @@ WA	5	-	4:lwg__vaux	-
 
 <sent_id=3>
 #मैं सुबह से रात तक पढ़ूंगा ।
-mEM	1	-	6:k1	-
-subaha	2	-	6:k7t	8:start
-rAwa	4	-	6:k7t	8:end
-paDZUMgA	6	-	0:main	-
-[span_1]	8	-	-	-
+mEM	1	-	-	6:k1	-	-	-	-
+subaha	2	-	-	6:k7t	-	-	-	8:start
+rAwa	4	-	-	6:k7t	-	-	-	8:end
+paDZUMgA	6	-	-	0:main	-	-	-	-
+[span_1]	8	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -42,14 +42,14 @@ paDZUMgA	6	-	0:main	-
 
 <sent_id=4>
 #राम और मोहन कल स्कूल जायेंगे ।
-rAma	1	-	6:k1	8:begin
-mohana	3	-	6:k1	9:begin
-kala	4	-	6:k7t	-
-skUla	5	-	6:k2p	-
-jAyeMge	6	-	0:main	-
-[ne_1]	8	per	-	10:op1
-[ne_2]	9	per	-	10:op2
-[conj_1]	10	-	-	-
+rAma	1	-	-	6:k1	-	-	-	8:begin
+mohana	3	-	-	6:k1	-	-	-	9:begin
+kala	4	-	-	6:k7t	-	-	-	-
+skUla	5	-	-	6:k2p	-	-	-	-
+jAyeMge	6	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	-	-	-	-	10:op1
+[ne_2]	9	per	-	-	-	-	-	10:op2
+[conj_1]	10	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -57,13 +57,13 @@ jAyeMge	6	-	0:main	-
 
 <sent_id=5>
 #सीता फल या सब्जी ले आएगी ।
-sIwA	1	-	5:k1	8:begin
-Pala	2	-	5:k2	9:op1
-sabjI	4	-	5:k2	9:op2
-le	5	-	0:main	-
-AegI	6	-	5:lwg__vaux	-
-[ne_1]	8	per	-	-
-[disjunct_1]	9	-	-	-
+sIwA	1	-	-	5:k1	-	-	-	8:begin
+Pala	2	-	-	5:k2	-	-	-	9:op1
+sabjI	4	-	-	5:k2	-	-	-	9:op2
+le	5	-	-	0:main	-	-	-	-
+AegI	6	-	-	5:lwg__vaux	-	-	-	-
+[ne_1]	8	per	-	-	-	-	-	-
+[disjunct_1]	9	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -71,11 +71,11 @@ AegI	6	-	5:lwg__vaux	-
 
 <sent_id=6>
 #अयोध्या के राजा राम हैं ।
-ayoXyA	1	-	3:r6	7:begin
-rAjA	3	-	4:mod	-
-rAma	4	-	5:k1	-
-hEM	5	-	0:main	-
-[ne_1]	7	place	-	-
+ayoXyA	1	-	-	3:r6	-	-	-	7:begin
+rAjA	3	-	-	4:mod	-	-	-	-
+rAma	4	-	-	5:k1	-	-	-	-
+hEM	5	-	-	0:main	-	-	-	-
+[ne_1]	7	place	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -83,19 +83,19 @@ hEM	5	-	0:main	-
 
 <sent_id=7>
 #संयुक्त राष्ट्र संघ ने रूस को शांति स्थापित करने का आदेश दिया ।
-saMyukwa	1	-	3:pof__cn	14:begin
-rARtra	2	-	3:pof__cn	14:inside
-saMGa	3	-	12:k1	-
-rUsa	5	-	12:k4	15:begin
-SAMwi	7	-	9:k2	-
-sWApiwa	8	-	9:pof	16:kriyAmUla
-karane	9	-	11:k2	16:verbalizer_B
-AxeSa	11	-	12:pof	17:kriyAmUla
-xiyA	12	-	0:main	17:verbalizer_B
-[ne_1]	14	org	-	-
-[ne_2]	15	place	-	-
-[cp_1]	16	-	-	-
-[cp_2]	17	-	-	-
+saMyukwa	1	-	-	3:pof__cn	-	-	-	14:begin
+rARtra	2	-	-	3:pof__cn	-	-	-	14:inside
+saMGa	3	-	-	12:k1	-	-	-	-
+rUsa	5	-	-	12:k4	-	-	-	15:begin
+SAMwi	7	-	-	9:k2	-	-	-	-
+sWApiwa	8	-	-	9:pof	-	-	-	16:kriyAmUla
+karane	9	-	-	11:k2	-	-	-	16:verbalizer_B
+AxeSa	11	-	-	12:pof	-	-	-	17:kriyAmUla
+xiyA	12	-	-	0:main	-	-	-	17:verbalizer_B
+[ne_1]	14	org	-	-	-	-	-	-
+[ne_2]	15	place	-	-	-	-	-	-
+[cp_1]	16	-	-	-	-	-	-	-
+[cp_2]	17	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -103,13 +103,13 @@ xiyA	12	-	0:main	17:verbalizer_B
 
 <sent_id=8>
 #नासा ने मंगल ग्रह पर यान भेजा ।
-nAsA	1	-	7:k1	9:begin
-maMgala	3	-	4:nmod__adj	10:begin
-graha	4	-	7:k7p	-
-yAna	6	-	7:k2	-
-BejA	7	-	0:main	-
-[ne_1]	9	org	-	-
-[ne_2]	10	place	-	-
+nAsA	1	-	-	7:k1	-	-	-	9:begin
+maMgala	3	-	-	4:nmod__adj	-	-	-	10:begin
+graha	4	-	-	7:k7p	-	-	-	-
+yAna	6	-	-	7:k2	-	-	-	-
+BejA	7	-	-	0:main	-	-	-	-
+[ne_1]	9	org	-	-	-	-	-	-
+[ne_2]	10	place	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -117,18 +117,18 @@ BejA	7	-	0:main	-
 
 <sent_id=9>
 #यह मानव प्रकृति संबंध की गुणवत्ता के निहितार्थ का अध्ययन करता है ।
-yaha	1	-	11:k1	-
-mAnava	2	-	4:pof__cn	14:mod
-prakqwi	3	-	4:pof__cn	15:mod
-saMbaMXa	4	-	6:r6	15:head
-guNavawwA	6	-	8:r6	-
-nihiwArWa	8	-	10:k2	-
-aXyayana	10	-	11:pof	16:kriyAmUla
-karawA	11	-	0:main	16:verbalizer_B
-hE	12	-	11:lwg__vaux	16:verbalizer_I
-[nc_1]	14	-	-	-
-[nc_2]	15	-	-	-
-[cp_1]	16	-	-	-
+yaha	1	-	-	11:k1	-	-	-	-
+mAnava	2	-	-	4:pof__cn	-	-	-	14:mod
+prakqwi	3	-	-	4:pof__cn	-	-	-	15:mod
+saMbaMXa	4	-	-	6:r6	-	-	-	15:head
+guNavawwA	6	-	-	8:r6	-	-	-	-
+nihiwArWa	8	-	-	10:k2	-	-	-	-
+aXyayana	10	-	-	11:pof	-	-	-	16:kriyAmUla
+karawA	11	-	-	0:main	-	-	-	16:verbalizer_B
+hE	12	-	-	11:lwg__vaux	-	-	-	16:verbalizer_I
+[nc_1]	14	-	-	-	-	-	-	-
+[nc_2]	15	-	-	-	-	-	-	-
+[cp_1]	16	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -136,17 +136,17 @@ hE	12	-	11:lwg__vaux	16:verbalizer_I
 
 <sent_id=10>
 #राम ने 10 किलो से लेकर 20 किलो तक वजन उठाया ।
-rAma	1	-	11:k1	13:begin
-10	3	-	4:card	14:count
-kilo	4	-	8:rsp	14:unit
-20	7	-	8:card	15:count
-kilo	8	-	11:k7t	15:unit
-vajana	10	-	11:k2	-
-uTAyA	11	-	0:main	-
-[ne_1]	13	per	-	-
-[meas_1]	14	-	-	16:start
-[meas_2]	15	-	-	16:end
-[span_1]	16	-	-	-
+rAma	1	-	-	11:k1	-	-	-	13:begin
+10	3	-	-	4:card	-	-	-	14:count
+kilo	4	-	-	8:rsp	-	-	-	14:unit
+20	7	-	-	8:card	-	-	-	15:count
+kilo	8	-	-	11:k7t	-	-	-	15:unit
+vajana	10	-	-	11:k2	-	-	-	-
+uTAyA	11	-	-	0:main	-	-	-	-
+[ne_1]	13	per	-	-	-	-	-	-
+[meas_1]	14	-	-	-	-	-	-	16:start
+[meas_2]	15	-	-	-	-	-	-	16:end
+[span_1]	16	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -154,21 +154,21 @@ uTAyA	11	-	0:main	-
 
 <sent_id=11>
 #राम 4 जनवरी को दिल्ली के कुतुब मीनार पर 100 मंजिलें चढ़ा ।
-rAma	1	-	12:k1	14:begin
-4	2	-	3:pof__cn	18:component_of
-janavarI	3	-	12:k7t	18:component_of
-xillI	5	-	8:r6	15:begin
-kuwuba	7	-	8:pof__cn	16:begin
-mInAra	8	-	12:k7p	16:inside
-100	10	-	11:card	-
-maMjileM	11	-	12:k1	-
-caDZA	12	-	0:main	-
-[ne_1]	14	per	-	-
-[ne_2]	15	place	-	19:whole
-[ne_3]	16	place	-	19:part
-[ne_3]	17	-	-	-
-[calendar_1]	18	-	-	-
-[spatial_1]	19	-	-	-
+rAma	1	-	-	12:k1	-	-	-	14:begin
+4	2	-	-	3:pof__cn	-	-	-	18:component_of
+janavarI	3	-	-	12:k7t	-	-	-	18:component_of
+xillI	5	-	-	8:r6	-	-	-	15:begin
+kuwuba	7	-	-	8:pof__cn	-	-	-	16:begin
+mInAra	8	-	-	12:k7p	-	-	-	16:inside
+100	10	-	-	11:card	-	-	-	-
+maMjileM	11	-	-	12:k1	-	-	-	-
+caDZA	12	-	-	0:main	-	-	-	-
+[ne_1]	14	per	-	-	-	-	-	-
+[ne_2]	15	place	-	-	-	-	-	19:whole
+[ne_3]	16	place	-	-	-	-	-	19:part
+[ne_3]	17	-	-	-	-	-	-	-
+[calendar_1]	18	-	-	-	-	-	-	-
+[spatial_1]	19	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -176,15 +176,15 @@ caDZA	12	-	0:main	-
 
 <sent_id=12>
 #महामारी के कारण बहुत लोगो की अकाल मृत्यु हुई है ।
-mahAmArI	1	-	9:rh	-
-bahuwa	4	-	5:quant	-
-logo	5	-	8:k1	-
-akAla	7	-	8:pof__cn	12:mod
-mqwyu	8	-	9:pof	12:head
-huI	9	-	0:main	13:verbalizer_B
-hE	10	-	9:lwg__vaux	13:verbalizer_I
-[nc_1]	12	-	-	13:kriyAmUla
-[cp_1]	13	-	-	-
+mahAmArI	1	-	-	9:rh	-	-	-	-
+bahuwa	4	-	-	5:quant	-	-	-	-
+logo	5	-	-	8:k1	-	-	-	-
+akAla	7	-	-	8:pof__cn	-	-	-	12:mod
+mqwyu	8	-	-	9:pof	-	-	-	12:head
+huI	9	-	-	0:main	-	-	-	13:verbalizer_B
+hE	10	-	-	9:lwg__vaux	-	-	-	13:verbalizer_I
+[nc_1]	12	-	-	-	-	-	-	13:kriyAmUla
+[cp_1]	13	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -192,17 +192,17 @@ hE	10	-	9:lwg__vaux	13:verbalizer_I
 
 <sent_id=13>
 #हमारा देश 15 अगस्त 1947 में आज़ाद हुआ ।
-hamArA	1	-	2:r6	-
-xeSa	2	-	8:k1	-
-15	3	-	5:pof__cn	13:component_of
-agaswa	4	-	5:pof__cn	13:component_of
-1947	5	-	8:k7t	13:component_of
-AjZAxa	7	-	8:pof	12:kriyAmUla
-huA	8	-	0:main	12:verbalizer_B
-[ne_0]	10	-	-	-
-[ne_1]	11	-	-	-
-[cp_1]	12	-	-	-
-[calendar_1]	13	-	-	-
+hamArA	1	-	-	2:r6	-	-	-	-
+xeSa	2	-	-	8:k1	-	-	-	-
+15	3	-	-	5:pof__cn	-	-	-	13:component_of
+agaswa	4	-	-	5:pof__cn	-	-	-	13:component_of
+1947	5	-	-	8:k7t	-	-	-	13:component_of
+AjZAxa	7	-	-	8:pof	-	-	-	12:kriyAmUla
+huA	8	-	-	0:main	-	-	-	12:verbalizer_B
+[ne_0]	10	-	-	-	-	-	-	-
+[ne_1]	11	-	-	-	-	-	-	-
+[cp_1]	12	-	-	-	-	-	-	-
+[calendar_1]	13	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -210,22 +210,22 @@ huA	8	-	0:main	12:verbalizer_B
 
 <sent_id=14>
 #राम 4 जनवरी को दिल्ली के कुतुब मीनार पर 100 सीढ़ियाँ चढ़ा ।
-rAma	1	-	12:k1	14:begin
-4	2	-	3:pof__cn	19:component_of
-janavarI	3	-	12:k7t	19:component_of
-xillI	5	-	8:r6	15:begin
-kuwuba	7	-	8:pof__cn	16:begin
-mInAra	8	-	12:k7p	16:inside
-100	10	-	11:card	18:count
-sIDZiyAz	11	-	12:k2	18:unit
-caDZA	12	-	0:main	-
-[ne_1]	14	per	-	-
-[ne_2]	15	place	-	20:whole
-[ne_3]	16	place	-	20:part
-[ne_3]	17	-	-	-
-[meas_1]	18	-	-	-
-[calendar_1]	19	-	-	-
-[spatial_1]	20	-	-	-
+rAma	1	-	-	12:k1	-	-	-	14:begin
+4	2	-	-	3:pof__cn	-	-	-	19:component_of
+janavarI	3	-	-	12:k7t	-	-	-	19:component_of
+xillI	5	-	-	8:r6	-	-	-	15:begin
+kuwuba	7	-	-	8:pof__cn	-	-	-	16:begin
+mInAra	8	-	-	12:k7p	-	-	-	16:inside
+100	10	-	-	11:card	-	-	-	18:count
+sIDZiyAz	11	-	-	12:k2	-	-	-	18:unit
+caDZA	12	-	-	0:main	-	-	-	-
+[ne_1]	14	per	-	-	-	-	-	-
+[ne_2]	15	place	-	-	-	-	-	20:whole
+[ne_3]	16	place	-	-	-	-	-	20:part
+[ne_3]	17	-	-	-	-	-	-	-
+[meas_1]	18	-	-	-	-	-	-	-
+[calendar_1]	19	-	-	-	-	-	-	-
+[spatial_1]	20	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -233,14 +233,14 @@ caDZA	12	-	0:main	-
 
 <sent_id=15>
 #राम मोहन को रेलवे स्टेशन छोड़ने गया ।
-rAma	1	-	2:pof__cn	9:begin
-mohana	2	-	6:k2	9:inside
-relave	4	-	5:pof__cn	10:mod
-steSana	5	-	6:k7p	10:head
-CodZane	6	-	0:main	-
-gayA	7	-	6:lwg__vaux	-
-[ne_1]	9	per	-	-
-[nc_1]	10	-	-	-
+rAma	1	-	-	2:pof__cn	-	-	-	9:begin
+mohana	2	-	-	6:k2	-	-	-	9:inside
+relave	4	-	-	5:pof__cn	-	-	-	10:mod
+steSana	5	-	-	6:k7p	-	-	-	10:head
+CodZane	6	-	-	0:main	-	-	-	-
+gayA	7	-	-	6:lwg__vaux	-	-	-	-
+[ne_1]	9	per	-	-	-	-	-	-
+[nc_1]	10	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -248,16 +248,16 @@ gayA	7	-	6:lwg__vaux	-
 
 <sent_id=16>
 #राम ने अपने गुरु को देख कर उन्हें प्रणाम किया ।
-rAma	1	-	10:k1	12:begin
-apane	3	-	4:r6	-
-guru	4	-	6:k2	-
-xeKa	6	-	10:rpk	-
-kara	7	-	6:lwg__vaux	-
-unheM	8	-	10:k2	-
-praNAma	9	-	10:pof	13:kriyAmUla
-kiyA	10	-	0:main	13:verbalizer_B
-[ne_1]	12	per	-	-
-[cp_1]	13	-	-	-
+rAma	1	-	-	10:k1	-	-	-	12:begin
+apane	3	-	-	4:r6	-	-	-	-
+guru	4	-	-	6:k2	-	-	-	-
+xeKa	6	-	-	10:rpk	-	-	-	-
+kara	7	-	-	6:lwg__vaux	-	-	-	-
+unheM	8	-	-	10:k2	-	-	-	-
+praNAma	9	-	-	10:pof	-	-	-	13:kriyAmUla
+kiyA	10	-	-	0:main	-	-	-	13:verbalizer_B
+[ne_1]	12	per	-	-	-	-	-	-
+[cp_1]	13	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -265,13 +265,13 @@ kiyA	10	-	0:main	13:verbalizer_B
 
 <sent_id=17>
 #मोहन ने 10 किलो चावल खरीदे ।
-mohana	1	-	6:k1	8:begin
-10	3	-	4:card	9:count
-kilo	4	-	5:mod	9:unit
-cAvala	5	-	6:k2	-
-KarIxe	6	-	0:main	-
-[ne_1]	8	per	-	-
-[meas_1]	9	-	-	-
+mohana	1	-	-	6:k1	-	-	-	8:begin
+10	3	-	-	4:card	-	-	-	9:count
+kilo	4	-	-	5:mod	-	-	-	9:unit
+cAvala	5	-	-	6:k2	-	-	-	-
+KarIxe	6	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	-	-	-	-	-
+[meas_1]	9	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -279,17 +279,17 @@ KarIxe	6	-	0:main	-
 
 <sent_id=18>
 #15 अगस्त 1947 को हमारा देश आजाद हुआ था ।
-15	1	-	3:pof__cn	13:component_of
-agaswa	2	-	3:pof__cn	13:component_of
-1947	3	-	8:k7t	13:component_of
-hamArA	5	-	6:r6	-
-xeSa	6	-	8:k1	-
-AjAxa	7	-	8:k1s	-
-huA	8	-	0:main	-
-WA	9	-	8:lwg__vaux	-
-[ne_0]	11	-	-	-
-[ne_1]	12	-	-	-
-[calendar_1]	13	-	-	-
+15	1	-	-	3:pof__cn	-	-	-	13:component_of
+agaswa	2	-	-	3:pof__cn	-	-	-	13:component_of
+1947	3	-	-	8:k7t	-	-	-	13:component_of
+hamArA	5	-	-	6:r6	-	-	-	-
+xeSa	6	-	-	8:k1	-	-	-	-
+AjAxa	7	-	-	8:k1s	-	-	-	-
+huA	8	-	-	0:main	-	-	-	-
+WA	9	-	-	8:lwg__vaux	-	-	-	-
+[ne_0]	11	-	-	-	-	-	-	-
+[ne_1]	12	-	-	-	-	-	-	-
+[calendar_1]	13	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -297,13 +297,13 @@ WA	9	-	8:lwg__vaux	-
 
 <sent_id=19>
 #मेरा जन्मदिन 21 अगस्त को है ।
-merA	1	-	2:r6	-
-janmaxina	2	-	6:k1	-
-21	3	-	4:pof__cn	9:component_of
-agaswa	4	-	6:k7t	9:component_of
-hE	6	-	0:main	-
-[ne_0]	8	-	-	-
-[calendar_1]	9	-	-	-
+merA	1	-	-	2:r6	-	-	-	-
+janmaxina	2	-	-	6:k1	-	-	-	-
+21	3	-	-	4:pof__cn	-	-	-	9:component_of
+agaswa	4	-	-	6:k7t	-	-	-	9:component_of
+hE	6	-	-	0:main	-	-	-	-
+[ne_0]	8	-	-	-	-	-	-	-
+[calendar_1]	9	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -311,15 +311,15 @@ hE	6	-	0:main	-
 
 <sent_id=20>
 #राम दिल्ली में कुतुब मीनार पर चढ़ा ।
-rAma	1	-	7:k1	9:begin
-xillI	2	-	7:k7p	10:begin
-kuwuba	4	-	5:pof__cn	11:begin
-mInAra	5	-	7:k7p	11:inside
-caDZA	7	-	0:main	-
-[ne_1]	9	per	-	-
-[ne_2]	10	place	-	12:whole
-[ne_3]	11	place	-	12:part
-[spatial_1]	12	-	-	-
+rAma	1	-	-	7:k1	-	-	-	9:begin
+xillI	2	-	-	7:k7p	-	-	-	10:begin
+kuwuba	4	-	-	5:pof__cn	-	-	-	11:begin
+mInAra	5	-	-	7:k7p	-	-	-	11:inside
+caDZA	7	-	-	0:main	-	-	-	-
+[ne_1]	9	per	-	-	-	-	-	-
+[ne_2]	10	place	-	-	-	-	-	12:whole
+[ne_3]	11	place	-	-	-	-	-	12:part
+[spatial_1]	12	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -327,15 +327,15 @@ caDZA	7	-	0:main	-
 
 <sent_id=21>
 #राम दिल्ली के कुतुब मीनार पर चढ़ा ।
-rAma	1	-	7:k1	9:begin
-xillI	2	-	5:r6	10:begin
-kuwuba	4	-	5:pof__cn	11:begin
-mInAra	5	-	7:k7p	11:inside
-caDZA	7	-	0:main	-
-[ne_1]	9	per	-	-
-[ne_2]	10	place	-	12:whole
-[ne_3]	11	place	-	12:part
-[spatial_1]	12	-	-	-
+rAma	1	-	-	7:k1	-	-	-	9:begin
+xillI	2	-	-	5:r6	-	-	-	10:begin
+kuwuba	4	-	-	5:pof__cn	-	-	-	11:begin
+mInAra	5	-	-	7:k7p	-	-	-	11:inside
+caDZA	7	-	-	0:main	-	-	-	-
+[ne_1]	9	per	-	-	-	-	-	-
+[ne_2]	10	place	-	-	-	-	-	12:whole
+[ne_3]	11	place	-	-	-	-	-	12:part
+[spatial_1]	12	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -343,13 +343,13 @@ caDZA	7	-	0:main	-
 
 <sent_id=22>
 #रोज़ 4 लीटर पानी पीना चाहिए ।
-rojZa	1	-	5:k7t	-
-4	2	-	3:card	8:count
-lItara	3	-	4:mod	8:unit
-pAnI	4	-	5:k2	-
-pInA	5	-	0:main	-
-cAhie	6	-	5:lwg__vaux	-
-[meas_1]	8	-	-	-
+rojZa	1	-	-	5:k7t	-	-	-	-
+4	2	-	-	3:card	-	-	-	8:count
+lItara	3	-	-	4:mod	-	-	-	8:unit
+pAnI	4	-	-	5:k2	-	-	-	-
+pInA	5	-	-	0:main	-	-	-	-
+cAhie	6	-	-	5:lwg__vaux	-	-	-	-
+[meas_1]	8	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -357,13 +357,13 @@ cAhie	6	-	5:lwg__vaux	-
 
 <sent_id=23>
 #राम 5 किलो आलू लाया ।
-rAma	1	-	5:k1	7:begin
-5	2	-	3:card	8:count
-kilo	3	-	4:mod	8:unit
-AlU	4	-	5:k2	-
-lAyA	5	-	0:main	-
-[ne_1]	7	per	-	-
-[meas_1]	8	-	-	-
+rAma	1	-	-	5:k1	-	-	-	7:begin
+5	2	-	-	3:card	-	-	-	8:count
+kilo	3	-	-	4:mod	-	-	-	8:unit
+AlU	4	-	-	5:k2	-	-	-	-
+lAyA	5	-	-	0:main	-	-	-	-
+[ne_1]	7	per	-	-	-	-	-	-
+[meas_1]	8	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -371,26 +371,26 @@ lAyA	5	-	0:main	-
 
 <sent_id=24>
 #राम और मोहन लाल भारत सेवाश्रम में सुबह से शाम तक नाचते हुए माता देवी का भजन किया ।
-rAma	1	-	12:k1	20:begin
-mohana	3	-	4:pof__cn	21:begin
-lAla	4	-	12:k1	21:inside
-BArawa	5	-	6:pof__cn	22:begin
-sevASrama	6	-	12:k7p	22:inside
-subaha	8	-	12:k7t	25:start
-SAma	10	-	12:k7t	25:end
-nAcawe	12	-	18:rsk	-
-hue	13	-	12:lwg__vaux	-
-mAwA	14	-	15:pof__cn	23:begin
-xevI	15	-	17:k2	23:inside
-Bajana	17	-	18:pof	24:kriyAmUla
-kiyA	18	-	0:main	24:verbalizer_B
-[ne_1]	20	per	-	26:op1
-[ne_2]	21	per	-	26:op2
-[ne_3]	22	place	-	-
-[ne_4]	23	per	-	-
-[cp_1]	24	-	-	-
-[span_1]	25	-	-	-
-[conj_1]	26	-	-	-
+rAma	1	-	-	12:k1	-	-	-	20:begin
+mohana	3	-	-	4:pof__cn	-	-	-	21:begin
+lAla	4	-	-	12:k1	-	-	-	21:inside
+BArawa	5	-	-	6:pof__cn	-	-	-	22:begin
+sevASrama	6	-	-	12:k7p	-	-	-	22:inside
+subaha	8	-	-	12:k7t	-	-	-	25:start
+SAma	10	-	-	12:k7t	-	-	-	25:end
+nAcawe	12	-	-	18:rsk	-	-	-	-
+hue	13	-	-	12:lwg__vaux	-	-	-	-
+mAwA	14	-	-	15:pof__cn	-	-	-	23:begin
+xevI	15	-	-	17:k2	-	-	-	23:inside
+Bajana	17	-	-	18:pof	-	-	-	24:kriyAmUla
+kiyA	18	-	-	0:main	-	-	-	24:verbalizer_B
+[ne_1]	20	per	-	-	-	-	-	26:op1
+[ne_2]	21	per	-	-	-	-	-	26:op2
+[ne_3]	22	place	-	-	-	-	-	-
+[ne_4]	23	per	-	-	-	-	-	-
+[cp_1]	24	-	-	-	-	-	-	-
+[span_1]	25	-	-	-	-	-	-	-
+[conj_1]	26	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -398,25 +398,25 @@ kiyA	18	-	0:main	24:verbalizer_B
 
 <sent_id=25>
 #यह प्रकृति संबंध और मानव प्रकृति संबंध की गुणवत्ता और इसके मानवीय कल्याण के निहितार्थ का अध्ययन करता है ।
-yaha	1	-	18:k1	-
-prakqwi	2	-	3:pof__cn	21:mod
-saMbaMXa	3	-	10:ccof	21:head
-mAnava	5	-	7:pof__cn	22:begin
-prakqwi	6	-	7:pof__cn	23:mod
-saMbaMXa	7	-	9:r6	23:head
-guNavawwA	9	-	10:ccof	25:op2
-isake	11	-	13:r6	-
-mAnavIya	12	-	13:mod	-
-kalyANa	13	-	10:ccof	25:op3
-nihiwArWa	15	-	17:k2	-
-aXyayana	17	-	18:pof	24:kriyAmUla
-karawA	18	-	0:main	24:verbalizer_B
-hE	19	-	18:lwg__vaux	24:verbalizer_I
-[nc_1]	21	-	-	25:op1
-[ne_0]	22	-	-	-
-[nc_2]	23	-	-	-
-[cp_1]	24	-	-	-
-[conj_1]	25	-	-	-
+yaha	1	-	-	18:k1	-	-	-	-
+prakqwi	2	-	-	3:pof__cn	-	-	-	21:mod
+saMbaMXa	3	-	-	10:ccof	-	-	-	21:head
+mAnava	5	-	-	7:pof__cn	-	-	-	22:begin
+prakqwi	6	-	-	7:pof__cn	-	-	-	23:mod
+saMbaMXa	7	-	-	9:r6	-	-	-	23:head
+guNavawwA	9	-	-	10:ccof	-	-	-	25:op2
+isake	11	-	-	13:r6	-	-	-	-
+mAnavIya	12	-	-	13:mod	-	-	-	-
+kalyANa	13	-	-	10:ccof	-	-	-	25:op3
+nihiwArWa	15	-	-	17:k2	-	-	-	-
+aXyayana	17	-	-	18:pof	-	-	-	24:kriyAmUla
+karawA	18	-	-	0:main	-	-	-	24:verbalizer_B
+hE	19	-	-	18:lwg__vaux	-	-	-	24:verbalizer_I
+[nc_1]	21	-	-	-	-	-	-	25:op1
+[ne_0]	22	-	-	-	-	-	-	-
+[nc_2]	23	-	-	-	-	-	-	-
+[cp_1]	24	-	-	-	-	-	-	-
+[conj_1]	25	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -424,13 +424,13 @@ hE	19	-	18:lwg__vaux	24:verbalizer_I
 
 <sent_id=26>
 #राम जनवरी से मार्च तक घर गया ।
-rAma	1	-	7:k1	9:begin
-janavarI	2	-	4:rsp	10:start
-mArca	4	-	7:k7t	10:end
-Gara	6	-	7:k2p	-
-gayA	7	-	0:main	-
-[ne_1]	9	per	-	-
-[span_1]	10	-	-	-
+rAma	1	-	-	7:k1	-	-	-	9:begin
+janavarI	2	-	-	4:rsp	-	-	-	10:start
+mArca	4	-	-	7:k7t	-	-	-	10:end
+Gara	6	-	-	7:k2p	-	-	-	-
+gayA	7	-	-	0:main	-	-	-	-
+[ne_1]	9	per	-	-	-	-	-	-
+[span_1]	10	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -438,17 +438,17 @@ gayA	7	-	0:main	-
 
 <sent_id=27>
 #मोहन सुबह से दोपहर तक या शाम से रात तक पढ़ा था ।
-mohana	1	-	2:nmod__adj	14:begin
-subaha	2	-	11:k7t	15:start
-xopahara	4	-	11:k7t	15:end
-SAma	7	-	11:k7t	16:start
-rAwa	9	-	11:k7t	16:end
-paDZA	11	-	0:main	-
-WA	12	-	11:lwg__vaux	-
-[ne_1]	14	per	-	-
-[span_1]	15	-	-	17:op1
-[span_2]	16	-	-	17:op2
-[disjunct_1]	17	-	-	-
+mohana	1	-	-	2:nmod__adj	-	-	-	14:begin
+subaha	2	-	-	11:k7t	-	-	-	15:start
+xopahara	4	-	-	11:k7t	-	-	-	15:end
+SAma	7	-	-	11:k7t	-	-	-	16:start
+rAwa	9	-	-	11:k7t	-	-	-	16:end
+paDZA	11	-	-	0:main	-	-	-	-
+WA	12	-	-	11:lwg__vaux	-	-	-	-
+[ne_1]	14	per	-	-	-	-	-	-
+[span_1]	15	-	-	-	-	-	-	17:op1
+[span_2]	16	-	-	-	-	-	-	17:op2
+[disjunct_1]	17	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
