@@ -1,0 +1,1 @@
+NE_TAG =  ['per', 'loc', 'org']

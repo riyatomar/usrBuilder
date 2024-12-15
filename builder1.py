@@ -1,81 +1,7 @@
-# import json
-
-# def format_parser_output(file_path, output_file):
-#     with open(file_path, 'r', encoding='utf-8') as f:
-#         data = json.load(f)
-
-#     result = []
-
-#     for sentence_data in data['response']:
-#         sentence_id = sentence_data['sentence_id']
-#         result.append(f"<sent_id={sentence_id}>")
-
-#         rp_words = {}  # To collect RP wx_words for relevant indices
-#         rp_head_index = None  # Initialize this variable to avoid UnboundLocalError
-#         rp_word_to_add = None
-#         for entry in sentence_data['parser_output']:
-#             pos_tag = entry.get('pos_tag', '-')
-#             if pos_tag == "RP":
-#                 rp_head_index = entry.get('head_index', '-')
-#                 rp_word = entry.get('wx_word', '-')
-#             # Ensure valid conversion to int only when rp_head_index is not '-' or None
-#             try:
-#                 if rp_head_index != '-' and rp_head_index is not None:
-#                     rp_head_index_int = int(rp_head_index)
-#                     entry_index = entry.get('index', '-')
-#                     if entry_index != '-' and int(entry_index) == rp_head_index_int:
-#                         rp_word_to_add = rp_word
-#                         print(rp_word_to_add)
-#             except ValueError:
-#                 pass 
-
-#         # Second pass: Format entries and append RP words where applicable
-#         for entry in sentence_data['parser_output']:
-#             pos_tag = entry.get('pos_tag', '-')
-#             if pos_tag in ["PSP", "SYM", "CC", "RP"]:
-#                 continue
-
-#             word = entry.get('wx_word', '-')
-#             index = entry.get('index', '-')
-#             head_index = entry.get('head_index', '-')
-#             dep_relation = entry.get('dependency_relation', '-')
-#             cnx_index = entry.get('cnx_index', '-')
-#             cnx_component = entry.get('cnx_component', '-')
-
-#             if cnx_index != '-' and cnx_component != '-':
-#                 cnx_info = f"{cnx_index}:{cnx_component}"
-#             else:
-#                 cnx_info = '-'
-
-#             if head_index == '-' and dep_relation == '-':
-#                 head_dep_info = '-'
-#             else:
-#                 head_dep_info = f"{head_index}:{dep_relation}"
-                
-
-#             if rp_word_to_add:
-#                 formatted_entry = f"{word}\t{index}\t{head_dep_info}\t{cnx_info}\t{rp_word_to_add}"
-#             else:
-#                 formatted_entry = f"{word}\t{index}\t{head_dep_info}\t{cnx_info}"
-
-#             result.append(formatted_entry)
-
-#         result.append(f"</sent_id>")
-#         result.append("")  # Blank line for separation
-
-#     formatted_output = '\n'.join(result)
-    
-#     with open(output_file, 'w', encoding='utf-8') as out_f:
-#         out_f.write(formatted_output)
-
-# # File path to the JSON input
-# file_path = "cxn_json_out.txt"  # Replace with the actual file path
-# output_file = "usr_output.txt"  # Replace with the desired output file path
-
-# # Call the function to format and save the output
-# format_parser_output(file_path, output_file)
-
 import json
+from constants.ner import NE_TAG
+from constants.pos import TAGS_TO_DROP
+
 
 def load_json(file_path):
     """Load the JSON data from a file."""
@@ -87,63 +13,106 @@ def save_output(output_file, formatted_output):
     with open(output_file, 'w', encoding='utf-8') as out_f:
         out_f.write(formatted_output)
 
-def get_rp_word(parser_output):
-    """Extract the RP word based on the head index."""
-    rp_head_index = None
-    rp_word = None
+def get_word(entry):
+    """Retrieve the word from the entry."""
+    return entry.get('wx_word', '-')
 
-    for entry in parser_output:
-        pos_tag = entry.get('pos_tag', '-')
-        if pos_tag == "RP":
-            rp_head_index = entry.get('head_index', '-')
-            rp_word = entry.get('wx_word', '-')
-            break  # Assuming only one RP word per sentence
+def get_index(entry):
+    """Retrieve the index from the entry."""
+    return entry.get('index', '-')
 
-    if rp_head_index and rp_head_index != '-':
-        try:
-            rp_head_index_int = int(rp_head_index)
-            for entry in parser_output:
-                entry_index = entry.get('index', '-')
-                if entry_index != '-' and int(entry_index) == rp_head_index_int:
-                    return rp_word
-        except ValueError:
-            pass
-
-    return None
-
-def format_entry(entry, rp_word):
-    """Format a single entry."""
-    pos_tag = entry.get('pos_tag', '-')
-    if pos_tag in ["PSP", "SYM", "CC", "RP"]:
-        return None
-
-    word = entry.get('wx_word', '-')
-    index = entry.get('index', '-')
+def get_head_dep_info(entry):
+    """Generate the head-dependency information."""
     head_index = entry.get('head_index', '-')
     dep_relation = entry.get('dependency_relation', '-')
+    return f"{head_index}:{dep_relation}" if head_index != '-' and dep_relation != '-' else '-'
+
+def get_cnx_info(entry):
+    """Generate the construction information."""
     cnx_index = entry.get('cnx_index', '-')
     cnx_component = entry.get('cnx_component', '-')
+    return f"{cnx_index}:{cnx_component}" if cnx_index != '-' and cnx_component != '-' else '-'
 
-    cnx_info = f"{cnx_index}:{cnx_component}" if cnx_index != '-' and cnx_component != '-' else '-'
-    head_dep_info = f"{head_index}:{dep_relation}" if head_index != '-' and dep_relation != '-' else '-'
+def get_original_word_info(entry):
+    """Check for 'per', 'loc', 'org' in the original_word and include them in the third column if present."""
+    original_word = entry.get('original_word', '')
+    matches = []
+    for tag in NE_TAG:
+        if tag in original_word:
+            if tag == 'loc':
+                matches.append('place')  # Replace 'loc' with 'place'
+            else:
+                matches.append(tag)
+    return ','.join(matches) if matches else '-'  # Join matches with commas or return '-'
 
-    if rp_word:
-        return f"{word}\t{index}\t{head_dep_info}\t{cnx_info}\t{rp_word}"
-    return f"{word}\t{index}\t{head_dep_info}\t{cnx_info}"
+def get_sentence_type(sentence_data):
+    """Determine the sentence type based on the presence of 'nahIM' in wx_word."""
+    for entry in sentence_data['parser_output']:
+        if 'nahIM' in entry.get('wx_word', ''):
+            return 'negative'  # If "nahIM" is found, sentence type is negative
+        if '?' in entry.get('original_word', ''):
+            return 'interrogative'
+        if '!' in entry.get('original_word', ''):
+            return 'imperative'
+    return 'affirmative'  # Otherwise, sentence type is affirmative
+
+def extract_head_index_of_RP(sentence_data):
+    """Extract the head_index of entries with pos_tag 'RP' and find corresponding wx_word."""
+    head_indices = []
+    rp_words = {}  # To store the wx_word corresponding to the head_index of RP
+    
+    # Loop through each entry in the sentence
+    for entry in sentence_data['parser_output']:
+        pos_tag = entry.get('pos_tag', '-')
+        word = entry.get('wx_word', '-')
+        index = entry.get('index', '-')
+        head_index = entry.get('head_index', '-')
+        
+        # Only try to convert head_index if it's a valid integer
+        if head_index != '-' and head_index.isdigit():
+            head_index = int(head_index)
+            # If the pos_tag is RP, store its head_index and corresponding wx_word
+            if pos_tag == 'RP' and head_index != '-':
+                head_indices.append(head_index)
+                rp_words[head_index] = word  # Store the word corresponding to the head_index
+                
+    # Now, check which words have the same index as the RP head_indices
+    matched_index = None
+    for entry in sentence_data['parser_output']:
+        index = entry.get('index', '-')
+        if index in head_indices:
+            matched_index = entry.get('index', '-')
+    
+    return head_indices, matched_index, rp_words  # Return both the head indices and the matched words
+
+
+def format_entry(entry):
+    """Format a single entry."""
+    pos_tag = entry.get('pos_tag', '-')
+    if pos_tag in TAGS_TO_DROP:
+        return None
+
+    word = get_word(entry)
+    index = get_index(entry)
+    head_dep_info = get_head_dep_info(entry)
+    cnx_info = get_cnx_info(entry)
+    original_word_info = get_original_word_info(entry)
+
+    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t{head_dep_info}\t{cnx_info}"
 
 def format_sentence(sentence_data):
     """Format the parser output for a single sentence."""
     result = []
     sentence_id = sentence_data['sentence_id']
     result.append(f"<sent_id={sentence_id}>")
-
-    rp_word = get_rp_word(sentence_data['parser_output'])
+    sentence_type = get_sentence_type(sentence_data)
 
     for entry in sentence_data['parser_output']:
-        formatted_entry = format_entry(entry, rp_word)
+        formatted_entry = format_entry(entry)
         if formatted_entry:
             result.append(formatted_entry)
 
+    result.append(f"%{sentence_type}")
     result.append(f"</sent_id>")
     result.append("")  # Blank line for separation
     return '\n'.join(result)
@@ -155,13 +124,14 @@ def format_parser_output(file_path, output_file):
     results = []
     for sentence_data in data['response']:
         results.append(format_sentence(sentence_data))
-
+        
     formatted_output = '\n'.join(results)
     save_output(output_file, formatted_output)
 
 # File path to the JSON input
-file_path = "cxn_json_out.txt"  # Replace with the actual file path
-output_file = "usr_output.txt"  # Replace with the desired output file path
+file_path = "cxn_json_out.txt"
+output_file = "usr_output.txt" 
 
 # Call the function to format and save the output
 format_parser_output(file_path, output_file)
+

@@ -9,8 +9,8 @@
                     "original_word": "राम",
                     "pos_tag": "NNP",
                     "wx_word": "rAma",
-                    "cnx_index": 13,
-                    "cnx_component": "op1"
+                    "cnx_index": 9,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "rsym",
@@ -27,8 +27,8 @@
                     "original_word": "श्याम",
                     "pos_tag": "NNP",
                     "wx_word": "SyAma",
-                    "cnx_index": 13,
-                    "cnx_component": "op1"
+                    "cnx_index": 10,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "k1",
@@ -45,8 +45,8 @@
                     "original_word": "मोहन",
                     "pos_tag": "NNP",
                     "wx_word": "mohana",
-                    "cnx_index": 13,
-                    "cnx_component": "op1"
+                    "cnx_index": 11,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "k2p",
@@ -76,30 +76,35 @@
                 },
                 {
                     "index": 9,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]",
+                    "cnx_index": 13,
+                    "cnx_component": "op1"
                 },
                 {
                     "index": 10,
-                    "original_word": "[NE_2]",
-                    "wx_word": "PER_2"
+                    "original_word": "per_2",
+                    "wx_word": "[ne_2]",
+                    "cnx_index": 13,
+                    "cnx_component": "op2"
                 },
                 {
                     "index": 11,
-                    "original_word": "[NE_3]",
-                    "wx_word": "PER_3"
+                    "original_word": "per_3",
+                    "wx_word": "[ne_3]",
+                    "cnx_index": 13,
+                    "cnx_component": "op3"
                 },
                 {
                     "index": 12,
-                    "original_word": "[NE_4]",
-                    "wx_word": "LOC_1"
+                    "original_word": "loc_1",
+                    "wx_word": "[ne_4]"
                 },
-		 {
+                {
                     "index": 13,
                     "original_word": "[conj_1]",
                     "wx_word": "[conj_1]"
                 }
-
             ],
             "project_id": 1,
             "sentence": "राम , श्याम और मोहन दिल्ली जाएंगे ।",
@@ -123,7 +128,9 @@
                     "index": 2,
                     "original_word": "लाल",
                     "pos_tag": "NNP",
-                    "wx_word": "lAla"
+                    "wx_word": "lAla",
+                    "cnx_index": 7,
+                    "cnx_component": "inside"
                 },
                 {
                     "dependency_relation": "k2p",
@@ -159,8 +166,8 @@
                 },
                 {
                     "index": 7,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 }
             ],
             "project_id": 1,
@@ -192,7 +199,7 @@
                     "head_index": "2",
                     "index": 3,
                     "original_word": "से",
-                    "pos_tag": "PSP",
+                    "pos_tag": "RP",
                     "wx_word": "se"
                 },
                 {
@@ -231,8 +238,8 @@
                 },
                 {
                     "index": 8,
-                    "original_word": "[SPAN_1]",
-                    "wx_word": "[SPAN_1]"
+                    "original_word": "[span_1]",
+                    "wx_word": "[span_1]"
                 }
             ],
             "project_id": 1,
@@ -248,15 +255,15 @@
                     "original_word": "राम",
                     "pos_tag": "NNP",
                     "wx_word": "rAma",
-                    "cnx_index": 10,
-                    "cnx_component": "op1"
+                    "cnx_index": 8,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "k1",
                     "head_index": "6",
                     "index": 2,
                     "original_word": "और",
-                    "pos_tag": "RP",
+                    "pos_tag": "CC",
                     "wx_word": "Ora"
                 },
                 {
@@ -266,8 +273,8 @@
                     "original_word": "मोहन",
                     "pos_tag": "NNP",
                     "wx_word": "mohana",
-                    "cnx_index": 10,
-                    "cnx_component": "op1"
+                    "cnx_index": 9,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "k7t",
@@ -303,13 +310,22 @@
                 },
                 {
                     "index": 8,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]",
+                    "cnx_index": 10,
+                    "cnx_component": "op1"
                 },
                 {
                     "index": 9,
-                    "original_word": "[NE_2]",
-                    "wx_word": "PER_2"
+                    "original_word": "per_2",
+                    "wx_word": "[ne_2]",
+                    "cnx_index": 10,
+                    "cnx_component": "op2"
+                },
+                {
+                    "index": 10,
+                    "original_word": "[conj_1]",
+                    "wx_word": "[conj_1]"
                 }
             ],
             "project_id": 1,
@@ -324,7 +340,9 @@
                     "index": 1,
                     "original_word": "सीता",
                     "pos_tag": "NNP",
-                    "wx_word": "sIwA"
+                    "wx_word": "sIwA",
+                    "cnx_index": 8,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "k2",
@@ -333,7 +351,7 @@
                     "original_word": "फल",
                     "pos_tag": "NN",
                     "wx_word": "Pala",
-                    "cnx_index": 8,
+                    "cnx_index": 9,
                     "cnx_component": "op1"
                 },
                 {
@@ -351,8 +369,8 @@
                     "original_word": "सब्जी",
                     "pos_tag": "NN",
                     "wx_word": "sabjI",
-                    "cnx_index": 8,
-                    "cnx_component": "op1"
+                    "cnx_index": 9,
+                    "cnx_component": "op2"
                 },
                 {
                     "dependency_relation": "main",
@@ -377,6 +395,16 @@
                     "original_word": "।",
                     "pos_tag": "SYM",
                     "wx_word": "."
+                },
+                {
+                    "index": 8,
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
+                },
+                {
+                    "index": 9,
+                    "original_word": "[disjunct_1]",
+                    "wx_word": "[disjunct_1]"
                 }
             ],
             "project_id": 1,
@@ -391,7 +419,9 @@
                     "index": 1,
                     "original_word": "अयोध्या",
                     "pos_tag": "NNP",
-                    "wx_word": "ayoXyA"
+                    "wx_word": "ayoXyA",
+                    "cnx_index": 7,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -415,9 +445,7 @@
                     "index": 4,
                     "original_word": "राम",
                     "pos_tag": "NNP",
-                    "wx_word": "rAma",
-                    "cnx_index": 7,
-                    "cnx_component": "begin"
+                    "wx_word": "rAma"
                 },
                 {
                     "dependency_relation": "main",
@@ -437,8 +465,8 @@
                 },
                 {
                     "index": 7,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "loc_1",
+                    "wx_word": "[ne_1]"
                 }
             ],
             "project_id": 1,
@@ -473,9 +501,7 @@
                     "index": 3,
                     "original_word": "संघ",
                     "pos_tag": "NNP",
-                    "wx_word": "saMGa",
-                    "cnx_index": 14,
-                    "cnx_component": "inside"
+                    "wx_word": "saMGa"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -491,7 +517,9 @@
                     "index": 5,
                     "original_word": "रूस",
                     "pos_tag": "NNP",
-                    "wx_word": "rUsa"
+                    "wx_word": "rUsa",
+                    "cnx_index": 15,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -516,7 +544,7 @@
                     "original_word": "स्थापित",
                     "pos_tag": "JJ",
                     "wx_word": "sWApiwa",
-                    "cnx_index": 15,
+                    "cnx_index": 16,
                     "cnx_component": "kriyAmUla"
                 },
                 {
@@ -526,7 +554,7 @@
                     "original_word": "करने",
                     "pos_tag": "VM",
                     "wx_word": "karane",
-                    "cnx_index": 15,
+                    "cnx_index": 16,
                     "cnx_component": "verbalizer_B"
                 },
                 {
@@ -544,7 +572,7 @@
                     "original_word": "आदेश",
                     "pos_tag": "NN",
                     "wx_word": "AxeSa",
-                    "cnx_index": 16,
+                    "cnx_index": 17,
                     "cnx_component": "kriyAmUla"
                 },
                 {
@@ -554,7 +582,7 @@
                     "original_word": "दिया",
                     "pos_tag": "VM",
                     "wx_word": "xiyA",
-                    "cnx_index": 16,
+                    "cnx_index": 17,
                     "cnx_component": "verbalizer_B"
                 },
                 {
@@ -567,20 +595,23 @@
                 },
                 {
                     "index": 14,
-                    "original_word": "[NE_0]",
-                    "wx_word": "[NE_0]",
-                    "cnx_index": "15",
-                    "cnx_component": "begin"
+                    "original_word": "org_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 15,
-                    "original_word": "[CP_1]",
-                    "wx_word": "[CP_1]"
+                    "original_word": "loc_1",
+                    "wx_word": "[ne_2]"
                 },
                 {
                     "index": 16,
-                    "original_word": "[CP_2]",
-                    "wx_word": "[CP_2]"
+                    "original_word": "[cp_1]",
+                    "wx_word": "[cp_1]"
+                },
+                {
+                    "index": 17,
+                    "original_word": "[cp_2]",
+                    "wx_word": "[cp_2]"
                 }
             ],
             "project_id": 1,
@@ -595,7 +626,9 @@
                     "index": 1,
                     "original_word": "नासा",
                     "pos_tag": "NNP",
-                    "wx_word": "nAsA"
+                    "wx_word": "nAsA",
+                    "cnx_index": 9,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -611,7 +644,9 @@
                     "index": 3,
                     "original_word": "मंगल",
                     "pos_tag": "NNP",
-                    "wx_word": "maMgala"
+                    "wx_word": "maMgala",
+                    "cnx_index": 10,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "k7p",
@@ -652,6 +687,16 @@
                     "original_word": "।",
                     "pos_tag": "SYM",
                     "wx_word": "."
+                },
+                {
+                    "index": 9,
+                    "original_word": "org_1",
+                    "wx_word": "[ne_1]"
+                },
+                {
+                    "index": 10,
+                    "original_word": "loc_1",
+                    "wx_word": "[ne_2]"
                 }
             ],
             "project_id": 1,
@@ -685,8 +730,8 @@
                     "original_word": "प्रकृति",
                     "pos_tag": "NNC",
                     "wx_word": "prakqwi",
-                    "cnx_index": 14,
-                    "cnx_component": "head"
+                    "cnx_index": 15,
+                    "cnx_component": "mod"
                 },
                 {
                     "dependency_relation": "r6",
@@ -695,7 +740,7 @@
                     "original_word": "संबंध",
                     "pos_tag": "NN",
                     "wx_word": "saMbaMXa",
-                    "cnx_index": 14,
+                    "cnx_index": 15,
                     "cnx_component": "head"
                 },
                 {
@@ -745,7 +790,7 @@
                     "original_word": "अध्ययन",
                     "pos_tag": "NN",
                     "wx_word": "aXyayana",
-                    "cnx_index": 15,
+                    "cnx_index": 16,
                     "cnx_component": "kriyAmUla"
                 },
                 {
@@ -755,7 +800,7 @@
                     "original_word": "करता",
                     "pos_tag": "VM",
                     "wx_word": "karawA",
-                    "cnx_index": 15,
+                    "cnx_index": 16,
                     "cnx_component": "verbalizer_B"
                 },
                 {
@@ -765,7 +810,7 @@
                     "original_word": "है",
                     "pos_tag": "VAUX",
                     "wx_word": "hE",
-                    "cnx_index": 15,
+                    "cnx_index": 16,
                     "cnx_component": "verbalizer_I"
                 },
                 {
@@ -778,15 +823,18 @@
                 },
                 {
                     "index": 14,
-                    "original_word": "[NC_1]",
-                    "wx_word": "[NC_1]",
-                    "cnx_index": "15",
-                    "cnx_component": "mod"
+                    "original_word": "[nc_1]",
+                    "wx_word": "[nc_1]"
                 },
                 {
                     "index": 15,
-                    "original_word": "[CP_1]",
-                    "wx_word": "[CP_1]"
+                    "original_word": "[nc_2]",
+                    "wx_word": "[nc_2]"
+                },
+                {
+                    "index": 16,
+                    "original_word": "[cp_1]",
+                    "wx_word": "[cp_1]"
                 }
             ],
             "project_id": 1,
@@ -830,8 +878,8 @@
                     "original_word": "किलो",
                     "pos_tag": "NN",
                     "wx_word": "kilo",
-                    "cnx_index": 16,
-                    "cnx_component": "start"
+                    "cnx_index": 14,
+                    "cnx_component": "unit"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -866,8 +914,8 @@
                     "original_word": "किलो",
                     "pos_tag": "NN",
                     "wx_word": "kilo",
-                    "cnx_index": 16,
-                    "cnx_component": "end"
+                    "cnx_index": 15,
+                    "cnx_component": "unit"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -903,23 +951,27 @@
                 },
                 {
                     "index": 13,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 14,
-                    "original_word": "[MEAS_1]",
-                    "wx_word": "[MEAS_1]"
+                    "original_word": "[meas_1]",
+                    "wx_word": "[meas_1]",
+                    "cnx_index": 16,
+                    "cnx_component": "start"
                 },
                 {
                     "index": 15,
-                    "original_word": "[MEAS_2]",
-                    "wx_word": "[MEAS_2]"
+                    "original_word": "[meas_2]",
+                    "wx_word": "[meas_2]",
+                    "cnx_index": 16,
+                    "cnx_component": "end"
                 },
                 {
                     "index": 16,
-                    "original_word": "[SPAN_1]",
-                    "wx_word": "[SPAN_1]"
+                    "original_word": "[span_1]",
+                    "wx_word": "[span_1]"
                 }
             ],
             "project_id": 1,
@@ -991,7 +1043,7 @@
                     "original_word": "कुतुब",
                     "pos_tag": "NNPC",
                     "wx_word": "kuwuba",
-                    "cnx_index": 17,
+                    "cnx_index": 16,
                     "cnx_component": "begin"
                 },
                 {
@@ -1001,7 +1053,7 @@
                     "original_word": "मीनार",
                     "pos_tag": "NNP",
                     "wx_word": "mInAra",
-                    "cnx_index": 17,
+                    "cnx_index": 16,
                     "cnx_component": "inside"
                 },
                 {
@@ -1046,28 +1098,37 @@
                 },
                 {
                     "index": 14,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 15,
-                    "original_word": "[NE_2]",
-                    "wx_word": "LOC_1"
+                    "original_word": "loc_1",
+                    "wx_word": "[ne_2]",
+                    "cnx_index": 19,
+                    "cnx_component": "whole"
                 },
                 {
                     "index": 16,
-                    "original_word": "[NE_3]",
-                    "wx_word": "[NE_3]"
+                    "original_word": "loc_2",
+                    "wx_word": "[ne_3]",
+                    "cnx_index": 19,
+                    "cnx_component": "part"
                 },
                 {
                     "index": 17,
-                    "original_word": "[NE_4]",
-                    "wx_word": "[NE_4]"
+                    "original_word": "[ne_3]",
+                    "wx_word": "[ne_3]"
                 },
                 {
                     "index": 18,
-                    "original_word": "[CALENDAR_1]",
-                    "wx_word": "[CALENDAR_1]"
+                    "original_word": "[calendar_1]",
+                    "wx_word": "[calendar_1]"
+                },
+                {
+                    "index": 19,
+                    "original_word": "[spatial_1]",
+                    "wx_word": "[spatial_1]"
                 }
             ],
             "project_id": 1,
@@ -1141,8 +1202,8 @@
                     "original_word": "मृत्यु",
                     "pos_tag": "NN",
                     "wx_word": "mqwyu",
-                    "cnx_index": 13,
-                    "cnx_component": "kriyAmUla"
+                    "cnx_index": 12,
+                    "cnx_component": "head"
                 },
                 {
                     "dependency_relation": "main",
@@ -1174,13 +1235,15 @@
                 },
                 {
                     "index": 12,
-                    "original_word": "[NC_1]",
-                    "wx_word": "[NC_1]"
+                    "original_word": "[nc_1]",
+                    "wx_word": "[nc_1]",
+                    "cnx_index": 13,
+                    "cnx_component": "kriyAmUla"
                 },
                 {
                     "index": 13,
-                    "original_word": "[CP_1]",
-                    "wx_word": "[CP_1]"
+                    "original_word": "[cp_1]",
+                    "wx_word": "[cp_1]"
                 }
             ],
             "project_id": 1,
@@ -1212,7 +1275,7 @@
                     "original_word": "15",
                     "pos_tag": "NNPC",
                     "wx_word": "15",
-                    "cnx_index": 12,
+                    "cnx_index": 13,
                     "cnx_component": "component_of"
                 },
                 {
@@ -1222,7 +1285,7 @@
                     "original_word": "अगस्त",
                     "pos_tag": "NNPC",
                     "wx_word": "agaswa",
-                    "cnx_index": 12,
+                    "cnx_index": 13,
                     "cnx_component": "component_of"
                 },
                 {
@@ -1232,7 +1295,7 @@
                     "original_word": "1947",
                     "pos_tag": "NNP",
                     "wx_word": "1947",
-                    "cnx_index": 12,
+                    "cnx_index": 13,
                     "cnx_component": "component_of"
                 },
                 {
@@ -1250,7 +1313,7 @@
                     "original_word": "आज़ाद",
                     "pos_tag": "JJ",
                     "wx_word": "AjZAxa",
-                    "cnx_index": 11,
+                    "cnx_index": 12,
                     "cnx_component": "kriyAmUla"
                 },
                 {
@@ -1260,7 +1323,7 @@
                     "original_word": "हुआ",
                     "pos_tag": "VM",
                     "wx_word": "huA",
-                    "cnx_index": 11,
+                    "cnx_index": 12,
                     "cnx_component": "verbalizer_B"
                 },
                 {
@@ -1273,20 +1336,23 @@
                 },
                 {
                     "index": 10,
-                    "original_word": "[NE_0]",
-                    "wx_word": "[NE_0]",
-                    "cnx_index": "11",
-                    "cnx_component": "begin"
+                    "original_word": "[ne_0]",
+                    "wx_word": "[ne_0]"
                 },
                 {
                     "index": 11,
-                    "original_word": "[CP_1]",
-                    "wx_word": "[CP_1]"
+                    "original_word": "[ne_1]",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 12,
-                    "original_word": "[CALENDAR_1]",
-                    "wx_word": "[CALENDAR_1]"
+                    "original_word": "[cp_1]",
+                    "wx_word": "[cp_1]"
+                },
+                {
+                    "index": 13,
+                    "original_word": "[calendar_1]",
+                    "wx_word": "[calendar_1]"
                 }
             ],
             "project_id": 1,
@@ -1358,7 +1424,7 @@
                     "original_word": "कुतुब",
                     "pos_tag": "NNPC",
                     "wx_word": "kuwuba",
-                    "cnx_index": 17,
+                    "cnx_index": 16,
                     "cnx_component": "begin"
                 },
                 {
@@ -1368,7 +1434,7 @@
                     "original_word": "मीनार",
                     "pos_tag": "NNP",
                     "wx_word": "mInAra",
-                    "cnx_index": 17,
+                    "cnx_index": 16,
                     "cnx_component": "inside"
                 },
                 {
@@ -1417,33 +1483,42 @@
                 },
                 {
                     "index": 14,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 15,
-                    "original_word": "[NE_2]",
-                    "wx_word": "LOC_1"
+                    "original_word": "loc_1",
+                    "wx_word": "[ne_2]",
+                    "cnx_index": 20,
+                    "cnx_component": "whole"
                 },
                 {
                     "index": 16,
-                    "original_word": "[NE_3]",
-                    "wx_word": "[NE_3]"
+                    "original_word": "loc_2",
+                    "wx_word": "[ne_3]",
+                    "cnx_index": 20,
+                    "cnx_component": "part"
                 },
                 {
                     "index": 17,
-                    "original_word": "[NE_4]",
-                    "wx_word": "[NE_4]"
+                    "original_word": "[ne_3]",
+                    "wx_word": "[ne_3]"
                 },
                 {
                     "index": 18,
-                    "original_word": "[MEAS_1]",
-                    "wx_word": "[MEAS_1]"
+                    "original_word": "[meas_1]",
+                    "wx_word": "[meas_1]"
                 },
                 {
                     "index": 19,
-                    "original_word": "[CALENDAR_1]",
-                    "wx_word": "[CALENDAR_1]"
+                    "original_word": "[calendar_1]",
+                    "wx_word": "[calendar_1]"
+                },
+                {
+                    "index": 20,
+                    "original_word": "[spatial_1]",
+                    "wx_word": "[spatial_1]"
                 }
             ],
             "project_id": 1,
@@ -1469,8 +1544,8 @@
                     "original_word": "मोहन",
                     "pos_tag": "NNP",
                     "wx_word": "mohana",
-                    "cnx_index": 10,
-                    "cnx_component": "begin"
+                    "cnx_index": 9,
+                    "cnx_component": "inside"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -1487,7 +1562,7 @@
                     "original_word": "रेलवे",
                     "pos_tag": "NNC",
                     "wx_word": "relave",
-                    "cnx_index": 11,
+                    "cnx_index": 10,
                     "cnx_component": "mod"
                 },
                 {
@@ -1497,7 +1572,7 @@
                     "original_word": "स्टेशन",
                     "pos_tag": "NN",
                     "wx_word": "steSana",
-                    "cnx_index": 11,
+                    "cnx_index": 10,
                     "cnx_component": "head"
                 },
                 {
@@ -1526,18 +1601,13 @@
                 },
                 {
                     "index": 9,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 10,
-                    "original_word": "[NE_2]",
-                    "wx_word": "PER_2"
-                },
-                {
-                    "index": 11,
-                    "original_word": "[NC_1]",
-                    "wx_word": "[NC_1]"
+                    "original_word": "[nc_1]",
+                    "wx_word": "[nc_1]"
                 }
             ],
             "project_id": 1,
@@ -1642,13 +1712,13 @@
                 },
                 {
                     "index": 12,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 13,
-                    "original_word": "[CP_1]",
-                    "wx_word": "[CP_1]"
+                    "original_word": "[cp_1]",
+                    "wx_word": "[cp_1]"
                 }
             ],
             "project_id": 1,
@@ -1721,13 +1791,13 @@
                 },
                 {
                     "index": 8,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 9,
-                    "original_word": "[MEAS_1]",
-                    "wx_word": "[MEAS_1]"
+                    "original_word": "[meas_1]",
+                    "wx_word": "[meas_1]"
                 }
             ],
             "project_id": 1,
@@ -1743,7 +1813,7 @@
                     "original_word": "15",
                     "pos_tag": "NNPC",
                     "wx_word": "15",
-                    "cnx_index": 12,
+                    "cnx_index": 13,
                     "cnx_component": "component_of"
                 },
                 {
@@ -1753,7 +1823,7 @@
                     "original_word": "अगस्त",
                     "pos_tag": "NNPC",
                     "wx_word": "agaswa",
-                    "cnx_index": 12,
+                    "cnx_index": 13,
                     "cnx_component": "component_of"
                 },
                 {
@@ -1763,7 +1833,7 @@
                     "original_word": "1947",
                     "pos_tag": "NNP",
                     "wx_word": "1947",
-                    "cnx_index": 12,
+                    "cnx_index": 13,
                     "cnx_component": "component_of"
                 },
                 {
@@ -1824,15 +1894,18 @@
                 },
                 {
                     "index": 11,
-                    "original_word": "[NE_0]",
-                    "wx_word": "[NE_0]",
-                    "cnx_index": "12",
-                    "cnx_component": "begin"
+                    "original_word": "[ne_0]",
+                    "wx_word": "[ne_0]"
                 },
                 {
                     "index": 12,
-                    "original_word": "[CALENDAR_1]",
-                    "wx_word": "[CALENDAR_1]"
+                    "original_word": "[ne_1]",
+                    "wx_word": "[ne_1]"
+                },
+                {
+                    "index": 13,
+                    "original_word": "[calendar_1]",
+                    "wx_word": "[calendar_1]"
                 }
             ],
             "project_id": 1,
@@ -1903,13 +1976,13 @@
                 },
                 {
                     "index": 8,
-                    "original_word": "[NE_0]",
-                    "wx_word": "[NE_0]"
+                    "original_word": "[ne_0]",
+                    "wx_word": "[ne_0]"
                 },
                 {
                     "index": 9,
-                    "original_word": "[CALENDAR_1]",
-                    "wx_word": "[CALENDAR_1]"
+                    "original_word": "[calendar_1]",
+                    "wx_word": "[calendar_1]"
                 }
             ],
             "project_id": 1,
@@ -1935,8 +2008,8 @@
                     "original_word": "दिल्ली",
                     "pos_tag": "NNP",
                     "wx_word": "xillI",
-                    "cnx_index": 12,
-                    "cnx_component": "whole"
+                    "cnx_index": 10,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -1963,8 +2036,8 @@
                     "original_word": "मीनार",
                     "pos_tag": "NNP",
                     "wx_word": "mInAra",
-                    "cnx_index": 12,
-                    "cnx_component": "part"
+                    "cnx_index": 11,
+                    "cnx_component": "inside"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -1992,23 +2065,27 @@
                 },
                 {
                     "index": 9,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 10,
-                    "original_word": "[NE_2]",
-                    "wx_word": "LOC_1"
+                    "original_word": "loc_1",
+                    "wx_word": "[ne_2]",
+                    "cnx_index": 12,
+                    "cnx_component": "whole"
                 },
                 {
                     "index": 11,
-                    "original_word": "[NE_3]",
-                    "wx_word": "[NE_3]"
+                    "original_word": "loc_2",
+                    "wx_word": "[ne_3]",
+                    "cnx_index": 12,
+                    "cnx_component": "part"
                 },
                 {
                     "index": 12,
-                    "original_word": "[SPATIAL_1]",
-                    "wx_word": "[SPATIAL_1]"
+                    "original_word": "[spatial_1]",
+                    "wx_word": "[spatial_1]"
                 }
             ],
             "project_id": 1,
@@ -2091,18 +2168,27 @@
                 },
                 {
                     "index": 9,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 10,
-                    "original_word": "[NE_2]",
-                    "wx_word": "LOC_1"
+                    "original_word": "loc_1",
+                    "wx_word": "[ne_2]",
+                    "cnx_index": 12,
+                    "cnx_component": "whole"
                 },
                 {
                     "index": 11,
-                    "original_word": "[NE_3]",
-                    "wx_word": "[NE_3]"
+                    "original_word": "loc_2",
+                    "wx_word": "[ne_3]",
+                    "cnx_index": 12,
+                    "cnx_component": "part"
+                },
+                {
+                    "index": 12,
+                    "original_word": "[spatial_1]",
+                    "wx_word": "[spatial_1]"
                 }
             ],
             "project_id": 1,
@@ -2173,8 +2259,8 @@
                 },
                 {
                     "index": 8,
-                    "original_word": "[MEAS_1]",
-                    "wx_word": "[MEAS_1]"
+                    "original_word": "[meas_1]",
+                    "wx_word": "[meas_1]"
                 }
             ],
             "project_id": 1,
@@ -2239,13 +2325,13 @@
                 },
                 {
                     "index": 7,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 8,
-                    "original_word": "[MEAS_1]",
-                    "wx_word": "[MEAS_1]"
+                    "original_word": "[meas_1]",
+                    "wx_word": "[meas_1]"
                 }
             ],
             "project_id": 1,
@@ -2261,8 +2347,8 @@
                     "original_word": "राम",
                     "pos_tag": "NNP",
                     "wx_word": "rAma",
-                    "cnx_index": 27,
-                    "cnx_component": "op1"
+                    "cnx_index": 20,
+                    "cnx_component": "begin"
                 },
                 {
                     "dependency_relation": "k1",
@@ -2289,8 +2375,8 @@
                     "original_word": "लाल",
                     "pos_tag": "NNP",
                     "wx_word": "lAla",
-                    "cnx_index": 27,
-                    "cnx_component": "op1"
+                    "cnx_index": 21,
+                    "cnx_component": "inside"
                 },
                 {
                     "dependency_relation": "pof__cn",
@@ -2327,7 +2413,7 @@
                     "original_word": "सुबह",
                     "pos_tag": "NN",
                     "wx_word": "subaha",
-                    "cnx_index": 26,
+                    "cnx_index": 25,
                     "cnx_component": "start"
                 },
                 {
@@ -2345,7 +2431,7 @@
                     "original_word": "शाम",
                     "pos_tag": "NN",
                     "wx_word": "SAma",
-                    "cnx_index": 26,
+                    "cnx_index": 25,
                     "cnx_component": "end"
                 },
                 {
@@ -2362,9 +2448,7 @@
                     "index": 12,
                     "original_word": "नाचते",
                     "pos_tag": "VM",
-                    "wx_word": "nAcawe",
-                    "cnx_index": 24,
-                    "cnx_component": "kriyAmUla"
+                    "wx_word": "nAcawe"
                 },
                 {
                     "dependency_relation": "lwg__vaux",
@@ -2409,7 +2493,7 @@
                     "original_word": "भजन",
                     "pos_tag": "NN",
                     "wx_word": "Bajana",
-                    "cnx_index": 25,
+                    "cnx_index": 24,
                     "cnx_component": "kriyAmUla"
                 },
                 {
@@ -2419,7 +2503,7 @@
                     "original_word": "किया",
                     "pos_tag": "VM",
                     "wx_word": "kiyA",
-                    "cnx_index": 25,
+                    "cnx_index": 24,
                     "cnx_component": "verbalizer_B"
                 },
                 {
@@ -2432,38 +2516,42 @@
                 },
                 {
                     "index": 20,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]",
+                    "cnx_index": 26,
+                    "cnx_component": "op1"
                 },
                 {
                     "index": 21,
-                    "original_word": "[NE_2]",
-                    "wx_word": "PER_2"
+                    "original_word": "per_2",
+                    "wx_word": "[ne_2]",
+                    "cnx_index": 26,
+                    "cnx_component": "op2"
                 },
                 {
                     "index": 22,
-                    "original_word": "[NE_3]",
-                    "wx_word": "[NE_3]"
+                    "original_word": "loc_1",
+                    "wx_word": "[ne_3]"
                 },
                 {
                     "index": 23,
-                    "original_word": "[NE_4]",
-                    "wx_word": "[NE_4]"
+                    "original_word": "per_3",
+                    "wx_word": "[ne_4]"
                 },
                 {
                     "index": 24,
-                    "original_word": "[CP_1]",
-                    "wx_word": "[CP_1]"
+                    "original_word": "[cp_1]",
+                    "wx_word": "[cp_1]"
                 },
                 {
                     "index": 25,
-                    "original_word": "[CP_2]",
-                    "wx_word": "[CP_2]"
+                    "original_word": "[span_1]",
+                    "wx_word": "[span_1]"
                 },
                 {
                     "index": 26,
-                    "original_word": "[SPAN_1]",
-                    "wx_word": "[SPAN_1]"
+                    "original_word": "[conj_1]",
+                    "wx_word": "[conj_1]"
                 }
             ],
             "project_id": 1,
@@ -2497,8 +2585,8 @@
                     "original_word": "संबंध",
                     "pos_tag": "NN",
                     "wx_word": "saMbaMXa",
-                    "cnx_index": 24,
-                    "cnx_component": "op1"
+                    "cnx_index": 21,
+                    "cnx_component": "head"
                 },
                 {
                     "dependency_relation": "ccof",
@@ -2525,8 +2613,8 @@
                     "original_word": "प्रकृति",
                     "pos_tag": "NNC",
                     "wx_word": "prakqwi",
-                    "cnx_index": 22,
-                    "cnx_component": "inside"
+                    "cnx_index": 23,
+                    "cnx_component": "mod"
                 },
                 {
                     "dependency_relation": "r6",
@@ -2535,8 +2623,8 @@
                     "original_word": "संबंध",
                     "pos_tag": "NN",
                     "wx_word": "saMbaMXa",
-                    "cnx_index": 22,
-                    "cnx_component": "inside"
+                    "cnx_index": 23,
+                    "cnx_component": "head"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -2553,8 +2641,8 @@
                     "original_word": "गुणवत्ता",
                     "pos_tag": "NN",
                     "wx_word": "guNavawwA",
-                    "cnx_index": 24,
-                    "cnx_component": "op1"
+                    "cnx_index": 25,
+                    "cnx_component": "op2"
                 },
                 {
                     "dependency_relation": "r6",
@@ -2587,8 +2675,8 @@
                     "original_word": "कल्याण",
                     "pos_tag": "NN",
                     "wx_word": "kalyANa",
-                    "cnx_index": 24,
-                    "cnx_component": "op1"
+                    "cnx_index": 25,
+                    "cnx_component": "op3"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -2621,7 +2709,7 @@
                     "original_word": "अध्ययन",
                     "pos_tag": "NN",
                     "wx_word": "aXyayana",
-                    "cnx_index": 23,
+                    "cnx_index": 24,
                     "cnx_component": "kriyAmUla"
                 },
                 {
@@ -2631,7 +2719,7 @@
                     "original_word": "करता",
                     "pos_tag": "VM",
                     "wx_word": "karawA",
-                    "cnx_index": 23,
+                    "cnx_index": 24,
                     "cnx_component": "verbalizer_B"
                 },
                 {
@@ -2641,7 +2729,7 @@
                     "original_word": "है",
                     "pos_tag": "VAUX",
                     "wx_word": "hE",
-                    "cnx_index": 23,
+                    "cnx_index": 24,
                     "cnx_component": "verbalizer_I"
                 },
                 {
@@ -2654,20 +2742,30 @@
                 },
                 {
                     "index": 21,
-                    "original_word": "[NC_1]",
-                    "wx_word": "[NC_1]"
+                    "original_word": "[nc_1]",
+                    "wx_word": "[nc_1]",
+                    "cnx_index": 25,
+                    "cnx_component": "op1"
                 },
                 {
                     "index": 22,
-                    "original_word": "[NE_0]",
-                    "wx_word": "[NE_0]",
-                    "cnx_index": "23",
-                    "cnx_component": "begin"
+                    "original_word": "[ne_0]",
+                    "wx_word": "[ne_0]"
                 },
                 {
                     "index": 23,
-                    "original_word": "[CP_1]",
-                    "wx_word": "[CP_1]"
+                    "original_word": "[nc_2]",
+                    "wx_word": "[nc_2]"
+                },
+                {
+                    "index": 24,
+                    "original_word": "[cp_1]",
+                    "wx_word": "[cp_1]"
+                },
+                {
+                    "index": 25,
+                    "original_word": "[conj_1]",
+                    "wx_word": "[conj_1]"
                 }
             ],
             "project_id": 1,
@@ -2748,13 +2846,13 @@
                 },
                 {
                     "index": 9,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 10,
-                    "original_word": "[SPAN_1]",
-                    "wx_word": "[SPAN_1]"
+                    "original_word": "[span_1]",
+                    "wx_word": "[span_1]"
                 }
             ],
             "project_id": 1,
@@ -2780,8 +2878,8 @@
                     "original_word": "सुबह",
                     "pos_tag": "NN",
                     "wx_word": "subaha",
-                    "cnx_index": 17,
-                    "cnx_component": "op1"
+                    "cnx_index": 15,
+                    "cnx_component": "start"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -2798,8 +2896,8 @@
                     "original_word": "दोपहर",
                     "pos_tag": "NN",
                     "wx_word": "xopahara",
-                    "cnx_index": 17,
-                    "cnx_component": "op1"
+                    "cnx_index": 15,
+                    "cnx_component": "end"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -2824,8 +2922,8 @@
                     "original_word": "शाम",
                     "pos_tag": "NN",
                     "wx_word": "SAma",
-                    "cnx_index": 17,
-                    "cnx_component": "op1"
+                    "cnx_index": 16,
+                    "cnx_component": "start"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -2842,8 +2940,8 @@
                     "original_word": "रात",
                     "pos_tag": "NN",
                     "wx_word": "rAwa",
-                    "cnx_index": 17,
-                    "cnx_component": "op1"
+                    "cnx_index": 16,
+                    "cnx_component": "end"
                 },
                 {
                     "dependency_relation": "lwg__psp",
@@ -2879,18 +2977,27 @@
                 },
                 {
                     "index": 14,
-                    "original_word": "[NE_1]",
-                    "wx_word": "PER_1"
+                    "original_word": "per_1",
+                    "wx_word": "[ne_1]"
                 },
                 {
                     "index": 15,
-                    "original_word": "[SPAN_1]",
-                    "wx_word": "[SPAN_1]"
+                    "original_word": "[span_1]",
+                    "wx_word": "[span_1]",
+                    "cnx_index": 17,
+                    "cnx_component": "op1"
                 },
                 {
                     "index": 16,
-                    "original_word": "[SPAN_2]",
-                    "wx_word": "[SPAN_2]"
+                    "original_word": "[span_2]",
+                    "wx_word": "[span_2]",
+                    "cnx_index": 17,
+                    "cnx_component": "op2"
+                },
+                {
+                    "index": 17,
+                    "original_word": "[disjunct_1]",
+                    "wx_word": "[disjunct_1]"
                 }
             ],
             "project_id": 1,
