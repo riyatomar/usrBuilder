@@ -1,6 +1,6 @@
 import json
-from constants.ner import NE_TAG
-from constants.pos import TAGS_TO_DROP
+from constants.constantList import NE_TAG
+from constants.constantList import TAGS_TO_DROP
 
 
 def load_json(file_path):
@@ -100,6 +100,23 @@ def format_entry(entry):
 
     return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t-\t-\t{head_dep_info}\t{cnx_info}"
 
+# def format_sentence(sentence_data):
+    # """Format the parser output for a single sentence."""
+    # result = []
+    # sentence_id = sentence_data['sentence_id']
+    # result.append(f"<sent_id={sentence_id}>")
+    # sentence_type = get_sentence_type(sentence_data)
+
+    # for entry in sentence_data['parser_output']:
+    #     formatted_entry = format_entry(entry)
+    #     if formatted_entry:
+    #         result.append(formatted_entry)
+
+    # result.append(f"%{sentence_type}")
+    # result.append(f"</sent_id>")
+    # result.append("")  # Blank line for separation
+    # return '\n'.join(result)
+
 def format_sentence(sentence_data):
     """Format the parser output for a single sentence."""
     result = []
@@ -107,7 +124,23 @@ def format_sentence(sentence_data):
     result.append(f"<sent_id={sentence_id}>")
     sentence_type = get_sentence_type(sentence_data)
 
-    for entry in sentence_data['parser_output']:
+    parser_output = sentence_data['parser_output']
+    skip_next = False  # Flag to skip processing the next entry
+
+    for i, entry in enumerate(parser_output):
+        if skip_next:
+            skip_next = False
+            continue
+
+        # Check if the current pos_tag is VM and the next pos_tag is VAUX
+        if entry.get('pos_tag') == 'VM' and i + 1 < len(parser_output):
+            next_entry = parser_output[i + 1]
+            if next_entry.get('pos_tag') == 'VAUX':
+                # Combine wx_word and head_dep_info of the next entry into the current entry
+                entry['wx_word'] = f"{entry['wx_word']} {next_entry['wx_word']}"
+                entry['dependency_relation'] += f" {next_entry.get('dependency_relation', '-')}"
+                skip_next = True  # Skip processing the next entry
+
         formatted_entry = format_entry(entry)
         if formatted_entry:
             result.append(formatted_entry)
@@ -129,8 +162,8 @@ def format_parser_output(file_path, output_file):
     save_output(output_file, formatted_output)
 
 # File path to the JSON input
-file_path = "IO/updated_parser_output.json"
-output_file = "IO/usr_output.txt" 
+file_path = "cxn_json_out.txt"
+output_file = "usr_output.txt" 
 
 # Call the function to format and save the output
 format_parser_output(file_path, output_file)

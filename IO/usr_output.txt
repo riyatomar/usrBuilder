@@ -12,7 +12,7 @@ WA_1	5	-	-	-	4:lwg__vaux	-
 $speaker	1	-	-	-	6:k1	-
 subaha_1	2	-	-	-	6:k7t	8:start
 rAwa_1	4	-	-	-	6:k7t	8:end
-paDZUMgA_1	6	-	-	-	0:main	-
+paDZUMgA_1--_1	6	-	-	-	0:main	-
 [span_1]	8	-	-	-	-	-
 %affirmative
 </sent_id>
@@ -22,7 +22,7 @@ rAma	1	-	-	-	6:k1	8:begin
 mohana	3	-	-	-	6:k1	9:begin
 kala_1	4	-	-	-	6:k7t	-
 skUla_1	5	-	-	-	6:k2p	-
-jA_1	6	-	-	-	0:main	-
+jA_1-gA_1	6	-	-	-	0:main	-
 [ne_1]	8	per	-	-	-	10:op1
 [ne_2]	9	per	-	-	-	10:op2
 [conj_1]	10	-	-	-	-	-
@@ -44,7 +44,7 @@ A_1	6	-	-	-	5:lwg__vaux	-
 ayoXyA	1	-	-	-	3:r6	7:begin
 rAjA_1	3	-	-	-	4:mod	-
 rAma	4	-	-	-	5:k1	-
-hE_1	5	-	-	-	0:main	-
+hE_1-pres	5	-	-	-	0:main	-
 [ne_1]	7	place	-	-	-	-
 %affirmative
 </sent_id>
@@ -56,9 +56,9 @@ saMGa	3	-	-	-	12:k1	-
 rUsa	5	-	-	-	12:k4	15:begin
 SAMwi_1	7	-	-	-	9:k2	-
 sWApiwa_1	8	-	-	-	9:pof	16:kriyAmUla
-kara_1	9	-	pl	-	11:k2	16:verbalizer_B
+kara_1-nA_1	9	-	pl	-	11:k2	16:verbalizer_B
 AxeSa_1	11	-	-	-	12:pof	17:kriyAmUla
-xe_1	12	-	-	-	0:main	17:verbalizer_B
+xe_1-yA_1	12	-	-	-	0:main	17:verbalizer_B
 [ne_1]	14	org	-	-	-	-
 [ne_2]	15	place	-	-	-	-
 [cp_1]	16	-	-	-	-	-
@@ -71,7 +71,7 @@ rAma	1	-	-	-	7:k1	9:begin
 SyAma	3	-	-	-	7:k1	10:begin
 mohana	5	-	-	-	7:k1	11:begin
 xillI	6	-	-	-	7:k2p	12:begin
-jA_1	7	-	-	-	0:main	-
+jA_1-gA_1	7	-	-	-	0:main	-
 [ne_1]	9	per	-	-	-	13:op1
 [ne_2]	10	per	-	-	-	13:op2
 [ne_3]	11	per	-	-	-	13:op3
@@ -85,7 +85,7 @@ nAsA	1	-	-	-	7:k1	9:begin
 maMgala	3	-	-	-	4:nmod__adj	10:begin
 graha_1	4	-	-	-	7:k7p	-
 yAna_1	6	-	-	-	7:k2	-
-Beja_1	7	-	-	-	0:main	-
+Beja_1-yA_1	7	-	-	-	0:main	-
 [ne_1]	9	org	-	-	-	-
 [ne_2]	10	place	-	-	-	-
 %affirmative
@@ -114,7 +114,7 @@ kilo_1	4	-	-	-	8:rsp	14:unit
 20	7	-	-	-	8:card	15:count
 kilo_1	8	-	-	-	11:k7t	15:unit
 vajana_1	10	-	-	-	11:k2	-
-uTA_1	11	-	-	-	0:main	-
+uTA_1-yA_1	11	-	-	-	0:main	-
 [ne_1]	13	per	-	-	-	-
 [meas_1]	14	-	-	-	-	16:start
 [meas_2]	15	-	-	-	-	16:end
@@ -131,7 +131,7 @@ kuwuba	7	-	-	-	8:pof__cn	16:begin
 mInAra	8	-	-	-	12:k7p	19:part
 100	10	-	-	-	11:card	-
 maMjila_1	11	-	pl	-	12:k1	-
-caDZA_1	12	-	-	-	0:main	-
+caDZA_1--_1	12	-	-	-	0:main	-
 [ne_1]	14	per	-	-	-	-
 [ne_2]	15	place	-	-	-	19:whole
 [ne_3]	16	place	-	-	-	-
@@ -161,7 +161,7 @@ xeSa_1	2	-	-	-	8:k1	-
 agaswa	4	moy	-	-	5:pof__cn	13:component_of
 1947	5	-	-	-	8:k7t	13:component_of
 AjZAxa_1	7	-	-	-	8:pof	12:kriyAmUla
-ho_1	8	-	-	-	0:main	12:verbalizer_B
+ho_1-yA_1	8	-	-	-	0:main	12:verbalizer_B
 [ne_0]	10	-	-	-	-	-
 [ne_1]	11	-	-	-	-	-
 [cp_1]	12	-	-	-	-	-
@@ -178,7 +178,7 @@ kuwuba	7	-	-	-	8:pof__cn	16:begin
 mInAra	8	-	-	-	12:k7p	20:part
 100	10	-	-	-	11:card	18:count
 sIDZiyAz_1	11	-	-	-	12:k2	18:unit
-caDZA_1	12	-	-	-	0:main	-
+caDZA_1--_1	12	-	-	-	0:main	-
 [ne_1]	14	per	-	-	-	-
 [ne_2]	15	place	-	-	-	20:whole
 [ne_3]	16	place	-	-	-	-
@@ -209,7 +209,7 @@ xeKa_1	6	-	-	-	10:rpk	-
 kara_1	7	-	pl	-	6:lwg__vaux	-
 $wyax	8	-	pl	-	10:k2	-
 praNAma_1	9	-	-	-	10:pof	13:kriyAmUla
-kara_1	10	-	-	-	0:main	13:verbalizer_B
+kara_1-yA_1	10	-	-	-	0:main	13:verbalizer_B
 [ne_1]	12	per	-	-	-	-
 [cp_1]	13	-	-	-	-	-
 %affirmative
@@ -220,7 +220,7 @@ mohana	1	-	-	-	6:k1	8:begin
 10	3	-	-	-	4:card	9:count
 kilo_1	4	-	-	-	5:mod	9:unit
 cAvala_1	5	-	-	-	6:k2	-
-KarIxa_1	6	-	-	-	0:main	-
+KarIxa_1-subj_1	6	-	-	-	0:main	-
 [ne_1]	8	per	-	-	-	-
 [meas_1]	9	-	-	-	-	-
 %affirmative
@@ -246,7 +246,7 @@ $speaker	1	-	-	-	2:r6	-
 janmaxina_1	2	-	-	-	6:k1	-
 21	3	-	-	-	4:pof__cn	9:component_of
 agaswa	4	moy	-	-	6:k7t	9:component_of
-hE_1	6	-	-	-	0:main	-
+hE_1-pres	6	-	-	-	0:main	-
 [ne_0]	8	-	-	-	-	-
 [calendar_1]	9	-	-	-	-	-
 %affirmative
@@ -257,7 +257,7 @@ rAma	1	-	-	-	7:k1	9:begin
 xillI	2	-	-	-	7:k7p	10:begin
 kuwuba	4	-	-	-	5:pof__cn	11:begin
 mInAra	5	-	-	-	7:k7p	11:inside
-caDZA_1	7	-	-	-	0:main	-
+caDZA_1--_1	7	-	-	-	0:main	-
 [ne_1]	9	per	-	-	-	-
 [ne_2]	10	place	-	-	-	12:whole
 [ne_3]	11	place	-	-	-	12:part
@@ -270,7 +270,7 @@ rAma	1	-	-	-	7:k1	9:begin
 xillI	2	-	-	-	5:r6	10:begin
 kuwuba	4	-	-	-	5:pof__cn	11:begin
 mInAra	5	-	-	-	7:k7p	11:inside
-caDZA_1	7	-	-	-	0:main	-
+caDZA_1--_1	7	-	-	-	0:main	-
 [ne_1]	9	per	-	-	-	-
 [ne_2]	10	place	-	-	-	12:whole
 [ne_3]	11	place	-	-	-	12:part
@@ -294,7 +294,7 @@ rAma	1	-	-	-	5:k1	7:begin
 5	2	-	-	-	3:card	8:count
 kilo_1	3	-	-	-	4:mod	8:unit
 AlU_1	4	-	-	-	5:k2	-
-lA_1	5	-	-	-	0:main	-
+lA_1-yA_1	5	-	-	-	0:main	-
 [ne_1]	7	per	-	-	-	-
 [meas_1]	8	-	-	-	-	-
 %affirmative
@@ -308,12 +308,12 @@ BArawa	5	-	-	-	6:pof__cn	22:begin
 sevASrama	6	-	-	-	18:k7p	22:inside
 subaha_1	8	-	-	-	12:k7t	25:start
 SAma_1	10	-	-	-	12:k7t	25:end
-nAca_1	12	-	pl	-	13:rvks	23:begin
+nAca_1-wA_1	12	-	pl	-	13:rvks	23:begin
 hUye_1	13	-	-	-	18:k2	23:inside
 mAwA	14	-	-	-	15:pof__cn	23:inside
 xevI	15	-	-	-	17:k2	-
 Bajana_1	17	-	-	-	18:pof	24:kriyAmUla
-kara_1	18	-	-	-	0:main	24:verbalizer_B
+kara_1-yA_1	18	-	-	-	0:main	24:verbalizer_B
 [ne_1]	20	per	-	-	-	26:op1
 [ne_2]	21	per	-	-	-	26:op2
 [ne_3]	22	place	-	-	-	-
@@ -352,7 +352,7 @@ rAma	1	-	-	-	7:k1	9:begin
 janavarI	2	moy	-	-	4:rsp	10:start
 mArca	4	moy	-	-	7:k7t	10:end
 Gara_1	6	-	-	-	7:k2p	-
-jA_1	7	-	-	-	0:main	-
+jA_1-yA1_1	7	-	-	-	0:main	-
 [ne_1]	9	per	-	-	-	-
 [span_1]	10	-	-	-	-	-
 %affirmative

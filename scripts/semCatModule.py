@@ -20,6 +20,3 @@ def get_original_word_info(entry):
                 matches.append(tag)
     return ','.join(matches) if matches else '-'  # Join matches with commas or return '-'
 
-
-from constants.constantList import NE_TAG
-
