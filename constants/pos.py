@@ -1,1 +1,0 @@
-TAGS_TO_DROP = ["PSP", "SYM", "CC", "RP"]

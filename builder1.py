@@ -129,8 +129,8 @@ def format_parser_output(file_path, output_file):
     save_output(output_file, formatted_output)
 
 # File path to the JSON input
-file_path = "cxn_json_out.txt"
-output_file = "usr_output.txt" 
+file_path = "IO/updated_parser_output.json"
+output_file = "IO/usr_output.txt" 
 
 # Call the function to format and save the output
 format_parser_output(file_path, output_file)

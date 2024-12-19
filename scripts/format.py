@@ -1,9 +1,10 @@
-from constants.pos import TAGS_TO_DROP
+from constants.constantList import TAGS_TO_DROP
 from scripts.conceptModule import get_word
 from scripts.indexModule import get_index
 from scripts.semCatModule import get_original_word_info
 from scripts.dependencyModule import get_head_dep_info
 from scripts.cxnModule import get_cnx_info
+from scripts.morphSemModule import get_num
 
 def format_entry(entry):
     """Format a single entry."""
@@ -16,6 +17,6 @@ def format_entry(entry):
     head_dep_info = get_head_dep_info(entry)
     cnx_info = get_cnx_info(entry)
     original_word_info = get_original_word_info(entry)
-
-    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t-\t{head_dep_info}\t-\t-\t-\t{cnx_info}"
-
+    num = get_num(entry)  
+    
+    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t{num}\t-\t{head_dep_info}\t{cnx_info}"
