@@ -1,6 +1,6 @@
 from constants.constantList import NE_TAG, CALENDARIC_UNITS, DOW_UNITS
 
-def get_original_word_info(entry):
+def get_original_word_info(entry, parser_output, index):
     """Check for 'per', 'loc', 'org' in the original_word and include them in the third column if present."""
     original_word = entry.get('original_word', '')
     wx_word = entry.get('wx_word', '')
@@ -10,6 +10,7 @@ def get_original_word_info(entry):
     
     if wx_word in DOW_UNITS:
         return 'dow'
+
 
     matches = []
     for tag in NE_TAG:

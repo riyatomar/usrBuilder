@@ -18,8 +18,8 @@ def format_entry(entry, parser_output, index):
     index = get_index(entry)
     head_dep_info = get_head_dep_info(entry)
     cnx_info = get_cnx_info(entry)
-    original_word_info = get_original_word_info(entry, parser_output, index)  
+    original_word_info = get_original_word_info(entry, parser_output, index)
     num = get_num(entry)
     
-    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t{num}\t-\t{head_dep_info}\t{cnx_info}"
+    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t{num}\t{head_dep_info}\t-\t-\t-\t{cnx_info}"
     
