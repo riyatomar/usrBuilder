@@ -1,4 +1,5 @@
 from constants.constantList import RANJAK_LIST
+from scripts.mapTAM import map_tam
 
 def get_word(entry, parser_output, index):
     """Retrieve the word from the entry."""
@@ -76,5 +77,8 @@ def get_word(entry, parser_output, index):
                 elif tam == 'subj':
                     word = word.rsplit('_',1)[0]
                     word = word + '_e_1'
+    
+    if '-' in word:
+        word = map_tam(word)
 
     return word

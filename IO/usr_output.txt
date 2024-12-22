@@ -86,7 +86,7 @@ kara_1-yA_1	7	-	-	0:main	-	-	-	9:verbalizer_B
 waBI	1	-	-	4:k7t	-	-	-	-
 acAnaka_1	2	-	-	4:krvn	-	-	-	-
 wuPAna_1	3	-	-	4:k1	-	-	-	-
-A_1-yA1_1	4	-	-	0:main	-	[shade:jA_1]	-	-
+A_1-yA_1	4	-	-	0:main	-	[shade:jA_1]	-	-
 %affirmative
 </sent_id>
 
@@ -95,7 +95,7 @@ A_1-yA1_1	4	-	-	0:main	-	[shade:jA_1]	-	-
 <sent_id=4c>
 #और छाता उड़ गया ।
 CAwA_1	1	-	-	2:k1	-	-	-	-
-udZa_1-yA1_1	2	-	-	0:main	-	[shade:jA_1]	-	-
+udZa_1-yA_1	2	-	-	0:main	-	[shade:jA_1]	-	-
 %affirmative
 </sent_id>
 
