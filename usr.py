@@ -2,7 +2,6 @@ import json
 from constants.constantList import NE_TAG
 from constants.constantList import TAGS_TO_DROP
 
-
 def load_json(file_path):
     """Load the JSON data from a file."""
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -61,32 +60,19 @@ def extract_head_index_of_RP(sentence_data):
     head_indices = []
     rp_words = {}  # To store the wx_word corresponding to the head_index of RP
     
-    # Loop through each entry in the sentence
     for entry in sentence_data['parser_output']:
         pos_tag = entry.get('pos_tag', '-')
         word = entry.get('wx_word', '-')
-        index = entry.get('index', '-')
         head_index = entry.get('head_index', '-')
         
-        # Only try to convert head_index if it's a valid integer
         if head_index != '-' and head_index.isdigit():
             head_index = int(head_index)
-            # If the pos_tag is RP, store its head_index and corresponding wx_word
-            if pos_tag == 'RP' and head_index != '-':
+            if pos_tag == 'RP':
                 head_indices.append(head_index)
-                rp_words[head_index] = word  # Store the word corresponding to the head_index
-                
-    # Now, check which words have the same index as the RP head_indices
-    matched_index = None
-    for entry in sentence_data['parser_output']:
-        index = entry.get('index', '-')
-        if index in head_indices:
-            matched_index = entry.get('index', '-')
-    
-    return head_indices, matched_index, rp_words  # Return both the head indices and the matched words
+                rp_words[head_index] = word
+    return head_indices, rp_words
 
-
-def format_entry(entry):
+def format_entry(entry, discourse_marker_match):
     """Format a single entry."""
     pos_tag = entry.get('pos_tag', '-')
     if pos_tag in TAGS_TO_DROP:
@@ -98,10 +84,12 @@ def format_entry(entry):
     cnx_info = get_cnx_info(entry)
     original_word_info = get_original_word_info(entry)
 
-    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t-\t-\t{head_dep_info}\t{cnx_info}"
+    # Add 'true' if there's a discourse marker match and dependency_relation is 'main'
+    additional_flag = 'true' if discourse_marker_match and entry.get('dependency_relation', '-') == 'main' else '-'
 
+    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t-\t-\t{head_dep_info}\t{cnx_info}\t{additional_flag}"
 
-def format_sentence(sentence_data):
+def format_sentence(sentence_data, discourse_data):
     """Format the parser output for a single sentence."""
     result = []
     sentence_id = sentence_data['sentence_id']
@@ -111,21 +99,25 @@ def format_sentence(sentence_data):
     parser_output = sentence_data['parser_output']
     skip_next = False  # Flag to skip processing the next entry
 
+    # Check if discourse_marker exists in discourse data
+    discourse_marker_match = any(
+        discourse['discourse_marker'] != 'None' and discourse['sent_2_id'] == sentence_id
+        for discourse in discourse_data
+    )
+
     for i, entry in enumerate(parser_output):
         if skip_next:
             skip_next = False
             continue
 
-        # Check if the current pos_tag is VM and the next pos_tag is VAUX
         if entry.get('pos_tag') == 'VM' and i + 1 < len(parser_output):
             next_entry = parser_output[i + 1]
             if next_entry.get('pos_tag') == 'VAUX':
-                # Combine wx_word and head_dep_info of the next entry into the current entry
                 entry['wx_word'] = f"{entry['wx_word']} {next_entry['wx_word']}"
                 entry['dependency_relation'] += f" {next_entry.get('dependency_relation', '-')}"
-                skip_next = True  # Skip processing the next entry
+                skip_next = True
 
-        formatted_entry = format_entry(entry)
+        formatted_entry = format_entry(entry, discourse_marker_match)
         if formatted_entry:
             result.append(formatted_entry)
 
@@ -134,21 +126,24 @@ def format_sentence(sentence_data):
     result.append("")  # Blank line for separation
     return '\n'.join(result)
 
-def format_parser_output(file_path, output_file):
+
+def format_parser_output(file_path, discourse_path, output_file):
     """Main function to format parser output from a JSON file."""
     data = load_json(file_path)
+    discourse_data = load_json(discourse_path)
 
     results = []
     for sentence_data in data['response']:
-        results.append(format_sentence(sentence_data))
-        
+        results.append(format_sentence(sentence_data, discourse_data))
+
     formatted_output = '\n'.join(results)
     save_output(output_file, formatted_output)
 
 # File path to the JSON input
-file_path = "cxn_json_out.txt"
-output_file = "usr_output.txt" 
+file_path = "IO/updated_parser_output.json"
+discourse_path = "IO/discourse_output.txt"
+output_file = "IO/usr_output.txt"
 
 # Call the function to format and save the output
-format_parser_output(file_path, output_file)
+format_parser_output(file_path, discourse_path, output_file)
 
