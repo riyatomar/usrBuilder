@@ -3,14 +3,15 @@
 manu	1	-	-	13:k1	-	-	-	-
 eka_1	3	-	-	4:card	-	-	-	-
 xina_1	4	-	-	10:k7t	-	-	-	-
-banArasa	5	-	-	7:rsp	-	-	-	15:begin
-xillI	7	-	-	10:k2p	-	-	-	16:begin
+banArasa	5	male	-	7:rsp	-	-	-	15:begin
+xillI	7	female	-	10:k2p	-	-	-	16:begin
 pExala_1	9	-	-	10:k2p	-	-	-	-
 jA_1	10	-	pl	12:r6	-	-	-	-
 yojanA_1	12	-	-	13:k2	-	-	-	-
 banA_1-yA_1	13	-	-	0:main	-	-	-	-
-[ne_1]	15	place	-	-	-	-	-	-
-[ne_2]	16	place	-	-	-	-	-	-
+[ne_1]	15	place	-	-	-	-	-	17:start
+[ne_2]	16	place	-	-	-	-	-	17:end
+[span_1]	17	-	-	-	-	-	-	-
 %affirmative
 </sent_id>
 
@@ -71,8 +72,7 @@ le_1	9	-	-	8:lwg__vaux	-	-	-	-
 #मनु सुबह सात बजे चलना शुरू किया |
 manu	1	-	-	7:k1	-	-	-	-
 subaha_1	2	-	-	5:k7t	-	-	-	-
-sAwa	3	-	-	4:card	-	-	-	-
-baja_1	4	-	-	5:k7t	-	-	-	-
+sAwa	3	clocktime	-	4:card	-	-	-	-
 cala_1	5	-	-	7:k2	-	-	-	-
 SurU_1	6	-	-	7:pof	-	-	-	9:kriyAmUla
 kara_1-yA_1	7	-	-	0:main	-	-	-	9:verbalizer_B
