@@ -1,3 +1,4 @@
+from constants.constantList import RANJAK_LIST
 
 def get_word(entry, parser_output, index):
     """Retrieve the word from the entry."""
@@ -8,8 +9,6 @@ def get_word(entry, parser_output, index):
     wx_word = entry.get('wx_word', '-')
     pos_tag = entry.get('pos_tag', '-')
     dependency = entry.get('dependency_relation', '-')
-
-    ranjak_list= ["cala", "dAla", "cuka", "xe", "le", "bETa", "uTa", "jA", "padZa", "A"]
 
     category_1 = ["wuma", "wumhArA", "wumako", "wuJe", "wU", "wuJako", "Apa"]
     category_2 = ["mEM", "hama", "hamArA", "hamako", "hameM", "muJe", "muJako"]
@@ -43,8 +42,9 @@ def get_word(entry, parser_output, index):
     # Check if the current pos_tag is VM and the next pos_tag is VAUX
     if pos_tag == 'VM' and index + 1 < len(parser_output):
         next_entry = parser_output[index + 1]
-        next_root = morph_info.get('root', '-')
-        next_tam = morph_info.get('tam', '-')
+        next_morph_info = next_entry.get('morph_info', {})
+        next_root = next_morph_info.get('root', '-')
+        next_tam = next_morph_info.get('tam', '-')
 
         if dependency == 'main':
 
@@ -59,7 +59,8 @@ def get_word(entry, parser_output, index):
             elif next_entry.get('pos_tag') == 'VAUX':
                 if next_root == 'jA' and tam == 'yA':
                     word = root + '_1-' + tam + '_' + next_root + '_' + next_tam + '_1'
-                elif next_root in ranjak_list:
+                elif next_root in RANJAK_LIST:
+
                     word = root + '_1-' + next_tam + '_1'
                 else:
                     word = root + '_1-' + tam + '_' + next_root + '_1'

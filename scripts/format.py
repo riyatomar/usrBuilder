@@ -5,6 +5,7 @@ from scripts.semCatModule import get_original_word_info
 from scripts.dependencyModule import get_head_dep_info
 from scripts.cxnModule import get_cnx_info
 from scripts.morphSemModule import get_num
+from scripts.spkViewModule import get_spk_view_info
 
 # def format_entry(entry):
 def format_entry(entry, parser_output, index):
@@ -29,6 +30,7 @@ def format_entry(entry, parser_output, index):
     cnx_info = get_cnx_info(entry)
     original_word_info = get_original_word_info(entry, parser_output, index)
     num = get_num(entry)
+    spk_view_info = get_spk_view_info(entry, parser_output, index)
     
-    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t{num}\t{head_dep_info}\t-\t-\t-\t{cnx_info}"
+    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t{num}\t{head_dep_info}\t-\t{spk_view_info}\t-\t{cnx_info}"
     

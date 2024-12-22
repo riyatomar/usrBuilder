@@ -1,6 +1,8 @@
 NE_TAG =  ['per', 'loc', 'org']
 
-TAGS_TO_DROP = ["PSP", "SYM", "CC", "RP"]
+TAGS_TO_DROP = ["PSP", "SYM", "CC", "RP", "VAUX"]
+
+RANJAK_LIST = ["cala", "dAla", "cuka", "xe", "le", "bETa", "uTa", "jA", "padZa", "A"]
 
 MEAS_UNITS = ["kilomItara", "mItara", "kilo", "seMtImItara", "milImItara", "lItara",
             'sIDZiyAz', 'kilomItara', 'mItara', 'seMtImItara', 'milImItara', 'lItara',

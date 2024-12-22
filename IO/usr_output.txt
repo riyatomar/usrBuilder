@@ -19,8 +19,8 @@ banA_1-yA_1	13	-	-	0:main	-	-	-	-
 
 <sent_id=2a>
 #पर उसे ये मालूम नहीं था ।
-$wyax	2	-	-	6:k4a	-	-	-	-
-$wyax	3	-	pl	6:k1	-	-	-	-
+$wyax	2	-	-	6:k4a	-	distal	-	-
+$wyax	3	-	pl	6:k1	-	proximal	-	-
 mAlUma_1	4	-	-	6:pof	-	-	-	8:kriyAmUla
 nahIM_1	5	-	-	6:neg	-	-	-	-
 hE_1-past	6	-	-	0:main	-	-	-	8:verbalizer_B
@@ -32,7 +32,7 @@ hE_1-past	6	-	-	0:main	-	-	-	8:verbalizer_B
 
 <sent_id=2b>
 #कि उस दिन बारिश होगी ।
-$wyax	1	-	-	2:dem	-	-	-	-
+$wyax	1	-	-	2:dem	-	distal	-	-
 xina_1	2	-	-	4:k7t	-	-	-	-
 bAriSa_1	3	-	-	4:pof	-	-	-	6:kriyAmUla
 ho_1-gA_1	4	-	-	0:main	-	-	-	6:verbalizer_B
@@ -56,13 +56,12 @@ ho_1-gA_1	3	-	-	0:main	-	-	-	5:verbalizer_B
 <sent_id=3>
 #इसलिये उसने एक दस ईंच का छाता ले लिया ।
 isaliye	1	-	-	8:rh	-	-	-	-
-$wyax	2	-	-	8:k1	-	-	-	-
+$wyax	2	-	-	8:k1	-	distal	-	-
 eka_1	3	-	-	5:card	-	-	-	-
 xasa	4	-	pl	5:card	-	-	-	-
 IMca_1	5	-	-	7:r6	-	-	-	-
 CAwA_1	7	-	-	8:k2	-	-	-	-
-le_1-subj_1	8	-	-	0:main	-	-	-	-
-le_1	9	-	-	8:lwg__vaux	-	-	-	-
+le_1-yA_1	8	-	-	0:main	-	[shade:le_1]	-	-
 %affirmative
 </sent_id>
 
@@ -87,8 +86,7 @@ kara_1-yA_1	7	-	-	0:main	-	-	-	9:verbalizer_B
 waBI	1	-	-	4:k7t	-	-	-	-
 acAnaka_1	2	-	-	4:krvn	-	-	-	-
 wuPAna_1	3	-	-	4:k1	-	-	-	-
-A_1-0_1	4	-	-	0:main	-	-	-	-
-jA_1	5	-	-	4:lwg__vaux	-	-	-	-
+A_1-yA1_1	4	-	-	0:main	-	[shade:jA_1]	-	-
 %affirmative
 </sent_id>
 
@@ -97,8 +95,7 @@ jA_1	5	-	-	4:lwg__vaux	-	-	-	-
 <sent_id=4c>
 #और छाता उड़ गया ।
 CAwA_1	1	-	-	2:k1	-	-	-	-
-udZa_1-0_udZa_1	2	-	-	0:main	-	-	-	-
-jA_1	3	-	-	2:lwg__vaux	-	-	-	-
+udZa_1-yA1_1	2	-	-	0:main	-	[shade:jA_1]	-	-
 %affirmative
 </sent_id>
 
