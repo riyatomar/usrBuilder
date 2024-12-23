@@ -1,4 +1,5 @@
 <sent_id=1>
+#मनु ने एक दिन बनारस से दिल्ली तक पैदल जाने की योजना बनाई ।
 manu	1	-	-	13:k1	-	-	-	-
 eka_1	3	-	-	4:card	-	-	-	-
 xina_1	4	-	-	10:k7t	-	-	-	-
@@ -14,7 +15,10 @@ banA_1-yA_1	13	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
+
+
 <sent_id=2a>
+#पर उसे ये मालूम नहीं था ।
 $wyax	2	-	-	6:k4a	-	distal	-	-
 $wyax	3	-	pl	6:k1	-	proximal	-	-
 mAlUma_1	4	-	-	6:pof	-	-	-	8:kriyAmUla
@@ -24,7 +28,10 @@ hE_1-past	6	-	-	0:main	-	-	-	8:verbalizer_B
 %negative
 </sent_id>
 
+
+
 <sent_id=2b>
+#कि उस दिन बारिश होगी ।
 $wyax	1	-	-	2:dem	-	distal	-	-
 xina_1	2	-	-	4:k7t	-	-	-	-
 bAriSa_1	3	-	-	4:pof	-	-	-	6:kriyAmUla
@@ -33,26 +40,35 @@ ho_1-gA_1	4	-	-	0:main	-	-	-	6:verbalizer_B
 %affirmative
 </sent_id>
 
+
+
 <sent_id=2c>
+#या बारिश नहीं होगी ।
 bAriSa_1	1	-	-	3:pof	-	-	-	5:kriyAmUla
 nahIM_1	2	-	-	3:neg	-	-	-	-
-ho_1-gA_1	3	-	-	0:main	true	-	-	5:verbalizer_B
+ho_1-gA_1	3	-	-	0:main	2a.3:anyawra	-	-	5:verbalizer_B
 [cp_1]	5	-	-	-	-	-	-	-
 %negative
 </sent_id>
 
+
+
 <sent_id=3>
+#इसलिये उसने एक दस ईंच का छाता ले लिया ।
 isaliye	1	-	-	8:rh	-	-	-	-
 $wyax	2	-	-	8:k1	-	distal	-	-
 eka_1	3	-	-	5:card	-	-	-	-
 xasa	4	-	pl	5:card	-	-	-	-
 IMca_1	5	-	-	7:r6	-	-	-	-
 CAwA_1	7	-	-	8:k2	-	-	-	-
-le_1	8	-	-	0:main lwg__vaux	-	-	-	-
+le_1-yA_1	8	-	-	0:main	-	[shade:le_1]	-	-
 %affirmative
 </sent_id>
 
+
+
 <sent_id=4a>
+#मनु सुबह सात बजे चलना शुरू किया |
 manu	1	-	-	7:k1	-	-	-	-
 subaha_1	2	-	-	5:k7t	-	-	-	-
 sAwa	3	clocktime	-	4:card	-	-	-	-
@@ -63,16 +79,24 @@ kara_1-yA_1	7	-	-	0:main	-	-	-	9:verbalizer_B
 %affirmative
 </sent_id>
 
+
+
 <sent_id=4b>
+#तभी अचानक तुफान आ गया ।
 waBI	1	-	-	4:k7t	-	-	-	-
 acAnaka_1	2	-	-	4:krvn	-	-	-	-
 wuPAna_1	3	-	-	4:k1	-	-	-	-
-A_1	4	-	-	0:main lwg__vaux	-	-	-	-
+A_1-yA_1	4	-	-	0:main	-	[shade:jA_1]	-	-
 %affirmative
 </sent_id>
 
+
+
 <sent_id=4c>
+#और छाता उड़ गया ।
 CAwA_1	1	-	-	2:k1	-	-	-	-
-udZa_1	2	-	-	0:main lwg__vaux	-	-	-	-
+udZa_1-yA_1	2	-	-	0:main	4b.2:samuccaya	[shade:jA_1]	-	-
 %affirmative
 </sent_id>
+
+

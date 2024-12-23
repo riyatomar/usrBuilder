@@ -8,7 +8,7 @@ from scripts.morphSemModule import get_num
 from scripts.spkViewModule import get_spk_view_info
 
 # def format_entry(entry):
-def format_entry(entry, parser_output, index, discourse_marker_match):
+def format_entry(entry, parser_output, index, discourse_info):
     """Format a single entry."""
     pos_tag = entry.get('pos_tag', '-')
     original_word = entry.get('original_word', '-')
@@ -23,7 +23,6 @@ def format_entry(entry, parser_output, index, discourse_marker_match):
             if prev_entry.get('pos_tag') == "QC" or prev_entry.get('wx_word').isdigit():
                 return None
             
-    # word = get_word(entry)
     word = get_word(entry, parser_output, index)
     index = get_index(entry)
     head_dep_info = get_head_dep_info(entry, parser_output, index)
@@ -31,9 +30,5 @@ def format_entry(entry, parser_output, index, discourse_marker_match):
     original_word_info = get_original_word_info(entry, parser_output, index)
     num_info = get_num(entry)
     spk_view_info = get_spk_view_info(entry, parser_output, index)
-    additional_flag = 'true' if discourse_marker_match and entry.get('dependency_relation', '-') == 'main' else '-'
 
-    
-    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t{num_info}\t{head_dep_info}\t{additional_flag}\t{spk_view_info}\t-\t{cnx_info}"
-    
-    
+    return f"{word}\t{index}\t{original_word_info if original_word_info != '-' else '-'}\t{num_info}\t{head_dep_info}\t{discourse_info}\t{spk_view_info}\t-\t{cnx_info}"
