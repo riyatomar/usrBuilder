@@ -2,6 +2,7 @@ from scripts.format import format_entry
 from scripts.sentTypeModule import get_sentence_type
 from scripts.originalSentModule import get_sentence_text
 from scripts.hinWxConvertor import devanagari_to_wx
+from constants.constantList import CXN_VALUE
 
 def format_sentence(sentence_data, discourse_data):
     """Format the parser output for a single sentence."""
@@ -30,7 +31,7 @@ def format_sentence(sentence_data, discourse_data):
             
         discourse_info = (
             f"{relevant_discourse['sent_1_id']}.{dis_head}:{devanagari_to_wx(relevant_discourse['discourse_relation'])}"
-            if relevant_discourse and discourse_marker_match and entry.get('dependency_relation', '-') == 'main'
+            if relevant_discourse and discourse_marker_match and entry.get('dependency_relation', '-') == 'main' and entry.get('cnx_component', '-') not in CXN_VALUE
             else '-'
         )
 

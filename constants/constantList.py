@@ -19,3 +19,6 @@ DOW_UNITS = ['somavAra', 'maMgalavAra', 'buXavAra', 'guruvAra', 'SukravAra', 'Sa
 CONJ_LIST = ['और', 'तथा', 'एवं', 'व']
 
 DISJUNCT_LIST = ['या', 'अथवा']
+
+CXN_VALUE = ['component_of', 'op1', 'verbalizer', 'kriyAmUla', 'unit', 'count', 'op2', 'op3', 'op4', 'op5',
+             'mod', 'head', 'begin', 'inside', 'start', 'end', 'whole', 'part']

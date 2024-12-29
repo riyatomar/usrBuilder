@@ -47,8 +47,17 @@ def get_word(entry, parser_output, index):
         next_root = next_morph_info.get('root', '-')
         next_tam = next_morph_info.get('tam', '-')
 
-        if dependency == 'main':
+        # Ensure index + 2 is within bounds
+        if index + 2 < len(parser_output):
+            next_to_next_entry = parser_output[index + 2]
+            next_to_next_morph_info = next_to_next_entry.get('morph_info', {})
+            next_to_next_root = next_to_next_morph_info.get('root', '-')
+            # print(next_entry, next_to_next_entry)
+        else:
+            next_to_next_entry = {}
+            next_to_next_root = '-'
 
+        if dependency == 'main':
             if next_entry.get('pos_tag') != 'VAUX':
                 if root == 'hE':
                     word = root + '_1-pres'
@@ -57,28 +66,49 @@ def get_word(entry, parser_output, index):
                 else:
                     word = root + '_1-' + tam + '_1'
             
+            # elif next_entry.get('pos_tag') == 'VAUX':
+            #     if next_root == 'jA' and tam == 'yA':
+            #         word = root + '_1-' + tam + '_' + next_root + '_' + next_tam + '_1'
+            #     elif next_root in RANJAK_LIST:
+            #         word = root + '_1-' + next_tam + '_1'
+            #     else:
+            #         word = root + '_1-' + tam + '_' + next_root + '_1'
+
+            elif next_entry.get('pos_tag') == 'VAUX' and next_to_next_entry.get('pos_tag') == 'VAUX':
+                # print('tru')
+                if next_root == 'jA' and tam == 'yA':
+                    if next_tam == '0':
+                        word = root + '_1-' + tam + '_' + next_root + '_1'
+                    else:
+                        word = root + '_1-' + tam + '_' + next_root + '_' + next_tam + '_' + next_to_next_root + '_1'
+
+                elif next_root in RANJAK_LIST:
+                    word = root + '_1-' + next_tam + '_' + next_to_next_root + '_1'
+                else:
+                    word = root + '_1-' + tam + '_' + next_root + '_' + next_to_next_root + '_1'
+
             elif next_entry.get('pos_tag') == 'VAUX':
                 if next_root == 'jA' and tam == 'yA':
                     word = root + '_1-' + tam + '_' + next_root + '_' + next_tam + '_1'
                 elif next_root in RANJAK_LIST:
-
                     word = root + '_1-' + next_tam + '_1'
                 else:
                     word = root + '_1-' + tam + '_' + next_root + '_1'
 
-        
+
             if next_entry.get('pos_tag') != 'VAUX':
                 if (tam == 'imper' and per == 'm_h'):
-                    word = word.rsplit('_',1)[0]
+                    word = word.rsplit('_', 1)[0]
                     word = word + '_o_2'
                 elif tam == 'imper':
-                    word = word.rsplit('_',1)[0]
+                    word = word.rsplit('_', 1)[0]
                     word = word + '_o_1'
                 elif tam == 'subj':
-                    word = word.rsplit('_',1)[0]
+                    word = word.rsplit('_', 1)[0]
                     word = word + '_e_1'
     
     if '-' in word:
+        # print(word, '==============================)')
         word = map_tam(word)
 
     return word
