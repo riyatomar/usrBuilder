@@ -1,0 +1,109 @@
+<sent_id=sept-7-2022ICF-HD_hin_target_025>
+#स्टेम सेल संग्रह सत्र लगभग 2-5 घंटे तक चलता है ।
+stema_1	1	-	-	-	-	-	-	12:begin
+sela_1	2	-	-	9:k1	-	-	-	-
+saMgraha_1	3	-	-	-	-	-	-	13:mod
+sawra_1	4	-	-	-	-	-	-	13:head
+2-5	6	-	-	7:card	-	-	-	-
+GaMtA_1	7	-	pl	9:k7t	-	-	-	-
+cala_1-wA_hE_1	9	-	-	0:main	-	-	-	-
+[ne_1]	12	org	-	-	-	-	-	-
+[nc_1]	13	-	-	-	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=sept-7-2022ICF-HD_hin_target_026>
+#इस प्रक्रिया में किस प्रकार का जोखिम हो सकता हैं ?
+$wyax	1	-	-	2:dem	-	proximal	-	-
+prakriyA_1	2	-	-	8:k7	-	-	-	-
+$kim	4	-	-	5:mod__wq	-	-	-	-
+prakAra_1	5	-	-	7:r6	-	-	-	-
+joKima_1	7	-	-	-	-	-	-	12:kriyAmUla
+ho_1-0_saka_hE_1	8	-	-	0:main	-	-	-	12:verbalizer_B
+[cp_1]	12	-	-	-	-	-	-	-
+%interrogative
+</sent_id>
+
+
+
+<sent_id=sept-7-2022ICF-HD_hin_target_027>
+#जी-सीएसएफ ( 1-2 दिनों के लिए ) के कारण अस्थायी रूप से हड्डियों में दर्द , शरीर में गर्माहट और कुछ समय के लिए दिल की धडकन का एहसास हो सकता है ।
+jI-sIesaePa	1	-	-	30:k1	-	-	-	-
+1-2	3	-	-	4:card	-	-	-	-
+xina_1	4	-	pl	30:rh	-	-	-	-
+asWAyI_1	10	-	-	11:mod	-	-	-	-
+rUpa_1	11	-	-	30:krvn	-	-	-	-
+haddI_1	13	-	pl	30:k7	-	-	-	-
+xarxa_1	15	-	-	-	-	-	-	35:op1
+SarIra_1	17	-	-	19:mod	-	-	-	-
+garmAhata_1	19	-	-	-	-	-	-	35:op2
+kuCa_1	21	-	-	22:quant	-	-	-	-
+samaya_1	22	-	-	-	-	-	-	35:op3
+xila_1	25	-	-	27:r6	-	-	-	-
+Xadakana_1	27	-	-	29:k1	-	-	-	-
+ehasAsa_1	29	-	-	-	-	-	-	34:kriyAmUla
+ho_1-0_saka_ho_1	30	-	-	0:main	-	-	-	34:verbalizer_B
+[cp_1]	34	-	-	-	-	-	-	-
+[conj_1]	35	-	-	-	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=sept-7-2022ICF-HD_hin_target_028a>
+#यदि आवश्यक हो ।
+AvaSyaka_1	2	-	-	-	-	-	-	5:kriyAmUla
+ho_1-0_1	3	-	-	0:main	-	-	-	5:verbalizer_B
+[cp_1]	5	-	-	-	-	-	-	6:op1
+%affirmative
+</sent_id>
+
+
+
+<sent_id=sept-7-2022ICF-HD_hin_target_028b>
+#तो डॉक्टर दर्द निवारक दवाएं दे सकते हैं ।
+dOYktara_1	1	-	-	5:k1	-	-	-	-
+xarxa_1	2	-	-	5:k2	-	-	-	-
+nivAraka_1	3	-	-	4:mod	-	-	-	-
+xavAa_1	4	-	pl	5:k2	-	-	-	-
+xe_1-subj_saka_hE_1	5	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=sept-7-2022ICF-HD_hin_target_029>
+#क्या इस अध्ययन में भाग लेने का कोई लाभ है ?
+$kim	1	-	-	10:krvn	-	-	-	-
+$wyax	2	-	-	3:dem	-	proximal	-	-
+aXyayana_1	3	-	-	6:k7	-	-	-	-
+BAga_1	5	-	-	-	-	-	-	12:kriyAmUla
+le_1	6	-	pl	9:r6	-	-	-	12:verbalizer_B
+koI	8	-	-	9:mod	-	-	-	-
+lABa_1	9	-	-	10:k1	-	-	-	-
+hE_1-pres	10	-	-	0:main	-	-	-	-
+[cp_1]	12	-	-	-	-	-	-	-
+%interrogative
+</sent_id>
+
+
+
+<sent_id=sept-7-2022ICF-HD_hin_target_030>
+#इस अध्ययन में भाग लेने से आपको कोई प्रत्यक्ष लाभ नहीं हो सकता है ।
+$wyax	1	-	-	2:dem	-	proximal	-	-
+aXyayana_1	2	-	-	5:k7	-	-	-	-
+BAga_1	4	-	-	-	-	-	-	16:kriyAmUla
+le_1	5	-	pl	12:rh	-	-	-	16:verbalizer_B
+$addressee	7	-	-	12:k4a	-	-	-	-
+koI	8	-	-	10:mod	-	-	-	-
+prawyakRa_1	9	-	-	10:mod	-	-	-	-
+lABa_1	10	-	-	12:k1	-	-	-	-
+nahIM_1	11	-	-	12:neg	-	-	-	-
+ho_1-0_saka_ho_1	12	-	-	0:main	-	-	-	-
+[cp_1]	16	-	-	-	-	-	-	-
+%negative
+</sent_id>
+
+
