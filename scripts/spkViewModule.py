@@ -19,6 +19,10 @@ def get_spk_view_info(entry, parser_output, index):
         return 'proximal'
     if root == 'vaha':
         return 'distal'
+    if root == 'wU':
+        return 'informal'
+    if root == 'Apa':
+        return 'respect'
     return '-'
 
 

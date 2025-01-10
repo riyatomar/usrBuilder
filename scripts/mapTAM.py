@@ -4,7 +4,7 @@ def map_tam(word):
         tam_part = word.split('-')[1].strip() # Extract tam_part from word
         verb_part = word.split('-')[0].strip()
 
-        print(tam_part)
+        # print(tam_part)
         for tam in tam_details:
             parts = tam.split('\t')
             default_tam = parts[0]

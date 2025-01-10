@@ -1,4 +1,4 @@
-from constants.constantList import NE_TAG, CALENDARIC_UNITS, DOW_UNITS, MEAS_UNITS
+from constants.constantList import NE_TAG, CALENDARIC_UNITS, DOW_UNITS, MEAS_UNITS, DOM_WORD
 
 def get_original_word_info(entry, parser_output, index):
     """Check for 'per', 'loc', 'org' in the original_word and include them in the third column if present."""
@@ -13,7 +13,7 @@ def get_original_word_info(entry, parser_output, index):
         next_entry = parser_output[index]
         next_word = next_entry.get('wx_word', '')
         
-        if next_word in CALENDARIC_UNITS:
+        if next_word in CALENDARIC_UNITS or next_word in DOM_WORD:
             return 'dom'
         elif next_word in MEAS_UNITS:
             return 'meas'
@@ -31,19 +31,20 @@ def get_original_word_info(entry, parser_output, index):
         elif next_word == 'saxi':
             return 'era'
 
+    if wx_word in DOW_UNITS:
+        return 'dow'
+    
+    if wx_word in CALENDARIC_UNITS:
+        return 'moy'
+
     if pos_tag in ('NNP', 'NNPC'):
         if gender == 'm':
             gen = 'male'
         if gender == 'f':
             gen = 'female'
         return gen
+         
     
-    if wx_word in CALENDARIC_UNITS:
-        return 'moy'
-    
-    if wx_word in DOW_UNITS:
-        return 'dow'
-
     matches = []
     for tag in NE_TAG:
         if tag in original_word:

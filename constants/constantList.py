@@ -11,8 +11,10 @@ MEAS_UNITS = ["kilomItara", "mItara", "kilo", "seMtImItara", "milImItara", "lIta
             'mItara', 'varga', 'seMtImItara', 'hekteyara', 'ekadZa', 'selsiyasa',
             'PZerenahAita', 'kelvina']
 
-CALENDARIC_UNITS = ['janavarI', 'PZaravarI', 'mArca', 'aprEla', 'maI', 'jUna',
+CALENDARIC_UNITS = ['janavarI', 'PZaravarI', 'mArca', 'aprEla', 'maI', 'jUna', 
                 'julAI', 'agaswa', 'siwaMbara', 'akwUbara', 'navaMbara', 'xisaMbara']
+
+DOM_WORD = ['wArIKa']
 
 DOW_UNITS = ['somavAra', 'maMgalavAra', 'buXavAra', 'guruvAra', 'SukravAra', 'SanivAra', 'ravivAra']
 
@@ -22,3 +24,7 @@ DISJUNCT_LIST = ['या', 'अथवा']
 
 CXN_VALUE = ['component_of', 'op1', 'verbalizer', 'kriyAmUla', 'unit', 'count', 'op2', 'op3', 'op4', 'op5',
              'mod', 'head', 'begin', 'inside', 'start', 'end', 'whole', 'part']
+
+COMPERLESS = ['kama']
+
+COMPERMORE = ['jZyAxA', 'aXika', 'jyAxA']
