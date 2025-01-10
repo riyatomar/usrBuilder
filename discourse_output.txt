@@ -1,0 +1,156 @@
+[
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "राम मोहन से कम बुद्धिमान है",
+        "sent_1_id": "1",
+        "sent_2": "गंगा सबसे पवित्र नदी है",
+        "sent_2_id": "2",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "गंगा सबसे पवित्र नदी है",
+        "sent_1_id": "2",
+        "sent_2": "हिमालय सबसे ऊँचा पर्वत है",
+        "sent_2_id": "3",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "हिमालय सबसे ऊँचा पर्वत है",
+        "sent_1_id": "3",
+        "sent_2": "शेर जंगल का सबसे शक्तिशाली जानवर है",
+        "sent_2_id": "4",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "शेर जंगल का सबसे शक्तिशाली जानवर है",
+        "sent_1_id": "4",
+        "sent_2": "चाँदनी रात सबसे आकर्षक दृश्य है",
+        "sent_2_id": "5",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "चाँदनी रात सबसे आकर्षक दृश्य है",
+        "sent_1_id": "5",
+        "sent_2": "सोना सबसे अधिक महंगा है",
+        "sent_2_id": "6",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "सोना सबसे अधिक महंगा है",
+        "sent_1_id": "6",
+        "sent_2": "हिंदी सबसे लोकप्रिय भाषा है",
+        "sent_2_id": "7",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "हिंदी सबसे लोकप्रिय भाषा है",
+        "sent_1_id": "7",
+        "sent_2": "ताजमहल सबसे अद्भुत स्मारक है",
+        "sent_2_id": "8",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "ताजमहल सबसे अद्भुत स्मारक है",
+        "sent_1_id": "8",
+        "sent_2": "राम श्रेष्ठतम व्यक्त्ति है",
+        "sent_2_id": "9",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "राम श्रेष्ठतम व्यक्त्ति है",
+        "sent_1_id": "9",
+        "sent_2": "राम मोहन से कम बुद्धिमान है",
+        "sent_2_id": "1",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "राम मोहन से कम बुद्धिमान है",
+        "sent_1_id": "1",
+        "sent_2": "राम मोहन से कम बुद्धिमान है",
+        "sent_2_id": "1",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "राम मोहन से कम बुद्धिमान है",
+        "sent_1_id": "1",
+        "sent_2": "राम मोहन से कम बुद्धिमान है",
+        "sent_2_id": "1",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "राम मोहन से कम बुद्धिमान है",
+        "sent_1_id": "1",
+        "sent_2": "राम मोहन से कम बुद्धिमान है",
+        "sent_2_id": "1",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "राम मोहन से कम बुद्धिमान है",
+        "sent_1_id": "1",
+        "sent_2": "राम मोहन से कम बुद्धिमान है",
+        "sent_2_id": "1",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    },
+    {
+        "project_id": "1",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "sent_1": "राम मोहन से कम बुद्धिमान है",
+        "sent_1_id": "1",
+        "sent_2": "राम मोहन से कम बुद्धिमान है",
+        "sent_2_id": "1",
+        "head_sent_id": "None",
+        "dependent_sent_id": "None"
+    }
+]

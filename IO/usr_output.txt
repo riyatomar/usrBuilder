@@ -1,0 +1,138 @@
+<sent_id=16>
+#खिड़की वाला कमरा ठंडा है ।
+KidZakI_1	1	-	-	3:mod	-	-	-	-
+kamarA_1	3	-	-	5:k1	-	-	-	-
+TaMdA_1	4	-	-	5:k1s	-	-	-	-
+hE_1-pres	5	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=17>
+#बारिश वाला मौसम सुहाना लगता है ।
+bAriSa_1	1	-	-	3:mod	-	-	-	-
+mOsama_1	3	-	-	5:k1	-	-	-	-
+suhAnA_1	4	-	-	5:k1s	-	-	-	-
+laga_1-wA_hE_1	5	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=18>
+#पानी वाला घड़ा खाली है ।
+pAnI_1	1	-	-	3:mod	-	-	-	-
+GadZA_1	3	-	-	5:k1	-	-	-	-
+KAlI_1	4	-	-	5:k1s	-	-	-	-
+hE_1-pres	5	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+Error processing sentence_id=19.
+
+<sent_id=20>
+#छत वाला मकान ऊंचा है ।
+Cawa_1	1	-	-	3:mod	-	-	-	-
+makAna_1	3	-	-	5:k1	-	-	-	-
+UMcA_1	4	-	-	5:k1s	-	-	-	-
+hE_1-pres	5	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=21>
+#फूल वाला घर सुंदर है ।
+PUla_1	1	-	-	3:mod	-	-	-	-
+Gara_1	3	-	-	5:k1	-	-	-	-
+suMxara_1	4	-	-	5:k1s	-	-	-	-
+hE_1-pres	5	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=22>
+#शिक्षक ने छात्रों को पाठ पढ़ाया ।
+SikRaka_1	1	-	-	6:k1	-	-	-	-
+CAwra_1	3	-	pl	6:k4	-	-	-	-
+pATa_1	5	-	-	6:k2	-	-	-	-
+paDZAyA_1-wA_hE_1	6	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=23>
+#माँ ने बच्चे को खाना खिलाया ।
+mA_1	1	-	pl	6:k1	-	-	-	-
+baccA_1	3	-	pl	6:k2	-	-	-	-
+KAnA_1	5	-	-	6:k2	-	-	-	-
+KilA_1-yA_1	6	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=24>
+#राम ने अपने भाई को पानी पिलाया ।
+rAma	1	male	-	7:k1	-	-	-	-
+apanA	3	-	pl	4:r6	-	-	-	-
+BAI_1	4	-	-	7:k2	-	-	-	-
+pAnI_1	6	-	-	7:k2	-	-	-	-
+pilA_1-yA_1	7	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=25>
+#माँ ने धोबी से कपड़े धुलवाए ।
+mA_1	1	-	pl	6:k1	-	-	-	-
+XobI_1	3	-	-	6:k5	-	-	-	-
+kapadZe_1	5	-	-	6:k2	-	-	-	-
+XulavA_1-e_1	6	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=26>
+#माँ ने बच्चे को पिता से खाना खिलवाया ।
+mA_1	1	-	pl	8:k1	-	-	-	-
+baccA_1	3	-	pl	8:k2	-	-	-	-
+piwA_1	5	-	-	8:k3	-	-	-	-
+KAnA_1	7	-	-	8:k2	-	-	-	-
+KilavA_1-yA_1	8	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=27>
+#दादी ने नौकर से बच्चों को स्कूल भेजवाया ।
+xAxI_1	1	-	-	8:k1	-	-	-	-
+nOkara_1	3	-	-	8:k5	-	-	-	-
+baccA_1	5	-	pl	8:k2	-	-	-	-
+skUla_1	7	-	-	8:k2p	-	-	-	-
+BejavAyA_1-wA_hE_1	8	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=28>
+#शिक्षक ने मॉनिटर से कक्षा को शांत करवाया ।
+SikRaka_1	1	-	-	8:k1	-	-	-	-
+mOYnitara_1	3	-	-	8:k3	-	-	-	-
+kakRA_1	5	-	-	8:k2	-	-	-	-
+SAMwa_1	7	-	-	-	-	-	-	10:kriyAmUla
+karavA_1-yA_1	8	-	-	-	-	-	-	10:verbalizer
+[cp_1]	10	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
