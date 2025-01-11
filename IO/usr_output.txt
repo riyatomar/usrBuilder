@@ -1,137 +1,168 @@
-<sent_id=16>
-#खिड़की वाला कमरा ठंडा है ।
-KidZakI_1	1	-	-	3:mod	-	-	-	-
-kamarA_1	3	-	-	5:k1	-	-	-	-
-TaMdA_1	4	-	-	5:k1s	-	-	-	-
+<sent_id=1>
+#पृथ्वी सबसे सुंदर ग्रह है ।
+pqWvI	1	female	-	-	-	-	-	7:begin
+suMxara_1	3	-	superl	4:mod	-	-	-	-
+graha_1	4	-	-	5:k1s	-	-	-	-
+hE_1-pres	5	-	-	0:main	-	-	-	-
+[ne_1]	7	place	-	5:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=2>
+#गंगा सबसे पवित्र नदी है ।
+gaMgA	1	female	-	5:k1	-	-	-	-
+paviwra_1	3	-	superl	4:mod	-	-	-	-
+naxI_1	4	-	-	5:k1s	-	-	-	-
 hE_1-pres	5	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=17>
-#बारिश वाला मौसम सुहाना लगता है ।
-bAriSa_1	1	-	-	3:mod	-	-	-	-
-mOsama_1	3	-	-	5:k1	-	-	-	-
-suhAnA_1	4	-	-	5:k1s	-	-	-	-
-laga_1-wA_hE_1	5	-	-	0:main	-	-	-	-
-%affirmative
-</sent_id>
-
-
-
-<sent_id=18>
-#पानी वाला घड़ा खाली है ।
-pAnI_1	1	-	-	3:mod	-	-	-	-
-GadZA_1	3	-	-	5:k1	-	-	-	-
-KAlI_1	4	-	-	5:k1s	-	-	-	-
+<sent_id=3>
+#हिमालय सबसे ऊँचा पर्वत है ।
+himAlaya	1	male	-	5:k1	-	-	-	-
+UzcA_1	3	-	superl	4:mod	-	-	-	-
+parvawa_1	4	-	-	5:k1s	-	-	-	-
 hE_1-pres	5	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-Error processing sentence_id=19.
+<sent_id=4>
+#शेर जंगल का सबसे शक्तिशाली जानवर है ।
+Sera_1	1	-	-	7:k1	-	-	-	-
+jaMgala_1	2	-	-	6:r6	-	-	-	-
+SakwiSAlI_1	5	-	superl	6:mod	-	-	-	-
+jAnavara_1	6	-	-	7:k1s	-	-	-	-
+hE_1-pres	7	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
 
-<sent_id=20>
-#छत वाला मकान ऊंचा है ।
-Cawa_1	1	-	-	3:mod	-	-	-	-
-makAna_1	3	-	-	5:k1	-	-	-	-
-UMcA_1	4	-	-	5:k1s	-	-	-	-
+
+
+<sent_id=5>
+#चाँदनी रात सबसे आकर्षक दृश्य है ।
+cAzxanI_1	1	-	-	2:mod	-	-	-	-
+rAwa_1	2	-	-	6:k7t	-	-	-	-
+AkarRaka_1	4	-	superl	5:mod	-	-	-	-
+xqSya_1	5	-	-	6:k1s	-	-	-	-
+hE_1-pres	6	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=6>
+#सोना सबसे अधिक महंगा है ।
+sonA_1	1	-	-	5:k1	-	-	-	-
+aXika_1	3	-	superl	4:quant	-	-	-	-
+mahaMgA_1	4	-	-	5:k1s	-	-	-	-
 hE_1-pres	5	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=21>
-#फूल वाला घर सुंदर है ।
-PUla_1	1	-	-	3:mod	-	-	-	-
-Gara_1	3	-	-	5:k1	-	-	-	-
-suMxara_1	4	-	-	5:k1s	-	-	-	-
+<sent_id=7>
+#हिंदी सबसे लोकप्रिय भाषा है ।
+hiMxI	1	female	-	5:k1	-	-	-	-
+lokapriya_1	3	-	superl	4:mod	-	-	-	-
+BARA_1	4	-	-	5:k1s	-	-	-	-
 hE_1-pres	5	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=22>
-#शिक्षक ने छात्रों को पाठ पढ़ाया ।
-SikRaka_1	1	-	-	6:k1	-	-	-	-
-CAwra_1	3	-	pl	6:k4	-	-	-	-
-pATa_1	5	-	-	6:k2	-	-	-	-
-paDZAyA_1-wA_hE_1	6	-	-	0:main	-	-	-	-
+<sent_id=8>
+#ताजमहल सबसे अद्भुत स्मारक है ।
+wAjamahala	1	male	-	5:k1	-	-	-	-
+axBuwa_1	3	-	superl	4:mod	-	-	-	-
+smAraka_1	4	-	-	5:k1s	-	-	-	-
+hE_1-pres	5	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=23>
-#माँ ने बच्चे को खाना खिलाया ।
-mA_1	1	-	pl	6:k1	-	-	-	-
-baccA_1	3	-	pl	6:k2	-	-	-	-
-KAnA_1	5	-	-	6:k2	-	-	-	-
-KilA_1-yA_1	6	-	-	0:main	-	-	-	-
+<sent_id=9>
+#राम श्रेष्ठतम व्यक्त्ति है ।
+rAma	1	male	-	4:k1	-	-	-	-
+SreRTawama_1	2	-	superl	3:mod	-	-	-	-
+vyakwwi_1	3	-	-	4:k1s	-	-	-	-
+hE_1-pres	4	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=24>
-#राम ने अपने भाई को पानी पिलाया ।
+<sent_id=10>
+#लड़का लड़की से कम बुद्धिमान है ।
+ladZakA_1	1	-	-	6:k1	-	-	-	-
+ladZakA_1	2	-	-	4:intf	-	-	-	-
+buxXimAna_1	5	-	comperless	6:k1s	-	-	-	-
+hE_1-pres	6	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=11>
+#राम ने मोहन से ज्यादा खाना खाया ।
 rAma	1	male	-	7:k1	-	-	-	-
-apanA	3	-	pl	4:r6	-	-	-	-
-BAI_1	4	-	-	7:k2	-	-	-	-
-pAnI_1	6	-	-	7:k2	-	-	-	-
-pilA_1-yA_1	7	-	-	0:main	-	-	-	-
+mohana	3	male	-	7:k5	-	-	-	-
+KAnA_1	6	-	-	7:k2	-	-	-	-
+KA_1-yA_1	7	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=25>
-#माँ ने धोबी से कपड़े धुलवाए ।
-mA_1	1	-	pl	6:k1	-	-	-	-
-XobI_1	3	-	-	6:k5	-	-	-	-
-kapadZe_1	5	-	-	6:k2	-	-	-	-
-XulavA_1-e_1	6	-	-	0:main	-	-	-	-
+<sent_id=12>
+#सोना चांदी से अधिक महँगा है ।
+sonA_1	1	-	-	6:k1	-	-	-	-
+cAMxI_1	2	-	-	4:intf	-	-	-	-
+mahazgA_1	5	-	compermore	6:k1s	-	-	-	-
+hE_1-pres	6	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=26>
-#माँ ने बच्चे को पिता से खाना खिलवाया ।
-mA_1	1	-	pl	8:k1	-	-	-	-
-baccA_1	3	-	pl	8:k2	-	-	-	-
-piwA_1	5	-	-	8:k3	-	-	-	-
-KAnA_1	7	-	-	8:k2	-	-	-	-
-KilavA_1-yA_1	8	-	-	0:main	-	-	-	-
+<sent_id=13>
+#गंगा यमुना से ज़्यादा लंबी है ।
+gaMgA	1	female	-	6:k1	-	-	-	-
+yamunA	2	female	-	4:intf	-	-	-	-
+laMbA_1	5	-	compermore	6:k1s	-	-	-	-
+hE_1-pres	6	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=27>
-#दादी ने नौकर से बच्चों को स्कूल भेजवाया ।
-xAxI_1	1	-	-	8:k1	-	-	-	-
-nOkara_1	3	-	-	8:k5	-	-	-	-
-baccA_1	5	-	pl	8:k2	-	-	-	-
-skUla_1	7	-	-	8:k2p	-	-	-	-
-BejavAyA_1-wA_hE_1	8	-	-	0:main	-	-	-	-
+<sent_id=14>
+#राम मोहन से कम बदमाश है ।
+rAma	1	male	-	-	-	-	-	8:begin
+mohana	2	male	-	-	-	-	-	8:inside
+baxamASa_1	5	-	-	6:k1	-	-	-	-
+hE_1-pres	6	-	-	0:main	-	-	-	-
+[ne_0]	8	-	-	6:k5	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=28>
-#शिक्षक ने मॉनिटर से कक्षा को शांत करवाया ।
-SikRaka_1	1	-	-	8:k1	-	-	-	-
-mOYnitara_1	3	-	-	8:k3	-	-	-	-
-kakRA_1	5	-	-	8:k2	-	-	-	-
-SAMwa_1	7	-	-	-	-	-	-	10:kriyAmUla
-karavA_1-yA_1	8	-	-	-	-	-	-	10:verbalizer
-[cp_1]	10	-	-	0:main	-	-	-	-
+<sent_id=15>
+#राम मोहन से कम बुद्धिमान है ।
+rAma	1	male	-	-	-	-	-	8:begin
+mohana	2	male	-	-	-	-	-	8:inside
+buxXimAna_1	5	-	comperless	6:k1s	-	-	-	-
+hE_1-pres	6	-	-	0:main	-	-	-	-
+[ne_0]	8	-	-	4:intf	-	-	-	-
 %affirmative
 </sent_id>
 

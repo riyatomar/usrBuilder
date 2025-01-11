@@ -13,19 +13,19 @@ def format_entry(entry, parser_output, index, discourse_info):
     pos_tag = entry.get('pos_tag', '-')
     original_word = entry.get('original_word', '-')
     wx_word = entry.get('wx_word', '-')
+    prev_index = index - 1  # Convert to 0-based index
+    if prev_index >= 0:
+        prev_entry = parser_output[prev_index]
+
     if pos_tag in TAGS_TO_DROP:
         return None
     if original_word == 'सबसे' and pos_tag == 'INTF':
         return None
-    if wx_word in COMPERLESS or wx_word in COMPERMORE:
+    if (wx_word in COMPERLESS or wx_word in COMPERMORE) and pos_tag == 'QF' and prev_entry.get('pos_tag') != 'INTF':
         return None
     if original_word in ['बजे', 'सदी']:
-        # Get the previous entry (if it exists)
-        prev_index = index - 1  # Convert to 0-based index
-        if prev_index >= 0:
-            prev_entry = parser_output[prev_index]
-            if prev_entry.get('pos_tag') == "QC" or prev_entry.get('wx_word').isdigit():
-                return None
+        if prev_entry.get('pos_tag') == "QC" or prev_entry.get('wx_word').isdigit():
+            return None
             
     word = get_word(entry, parser_output, index)
     index = get_index(entry)

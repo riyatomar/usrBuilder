@@ -3,98 +3,16 @@
         {
             "parser_output": [
                 {
-                    "dependency_relation": "mod",
-                    "head_index": "3",
-                    "index": 1,
-                    "original_word": "खिड़की",
-                    "pos_tag": "NN",
-                    "wx_word": "KidZakI",
-                    "morph_info": {
-                        "root": "KidZakI"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
-                    "index": 2,
-                    "original_word": "वाला",
-                    "pos_tag": "PSP",
-                    "wx_word": "vAlA",
-                    "morph_info": {
-                        "root": "vAlA",
-                        "cat": "prawyaya"
-                    }
-                },
-                {
+                    "cnx_component": "begin",
+                    "cnx_index": 7,
                     "dependency_relation": "k1",
                     "head_index": "5",
-                    "index": 3,
-                    "original_word": "कमरा",
-                    "pos_tag": "NN",
-                    "wx_word": "kamarA",
-                    "morph_info": {
-                        "root": "kamarA",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "k1s",
-                    "head_index": "5",
-                    "index": 4,
-                    "original_word": "ठंडा",
-                    "pos_tag": "JJ",
-                    "wx_word": "TaMdA",
-                    "morph_info": {
-                        "root": "TaMdA",
-                        "cat": "adj",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "main",
-                    "head_index": "0",
-                    "index": 5,
-                    "original_word": "है",
-                    "pos_tag": "VM",
-                    "wx_word": "hE",
-                    "morph_info": {
-                        "root": "hE",
-                        "cat": "v",
-                        "gen": "m",
-                        "num": "s",
-                        "per": "a",
-                        "tam": "hE"
-                    }
-                },
-                {
-                    "dependency_relation": "rsym",
-                    "head_index": "5",
-                    "index": 6,
-                    "original_word": "।",
-                    "pos_tag": "SYM",
-                    "wx_word": "."
-                }
-            ],
-            "project_id": "1",
-            "sentence": "खिड़की वाला कमरा ठंडा है ।",
-            "sentence_id": "16"
-        },
-        {
-            "parser_output": [
-                {
-                    "dependency_relation": "mod",
-                    "head_index": "3",
                     "index": 1,
-                    "original_word": "बारिश",
-                    "pos_tag": "NN",
-                    "wx_word": "bAriSa",
+                    "original_word": "पृथ्वी",
+                    "pos_tag": "NNP",
+                    "wx_word": "pqWvI",
                     "morph_info": {
-                        "root": "bAriSa",
+                        "root": "pqWvI",
                         "cat": "n",
                         "case": "d",
                         "gen": "f",
@@ -102,410 +20,26 @@
                     }
                 },
                 {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
-                    "index": 2,
-                    "original_word": "वाला",
-                    "pos_tag": "PSP",
-                    "wx_word": "vAlA",
-                    "morph_info": {
-                        "root": "vAlA",
-                        "cat": "prawyaya"
-                    }
-                },
-                {
-                    "dependency_relation": "k1",
-                    "head_index": "5",
-                    "index": 3,
-                    "original_word": "मौसम",
-                    "pos_tag": "NN",
-                    "wx_word": "mOsama",
-                    "morph_info": {
-                        "root": "mOsama",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "k1s",
-                    "head_index": "5",
-                    "index": 4,
-                    "original_word": "सुहाना",
-                    "pos_tag": "JJ",
-                    "wx_word": "suhAnA",
-                    "morph_info": {
-                        "root": "suhAnA"
-                    }
-                },
-                {
-                    "dependency_relation": "main",
-                    "head_index": "0",
-                    "index": 5,
-                    "original_word": "लगता",
-                    "pos_tag": "VM",
-                    "wx_word": "lagawA",
-                    "morph_info": {
-                        "root": "laga",
-                        "cat": "v",
-                        "gen": "m",
-                        "num": "s",
-                        "per": "a",
-                        "tam": "wA"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__vaux",
-                    "head_index": "5",
-                    "index": 6,
-                    "original_word": "है",
-                    "pos_tag": "VAUX",
-                    "wx_word": "hE",
-                    "morph_info": {
-                        "root": "hE",
-                        "cat": "v",
-                        "gen": "m",
-                        "num": "s",
-                        "per": "a",
-                        "tam": "hE"
-                    }
-                },
-                {
-                    "dependency_relation": "rsym",
-                    "head_index": "5",
-                    "index": 7,
-                    "original_word": "।",
-                    "pos_tag": "SYM",
-                    "wx_word": "."
-                }
-            ],
-            "project_id": "1",
-            "sentence": "बारिश वाला मौसम सुहाना लगता है ।",
-            "sentence_id": "17"
-        },
-        {
-            "parser_output": [
-                {
-                    "dependency_relation": "mod",
+                    "dependency_relation": "intf",
                     "head_index": "3",
-                    "index": 1,
-                    "original_word": "पानी",
-                    "pos_tag": "NN",
-                    "wx_word": "pAnI",
-                    "morph_info": {
-                        "root": "pAnI",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
                     "index": 2,
-                    "original_word": "वाला",
-                    "pos_tag": "PSP",
-                    "wx_word": "vAlA",
+                    "original_word": "सबसे",
+                    "pos_tag": "INTF",
+                    "wx_word": "sabase",
                     "morph_info": {
-                        "root": "vAlA",
-                        "cat": "prawyaya"
-                    }
-                },
-                {
-                    "dependency_relation": "k1",
-                    "head_index": "5",
-                    "index": 3,
-                    "original_word": "घड़ा",
-                    "pos_tag": "NN",
-                    "wx_word": "GadZA",
-                    "morph_info": {
-                        "root": "GadZA",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "k1s",
-                    "head_index": "5",
-                    "index": 4,
-                    "original_word": "खाली",
-                    "pos_tag": "JJ",
-                    "wx_word": "KAlI",
-                    "morph_info": {
-                        "root": "KAlI"
-                    }
-                },
-                {
-                    "dependency_relation": "main",
-                    "head_index": "0",
-                    "index": 5,
-                    "original_word": "है",
-                    "pos_tag": "VM",
-                    "wx_word": "hE",
-                    "morph_info": {
-                        "root": "hE",
-                        "cat": "v",
+                        "root": "saba",
+                        "cat": "p",
+                        "case": "o",
+                        "parsarg": "se",
                         "gen": "m",
                         "num": "s",
-                        "per": "a",
-                        "tam": "hE"
-                    }
-                },
-                {
-                    "dependency_relation": "rsym",
-                    "head_index": "5",
-                    "index": 6,
-                    "original_word": "।",
-                    "pos_tag": "SYM",
-                    "wx_word": "."
-                }
-            ],
-            "project_id": "1",
-            "sentence": "पानी वाला घड़ा खाली है ।",
-            "sentence_id": "18"
-        },
-        {
-            "parser_output": [
-                {
-                    "dependency_relation": "mod",
-                    "head_index": "2",
-                    "index": 1,
-                    "original_word": "लाल",
-                    "pos_tag": "JJ",
-                    "wx_word": "lAla",
-                    "morph_info": {
-                        "root": "lAla",
-                        "cat": "adj",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
+                        "per": "a"
                     }
                 },
                 {
                     "dependency_relation": "mod",
                     "head_index": "4",
-                    "index": 2,
-                    "original_word": "रंग",
-                    "pos_tag": "NN",
-                    "wx_word": "raMga",
-                    "morph_info": {
-                        "root": "raMga",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "2",
                     "index": 3,
-                    "original_word": "वाली",
-                    "pos_tag": "PSP",
-                    "wx_word": "vAlI",
-                    "morph_info": {
-                        "root": "vAlA",
-                        "cat": "adj",
-                        "case": "d",
-                        "gen": "f",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "k1",
-                    "head_index": "6",
-                    "index": 4,
-                    "original_word": "कार",
-                    "pos_tag": "NN",
-                    "wx_word": "kAra",
-                    "morph_info": {
-                        "root": "kAra",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "f",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "k1s",
-                    "head_index": "6",
-                    "index": 5,
-                    "original_word": "तेज",
-                    "pos_tag": "JJ",
-                    "wx_word": "weja",
-                    "morph_info": {
-                        "root": "weja",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "main",
-                    "head_index": "0",
-                    "index": 6,
-                    "original_word": "है",
-                    "pos_tag": "VM",
-                    "wx_word": "hE",
-                    "morph_info": {
-                        "root": "hE",
-                        "cat": "v",
-                        "gen": "m",
-                        "num": "s",
-                        "per": "a",
-                        "tam": "hE"
-                    }
-                },
-                {
-                    "dependency_relation": "rsym",
-                    "head_index": "6",
-                    "index": 7,
-                    "original_word": "।",
-                    "pos_tag": "SYM",
-                    "wx_word": "."
-                }
-            ],
-            "project_id": "1",
-            "sentence": "लाल रंग वाली कार तेज है ।",
-            "sentence_id": "19"
-        },
-        {
-            "parser_output": [
-                {
-                    "dependency_relation": "mod",
-                    "head_index": "3",
-                    "index": 1,
-                    "original_word": "छत",
-                    "pos_tag": "NN",
-                    "wx_word": "Cawa",
-                    "morph_info": {
-                        "root": "Cawa",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "f",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
-                    "index": 2,
-                    "original_word": "वाला",
-                    "pos_tag": "PSP",
-                    "wx_word": "vAlA",
-                    "morph_info": {
-                        "root": "vAlA",
-                        "cat": "prawyaya"
-                    }
-                },
-                {
-                    "dependency_relation": "k1",
-                    "head_index": "5",
-                    "index": 3,
-                    "original_word": "मकान",
-                    "pos_tag": "NN",
-                    "wx_word": "makAna",
-                    "morph_info": {
-                        "root": "makAna",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "k1s",
-                    "head_index": "5",
-                    "index": 4,
-                    "original_word": "ऊंचा",
-                    "pos_tag": "JJ",
-                    "wx_word": "UMcA",
-                    "morph_info": {
-                        "root": "UMcA"
-                    }
-                },
-                {
-                    "dependency_relation": "main",
-                    "head_index": "0",
-                    "index": 5,
-                    "original_word": "है",
-                    "pos_tag": "VM",
-                    "wx_word": "hE",
-                    "morph_info": {
-                        "root": "hE",
-                        "cat": "v",
-                        "gen": "m",
-                        "num": "s",
-                        "per": "a",
-                        "tam": "hE"
-                    }
-                },
-                {
-                    "dependency_relation": "rsym",
-                    "head_index": "5",
-                    "index": 6,
-                    "original_word": "।",
-                    "pos_tag": "SYM",
-                    "wx_word": "."
-                }
-            ],
-            "project_id": "1",
-            "sentence": "छत वाला मकान ऊंचा है ।",
-            "sentence_id": "20"
-        },
-        {
-            "parser_output": [
-                {
-                    "dependency_relation": "mod",
-                    "head_index": "3",
-                    "index": 1,
-                    "original_word": "फूल",
-                    "pos_tag": "NN",
-                    "wx_word": "PUla",
-                    "morph_info": {
-                        "root": "PUla",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
-                    "index": 2,
-                    "original_word": "वाला",
-                    "pos_tag": "PSP",
-                    "wx_word": "vAlA",
-                    "morph_info": {
-                        "root": "vAlA",
-                        "cat": "prawyaya"
-                    }
-                },
-                {
-                    "dependency_relation": "k1",
-                    "head_index": "5",
-                    "index": 3,
-                    "original_word": "घर",
-                    "pos_tag": "NN",
-                    "wx_word": "Gara",
-                    "morph_info": {
-                        "root": "Gara",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "k1s",
-                    "head_index": "5",
-                    "index": 4,
                     "original_word": "सुंदर",
                     "pos_tag": "JJ",
                     "wx_word": "suMxara",
@@ -514,6 +48,121 @@
                     }
                 },
                 {
+                    "dependency_relation": "k1s",
+                    "head_index": "5",
+                    "index": 4,
+                    "original_word": "ग्रह",
+                    "pos_tag": "NN",
+                    "wx_word": "graha",
+                    "morph_info": {
+                        "root": "graha",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 5,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "5",
+                    "index": 6,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                },
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "5",
+                    "index": 7,
+                    "original_word": "loc_1",
+                    "wx_word": "[ne_1]"
+                }
+            ],
+            "project_id": "1",
+            "sentence": "पृथ्वी सबसे सुंदर ग्रह है ।",
+            "sentence_id": "1"
+        },
+        {
+            "parser_output": [
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "5",
+                    "index": 1,
+                    "original_word": "गंगा",
+                    "pos_tag": "NNP",
+                    "wx_word": "gaMgA",
+                    "morph_info": {
+                        "root": "gaMgA",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "intf",
+                    "head_index": "3",
+                    "index": 2,
+                    "original_word": "सबसे",
+                    "pos_tag": "INTF",
+                    "wx_word": "sabase",
+                    "morph_info": {
+                        "root": "saba",
+                        "cat": "p",
+                        "case": "o",
+                        "parsarg": "se",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a"
+                    }
+                },
+                {
+                    "dependency_relation": "mod",
+                    "head_index": "4",
+                    "index": 3,
+                    "original_word": "पवित्र",
+                    "pos_tag": "JJ",
+                    "wx_word": "paviwra",
+                    "morph_info": {
+                        "root": "paviwra",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "5",
+                    "index": 4,
+                    "original_word": "नदी",
+                    "pos_tag": "NN",
+                    "wx_word": "naxI",
+                    "morph_info": {
+                        "root": "naxI",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
                     "dependency_relation": "main",
                     "head_index": "0",
                     "index": 5,
@@ -539,20 +188,20 @@
                 }
             ],
             "project_id": "1",
-            "sentence": "फूल वाला घर सुंदर है ।",
-            "sentence_id": "21"
+            "sentence": "गंगा सबसे पवित्र नदी है ।",
+            "sentence_id": "2"
         },
         {
             "parser_output": [
                 {
                     "dependency_relation": "k1",
-                    "head_index": "6",
+                    "head_index": "5",
                     "index": 1,
-                    "original_word": "शिक्षक",
-                    "pos_tag": "NN",
-                    "wx_word": "SikRaka",
+                    "original_word": "हिमालय",
+                    "pos_tag": "NNP",
+                    "wx_word": "himAlaya",
                     "morph_info": {
-                        "root": "SikRaka",
+                        "root": "himAlaya",
                         "cat": "n",
                         "case": "d",
                         "gen": "m",
@@ -560,148 +209,46 @@
                     }
                 },
                 {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
+                    "dependency_relation": "intf",
+                    "head_index": "3",
                     "index": 2,
-                    "original_word": "ने",
-                    "pos_tag": "PSP",
-                    "wx_word": "ne",
+                    "original_word": "सबसे",
+                    "pos_tag": "INTF",
+                    "wx_word": "sabase",
                     "morph_info": {
-                        "root": "ne",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k4",
-                    "head_index": "6",
-                    "index": 3,
-                    "original_word": "छात्रों",
-                    "pos_tag": "NN",
-                    "wx_word": "CAwroM",
-                    "morph_info": {
-                        "root": "CAwra",
-                        "cat": "n",
+                        "root": "saba",
+                        "cat": "p",
                         "case": "o",
+                        "parsarg": "se",
                         "gen": "m",
-                        "num": "p"
+                        "num": "s",
+                        "per": "a"
                     }
                 },
                 {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "3",
-                    "index": 4,
-                    "original_word": "को",
-                    "pos_tag": "PSP",
-                    "wx_word": "ko",
-                    "morph_info": {
-                        "root": "ko",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k2",
-                    "head_index": "6",
-                    "index": 5,
-                    "original_word": "पाठ",
-                    "pos_tag": "NN",
-                    "wx_word": "pATa",
-                    "morph_info": {
-                        "root": "pATa",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "main",
-                    "head_index": "0",
-                    "index": 6,
-                    "original_word": "पढ़ाया",
-                    "pos_tag": "VM",
-                    "wx_word": "paDZAyA",
-                    "morph_info": {
-                        "root": "paDZAyA"
-                    }
-                },
-                {
-                    "dependency_relation": "rsym",
-                    "head_index": "6",
-                    "index": 7,
-                    "original_word": "।",
-                    "pos_tag": "SYM",
-                    "wx_word": "."
-                }
-            ],
-            "project_id": "1",
-            "sentence": "शिक्षक ने छात्रों को पाठ पढ़ाया ।",
-            "sentence_id": "22"
-        },
-        {
-            "parser_output": [
-                {
-                    "dependency_relation": "k1",
-                    "head_index": "6",
-                    "index": 1,
-                    "original_word": "माँ",
-                    "pos_tag": "NN",
-                    "wx_word": "mAz",
-                    "morph_info": {
-                        "root": "mA",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "f",
-                        "num": "p"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
-                    "index": 2,
-                    "original_word": "ने",
-                    "pos_tag": "PSP",
-                    "wx_word": "ne",
-                    "morph_info": {
-                        "root": "ne",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k2",
-                    "head_index": "6",
+                    "dependency_relation": "mod",
+                    "head_index": "4",
                     "index": 3,
-                    "original_word": "बच्चे",
-                    "pos_tag": "NN",
-                    "wx_word": "bacce",
+                    "original_word": "ऊँचा",
+                    "pos_tag": "JJ",
+                    "wx_word": "UzcA",
                     "morph_info": {
-                        "root": "baccA",
-                        "cat": "n",
+                        "root": "UzcA",
+                        "cat": "adj",
                         "case": "d",
                         "gen": "m",
-                        "num": "p"
+                        "num": "s"
                     }
                 },
                 {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "3",
+                    "dependency_relation": "k1s",
+                    "head_index": "5",
                     "index": 4,
-                    "original_word": "को",
-                    "pos_tag": "PSP",
-                    "wx_word": "ko",
-                    "morph_info": {
-                        "root": "ko",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k2",
-                    "head_index": "6",
-                    "index": 5,
-                    "original_word": "खाना",
+                    "original_word": "पर्वत",
                     "pos_tag": "NN",
-                    "wx_word": "KAnA",
+                    "wx_word": "parvawa",
                     "morph_info": {
-                        "root": "KAnA",
+                        "root": "parvawa",
                         "cat": "n",
                         "case": "d",
                         "gen": "m",
@@ -711,17 +258,248 @@
                 {
                     "dependency_relation": "main",
                     "head_index": "0",
-                    "index": 6,
-                    "original_word": "खिलाया",
+                    "index": 5,
+                    "original_word": "है",
                     "pos_tag": "VM",
-                    "wx_word": "KilAyA",
+                    "wx_word": "hE",
                     "morph_info": {
-                        "root": "KilA",
+                        "root": "hE",
                         "cat": "v",
                         "gen": "m",
                         "num": "s",
                         "per": "a",
-                        "tam": "yA"
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "5",
+                    "index": 6,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                }
+            ],
+            "project_id": "1",
+            "sentence": "हिमालय सबसे ऊँचा पर्वत है ।",
+            "sentence_id": "3"
+        },
+        {
+            "parser_output": [
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "7",
+                    "index": 1,
+                    "original_word": "शेर",
+                    "pos_tag": "NN",
+                    "wx_word": "Sera",
+                    "morph_info": {
+                        "root": "Sera",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "r6",
+                    "head_index": "6",
+                    "index": 2,
+                    "original_word": "जंगल",
+                    "pos_tag": "NN",
+                    "wx_word": "jaMgala",
+                    "morph_info": {
+                        "root": "jaMgala",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "lwg__psp",
+                    "head_index": "2",
+                    "index": 3,
+                    "original_word": "का",
+                    "pos_tag": "PSP",
+                    "wx_word": "kA",
+                    "morph_info": {
+                        "root": "kA",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "intf",
+                    "head_index": "5",
+                    "index": 4,
+                    "original_word": "सबसे",
+                    "pos_tag": "INTF",
+                    "wx_word": "sabase",
+                    "morph_info": {
+                        "root": "saba",
+                        "cat": "p",
+                        "case": "o",
+                        "parsarg": "se",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a"
+                    }
+                },
+                {
+                    "dependency_relation": "mod",
+                    "head_index": "6",
+                    "index": 5,
+                    "original_word": "शक्तिशाली",
+                    "pos_tag": "JJ",
+                    "wx_word": "SakwiSAlI",
+                    "morph_info": {
+                        "root": "SakwiSAlI",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "7",
+                    "index": 6,
+                    "original_word": "जानवर",
+                    "pos_tag": "NN",
+                    "wx_word": "jAnavara",
+                    "morph_info": {
+                        "root": "jAnavara",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 7,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "7",
+                    "index": 8,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                }
+            ],
+            "project_id": "1",
+            "sentence": "शेर जंगल का सबसे शक्तिशाली जानवर है ।",
+            "sentence_id": "4"
+        },
+        {
+            "parser_output": [
+                {
+                    "dependency_relation": "mod",
+                    "head_index": "2",
+                    "index": 1,
+                    "original_word": "चाँदनी",
+                    "pos_tag": "NN",
+                    "wx_word": "cAzxanI",
+                    "morph_info": {
+                        "root": "cAzxanI",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "k7t",
+                    "head_index": "6",
+                    "index": 2,
+                    "original_word": "रात",
+                    "pos_tag": "NN",
+                    "wx_word": "rAwa",
+                    "morph_info": {
+                        "root": "rAwa",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "intf",
+                    "head_index": "4",
+                    "index": 3,
+                    "original_word": "सबसे",
+                    "pos_tag": "INTF",
+                    "wx_word": "sabase",
+                    "morph_info": {
+                        "root": "saba",
+                        "cat": "p",
+                        "case": "o",
+                        "parsarg": "se",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a"
+                    }
+                },
+                {
+                    "dependency_relation": "mod",
+                    "head_index": "5",
+                    "index": 4,
+                    "original_word": "आकर्षक",
+                    "pos_tag": "JJ",
+                    "wx_word": "AkarRaka",
+                    "morph_info": {
+                        "root": "AkarRaka",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "6",
+                    "index": 5,
+                    "original_word": "दृश्य",
+                    "pos_tag": "NN",
+                    "wx_word": "xqSya",
+                    "morph_info": {
+                        "root": "xqSya",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 6,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
                     }
                 },
                 {
@@ -734,8 +512,450 @@
                 }
             ],
             "project_id": "1",
-            "sentence": "माँ ने बच्चे को खाना खिलाया ।",
-            "sentence_id": "23"
+            "sentence": "चाँदनी रात सबसे आकर्षक दृश्य है ।",
+            "sentence_id": "5"
+        },
+        {
+            "parser_output": [
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "5",
+                    "index": 1,
+                    "original_word": "सोना",
+                    "pos_tag": "NN",
+                    "wx_word": "sonA",
+                    "morph_info": {
+                        "root": "sonA",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "intf",
+                    "head_index": "3",
+                    "index": 2,
+                    "original_word": "सबसे",
+                    "pos_tag": "INTF",
+                    "wx_word": "sabase",
+                    "morph_info": {
+                        "root": "saba",
+                        "cat": "p",
+                        "case": "o",
+                        "parsarg": "se",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a"
+                    }
+                },
+                {
+                    "dependency_relation": "quant",
+                    "head_index": "4",
+                    "index": 3,
+                    "original_word": "अधिक",
+                    "pos_tag": "QF",
+                    "wx_word": "aXika",
+                    "morph_info": {
+                        "root": "aXika"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "5",
+                    "index": 4,
+                    "original_word": "महंगा",
+                    "pos_tag": "JJ",
+                    "wx_word": "mahaMgA",
+                    "morph_info": {
+                        "root": "mahaMgA"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 5,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "5",
+                    "index": 6,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                }
+            ],
+            "project_id": "1",
+            "sentence": "सोना सबसे अधिक महंगा है ।",
+            "sentence_id": "6"
+        },
+        {
+            "parser_output": [
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "5",
+                    "index": 1,
+                    "original_word": "हिंदी",
+                    "pos_tag": "NNP",
+                    "wx_word": "hiMxI",
+                    "morph_info": {
+                        "root": "hiMxI",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "intf",
+                    "head_index": "3",
+                    "index": 2,
+                    "original_word": "सबसे",
+                    "pos_tag": "INTF",
+                    "wx_word": "sabase",
+                    "morph_info": {
+                        "root": "saba",
+                        "cat": "p",
+                        "case": "o",
+                        "parsarg": "se",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a"
+                    }
+                },
+                {
+                    "dependency_relation": "mod",
+                    "head_index": "4",
+                    "index": 3,
+                    "original_word": "लोकप्रिय",
+                    "pos_tag": "JJ",
+                    "wx_word": "lokapriya",
+                    "morph_info": {
+                        "root": "lokapriya",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "5",
+                    "index": 4,
+                    "original_word": "भाषा",
+                    "pos_tag": "NN",
+                    "wx_word": "BARA",
+                    "morph_info": {
+                        "root": "BARA",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 5,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "5",
+                    "index": 6,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                }
+            ],
+            "project_id": "1",
+            "sentence": "हिंदी सबसे लोकप्रिय भाषा है ।",
+            "sentence_id": "7"
+        },
+        {
+            "parser_output": [
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "5",
+                    "index": 1,
+                    "original_word": "ताजमहल",
+                    "pos_tag": "NNP",
+                    "wx_word": "wAjamahala",
+                    "morph_info": {
+                        "root": "wAjamahala",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "intf",
+                    "head_index": "3",
+                    "index": 2,
+                    "original_word": "सबसे",
+                    "pos_tag": "INTF",
+                    "wx_word": "sabase",
+                    "morph_info": {
+                        "root": "saba",
+                        "cat": "p",
+                        "case": "o",
+                        "parsarg": "se",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a"
+                    }
+                },
+                {
+                    "dependency_relation": "mod",
+                    "head_index": "4",
+                    "index": 3,
+                    "original_word": "अद्भुत",
+                    "pos_tag": "JJ",
+                    "wx_word": "axBuwa",
+                    "morph_info": {
+                        "root": "axBuwa",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "5",
+                    "index": 4,
+                    "original_word": "स्मारक",
+                    "pos_tag": "NN",
+                    "wx_word": "smAraka",
+                    "morph_info": {
+                        "root": "smAraka",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 5,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "5",
+                    "index": 6,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                }
+            ],
+            "project_id": "1",
+            "sentence": "ताजमहल सबसे अद्भुत स्मारक है ।",
+            "sentence_id": "8"
+        },
+        {
+            "parser_output": [
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "4",
+                    "index": 1,
+                    "original_word": "राम",
+                    "pos_tag": "NNP",
+                    "wx_word": "rAma",
+                    "morph_info": {
+                        "root": "rAma",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "mod",
+                    "head_index": "3",
+                    "index": 2,
+                    "original_word": "श्रेष्ठतम",
+                    "pos_tag": "JJ",
+                    "wx_word": "SreRTawama",
+                    "morph_info": {
+                        "root": "SreRTawama"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "4",
+                    "index": 3,
+                    "original_word": "व्यक्त्ति",
+                    "pos_tag": "NN",
+                    "wx_word": "vyakwwi",
+                    "morph_info": {
+                        "root": "vyakwwi"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 4,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "4",
+                    "index": 5,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                }
+            ],
+            "project_id": "1",
+            "sentence": "राम श्रेष्ठतम व्यक्त्ति है ।",
+            "sentence_id": "9"
+        },
+        {
+            "parser_output": [
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "6",
+                    "index": 1,
+                    "original_word": "लड़का",
+                    "pos_tag": "NN",
+                    "wx_word": "ladZakA",
+                    "morph_info": {
+                        "root": "ladZakA",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "intf",
+                    "head_index": "4",
+                    "index": 2,
+                    "original_word": "लड़की",
+                    "pos_tag": "NN",
+                    "wx_word": "ladZakI",
+                    "morph_info": {
+                        "root": "ladZakA",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "lwg__psp",
+                    "head_index": "2",
+                    "index": 3,
+                    "original_word": "से",
+                    "pos_tag": "PSP",
+                    "wx_word": "se",
+                    "morph_info": {
+                        "root": "se",
+                        "cat": "prsg"
+                    }
+                },
+                {
+                    "dependency_relation": "intf",
+                    "head_index": "5",
+                    "index": 4,
+                    "original_word": "कम",
+                    "pos_tag": "QF",
+                    "wx_word": "kama",
+                    "morph_info": {
+                        "root": "kama",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "6",
+                    "index": 5,
+                    "original_word": "बुद्धिमान",
+                    "pos_tag": "JJ",
+                    "wx_word": "buxXimAna",
+                    "morph_info": {
+                        "root": "buxXimAna",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 6,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "6",
+                    "index": 7,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                }
+            ],
+            "project_id": "1",
+            "sentence": "लड़का लड़की से कम बुद्धिमान है ।",
+            "sentence_id": "10"
         },
         {
             "parser_output": [
@@ -767,274 +987,51 @@
                     }
                 },
                 {
-                    "dependency_relation": "r6",
-                    "head_index": "4",
+                    "dependency_relation": "k5",
+                    "head_index": "7",
                     "index": 3,
-                    "original_word": "अपने",
-                    "pos_tag": "PRP",
-                    "wx_word": "apane",
+                    "original_word": "मोहन",
+                    "pos_tag": "NNP",
+                    "wx_word": "mohana",
                     "morph_info": {
-                        "root": "apanA",
+                        "root": "mohana",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "lwg__psp",
+                    "head_index": "3",
+                    "index": 4,
+                    "original_word": "से",
+                    "pos_tag": "PSP",
+                    "wx_word": "se",
+                    "morph_info": {
+                        "root": "se",
+                        "cat": "prsg"
+                    }
+                },
+                {
+                    "dependency_relation": "quant",
+                    "head_index": "6",
+                    "index": 5,
+                    "original_word": "ज्यादा",
+                    "pos_tag": "QF",
+                    "wx_word": "jyAxA",
+                    "morph_info": {
+                        "root": "jyAxA",
                         "cat": "adj",
                         "case": "d",
                         "gen": "m",
-                        "num": "p"
-                    }
-                },
-                {
-                    "dependency_relation": "k2",
-                    "head_index": "7",
-                    "index": 4,
-                    "original_word": "भाई",
-                    "pos_tag": "NN",
-                    "wx_word": "BAI",
-                    "morph_info": {
-                        "root": "BAI",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
                         "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "4",
-                    "index": 5,
-                    "original_word": "को",
-                    "pos_tag": "PSP",
-                    "wx_word": "ko",
-                    "morph_info": {
-                        "root": "ko",
-                        "cat": "prsg"
                     }
                 },
                 {
                     "dependency_relation": "k2",
                     "head_index": "7",
                     "index": 6,
-                    "original_word": "पानी",
-                    "pos_tag": "NN",
-                    "wx_word": "pAnI",
-                    "morph_info": {
-                        "root": "pAnI",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "main",
-                    "head_index": "0",
-                    "index": 7,
-                    "original_word": "पिलाया",
-                    "pos_tag": "VM",
-                    "wx_word": "pilAyA",
-                    "morph_info": {
-                        "root": "pilA",
-                        "cat": "v",
-                        "gen": "m",
-                        "num": "s",
-                        "per": "a",
-                        "tam": "yA"
-                    }
-                },
-                {
-                    "dependency_relation": "rsym",
-                    "head_index": "7",
-                    "index": 8,
-                    "original_word": "।",
-                    "pos_tag": "SYM",
-                    "wx_word": "."
-                }
-            ],
-            "project_id": "1",
-            "sentence": "राम ने अपने भाई को पानी पिलाया ।",
-            "sentence_id": "24"
-        },
-        {
-            "parser_output": [
-                {
-                    "dependency_relation": "k1",
-                    "head_index": "6",
-                    "index": 1,
-                    "original_word": "माँ",
-                    "pos_tag": "NN",
-                    "wx_word": "mAz",
-                    "morph_info": {
-                        "root": "mA",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "f",
-                        "num": "p"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
-                    "index": 2,
-                    "original_word": "ने",
-                    "pos_tag": "PSP",
-                    "wx_word": "ne",
-                    "morph_info": {
-                        "root": "ne",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k5",
-                    "head_index": "6",
-                    "index": 3,
-                    "original_word": "धोबी",
-                    "pos_tag": "NN",
-                    "wx_word": "XobI",
-                    "morph_info": {
-                        "root": "XobI",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "3",
-                    "index": 4,
-                    "original_word": "से",
-                    "pos_tag": "PSP",
-                    "wx_word": "se",
-                    "morph_info": {
-                        "root": "se",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k2",
-                    "head_index": "6",
-                    "index": 5,
-                    "original_word": "कपड़े",
-                    "pos_tag": "NN",
-                    "wx_word": "kapadZe",
-                    "morph_info": {
-                        "root": "kapadZe"
-                    }
-                },
-                {
-                    "dependency_relation": "main",
-                    "head_index": "0",
-                    "index": 6,
-                    "original_word": "धुलवाए",
-                    "pos_tag": "VM",
-                    "wx_word": "XulavAe",
-                    "morph_info": {
-                        "root": "XulavA",
-                        "cat": "v",
-                        "gen": "m",
-                        "num": "s",
-                        "per": "a",
-                        "tam": "subj"
-                    }
-                },
-                {
-                    "dependency_relation": "rsym",
-                    "head_index": "6",
-                    "index": 7,
-                    "original_word": "।",
-                    "pos_tag": "SYM",
-                    "wx_word": "."
-                }
-            ],
-            "project_id": "1",
-            "sentence": "माँ ने धोबी से कपड़े धुलवाए ।",
-            "sentence_id": "25"
-        },
-        {
-            "parser_output": [
-                {
-                    "dependency_relation": "k1",
-                    "head_index": "8",
-                    "index": 1,
-                    "original_word": "माँ",
-                    "pos_tag": "NN",
-                    "wx_word": "mAz",
-                    "morph_info": {
-                        "root": "mA",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "f",
-                        "num": "p"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
-                    "index": 2,
-                    "original_word": "ने",
-                    "pos_tag": "PSP",
-                    "wx_word": "ne",
-                    "morph_info": {
-                        "root": "ne",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k2",
-                    "head_index": "8",
-                    "index": 3,
-                    "original_word": "बच्चे",
-                    "pos_tag": "NN",
-                    "wx_word": "bacce",
-                    "morph_info": {
-                        "root": "baccA",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "p"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "3",
-                    "index": 4,
-                    "original_word": "को",
-                    "pos_tag": "PSP",
-                    "wx_word": "ko",
-                    "morph_info": {
-                        "root": "ko",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k3",
-                    "head_index": "8",
-                    "index": 5,
-                    "original_word": "पिता",
-                    "pos_tag": "NN",
-                    "wx_word": "piwA",
-                    "morph_info": {
-                        "root": "piwA",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "5",
-                    "index": 6,
-                    "original_word": "से",
-                    "pos_tag": "PSP",
-                    "wx_word": "se",
-                    "morph_info": {
-                        "root": "se",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k2",
-                    "head_index": "8",
-                    "index": 7,
                     "original_word": "खाना",
                     "pos_tag": "NN",
                     "wx_word": "KAnA",
@@ -1049,12 +1046,12 @@
                 {
                     "dependency_relation": "main",
                     "head_index": "0",
-                    "index": 8,
-                    "original_word": "खिलवाया",
+                    "index": 7,
+                    "original_word": "खाया",
                     "pos_tag": "VM",
-                    "wx_word": "KilavAyA",
+                    "wx_word": "KAyA",
                     "morph_info": {
-                        "root": "KilavA",
+                        "root": "KA",
                         "cat": "v",
                         "gen": "m",
                         "num": "s",
@@ -1064,150 +1061,28 @@
                 },
                 {
                     "dependency_relation": "rsym",
-                    "head_index": "8",
-                    "index": 9,
-                    "original_word": "।",
-                    "pos_tag": "SYM",
-                    "wx_word": "."
-                }
-            ],
-            "project_id": "1",
-            "sentence": "माँ ने बच्चे को पिता से खाना खिलवाया ।",
-            "sentence_id": "26"
-        },
-        {
-            "parser_output": [
-                {
-                    "dependency_relation": "k1",
-                    "head_index": "8",
-                    "index": 1,
-                    "original_word": "दादी",
-                    "pos_tag": "NN",
-                    "wx_word": "xAxI",
-                    "morph_info": {
-                        "root": "xAxI",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "f",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
-                    "index": 2,
-                    "original_word": "ने",
-                    "pos_tag": "PSP",
-                    "wx_word": "ne",
-                    "morph_info": {
-                        "root": "ne",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k5",
-                    "head_index": "8",
-                    "index": 3,
-                    "original_word": "नौकर",
-                    "pos_tag": "NN",
-                    "wx_word": "nOkara",
-                    "morph_info": {
-                        "root": "nOkara",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "3",
-                    "index": 4,
-                    "original_word": "से",
-                    "pos_tag": "PSP",
-                    "wx_word": "se",
-                    "morph_info": {
-                        "root": "se",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k2",
-                    "head_index": "8",
-                    "index": 5,
-                    "original_word": "बच्चों",
-                    "pos_tag": "NN",
-                    "wx_word": "baccoM",
-                    "morph_info": {
-                        "root": "baccA",
-                        "cat": "n",
-                        "case": "o",
-                        "gen": "m",
-                        "num": "p"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "5",
-                    "index": 6,
-                    "original_word": "को",
-                    "pos_tag": "PSP",
-                    "wx_word": "ko",
-                    "morph_info": {
-                        "root": "ko",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k2p",
-                    "head_index": "8",
-                    "index": 7,
-                    "original_word": "स्कूल",
-                    "pos_tag": "NN",
-                    "wx_word": "skUla",
-                    "morph_info": {
-                        "root": "skUla",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "m",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "main",
-                    "head_index": "0",
+                    "head_index": "7",
                     "index": 8,
-                    "original_word": "भेजवाया",
-                    "pos_tag": "VM",
-                    "wx_word": "BejavAyA",
-                    "morph_info": {
-                        "root": "BejavAyA"
-                    }
-                },
-                {
-                    "dependency_relation": "rsym",
-                    "head_index": "8",
-                    "index": 9,
                     "original_word": "।",
                     "pos_tag": "SYM",
                     "wx_word": "."
                 }
             ],
             "project_id": "1",
-            "sentence": "दादी ने नौकर से बच्चों को स्कूल भेजवाया ।",
-            "sentence_id": "27"
+            "sentence": "राम ने मोहन से ज्यादा खाना खाया ।",
+            "sentence_id": "11"
         },
         {
             "parser_output": [
                 {
                     "dependency_relation": "k1",
-                    "head_index": "8",
+                    "head_index": "6",
                     "index": 1,
-                    "original_word": "शिक्षक",
+                    "original_word": "सोना",
                     "pos_tag": "NN",
-                    "wx_word": "SikRaka",
+                    "wx_word": "sonA",
                     "morph_info": {
-                        "root": "SikRaka",
+                        "root": "sonA",
                         "cat": "n",
                         "case": "d",
                         "gen": "m",
@@ -1215,32 +1090,20 @@
                     }
                 },
                 {
-                    "dependency_relation": "lwg__psp",
-                    "head_index": "1",
+                    "dependency_relation": "intf",
+                    "head_index": "4",
                     "index": 2,
-                    "original_word": "ने",
-                    "pos_tag": "PSP",
-                    "wx_word": "ne",
-                    "morph_info": {
-                        "root": "ne",
-                        "cat": "prsg"
-                    }
-                },
-                {
-                    "dependency_relation": "k3",
-                    "head_index": "8",
-                    "index": 3,
-                    "original_word": "मॉनिटर",
+                    "original_word": "चांदी",
                     "pos_tag": "NN",
-                    "wx_word": "mOYnitara",
+                    "wx_word": "cAMxI",
                     "morph_info": {
-                        "root": "mOYnitara"
+                        "root": "cAMxI"
                     }
                 },
                 {
                     "dependency_relation": "lwg__psp",
-                    "head_index": "3",
-                    "index": 4,
+                    "head_index": "2",
+                    "index": 3,
                     "original_word": "से",
                     "pos_tag": "PSP",
                     "wx_word": "se",
@@ -1250,43 +1113,25 @@
                     }
                 },
                 {
-                    "dependency_relation": "k2",
-                    "head_index": "8",
-                    "index": 5,
-                    "original_word": "कक्षा",
-                    "pos_tag": "NN",
-                    "wx_word": "kakRA",
-                    "morph_info": {
-                        "root": "kakRA",
-                        "cat": "n",
-                        "case": "d",
-                        "gen": "f",
-                        "num": "s"
-                    }
-                },
-                {
-                    "dependency_relation": "lwg__psp",
+                    "dependency_relation": "intf",
                     "head_index": "5",
-                    "index": 6,
-                    "original_word": "को",
-                    "pos_tag": "PSP",
-                    "wx_word": "ko",
+                    "index": 4,
+                    "original_word": "अधिक",
+                    "pos_tag": "QF",
+                    "wx_word": "aXika",
                     "morph_info": {
-                        "root": "ko",
-                        "cat": "prsg"
+                        "root": "aXika"
                     }
                 },
                 {
-                    "cnx_component": "kriyAmUla",
-                    "cnx_index": 10,
-                    "dependency_relation": "pof",
-                    "head_index": "8",
-                    "index": 7,
-                    "original_word": "शांत",
+                    "dependency_relation": "k1s",
+                    "head_index": "6",
+                    "index": 5,
+                    "original_word": "महँगा",
                     "pos_tag": "JJ",
-                    "wx_word": "SAMwa",
+                    "wx_word": "mahazgA",
                     "morph_info": {
-                        "root": "SAMwa",
+                        "root": "mahazgA",
                         "cat": "adj",
                         "case": "d",
                         "gen": "m",
@@ -1294,42 +1139,360 @@
                     }
                 },
                 {
-                    "cnx_component": "verbalizer",
-                    "cnx_index": 10,
                     "dependency_relation": "main",
                     "head_index": "0",
-                    "index": 8,
-                    "original_word": "करवाया",
+                    "index": 6,
+                    "original_word": "है",
                     "pos_tag": "VM",
-                    "wx_word": "karavAyA",
+                    "wx_word": "hE",
                     "morph_info": {
-                        "root": "karavA",
+                        "root": "hE",
                         "cat": "v",
                         "gen": "m",
                         "num": "s",
                         "per": "a",
-                        "tam": "yA"
+                        "tam": "hE"
                     }
                 },
                 {
                     "dependency_relation": "rsym",
-                    "head_index": "8",
-                    "index": 9,
+                    "head_index": "6",
+                    "index": 7,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                }
+            ],
+            "project_id": "1",
+            "sentence": "सोना चांदी से अधिक महँगा है ।",
+            "sentence_id": "12"
+        },
+        {
+            "parser_output": [
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "6",
+                    "index": 1,
+                    "original_word": "गंगा",
+                    "pos_tag": "NNP",
+                    "wx_word": "gaMgA",
+                    "morph_info": {
+                        "root": "gaMgA",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "intf",
+                    "head_index": "4",
+                    "index": 2,
+                    "original_word": "यमुना",
+                    "pos_tag": "NNP",
+                    "wx_word": "yamunA",
+                    "morph_info": {
+                        "root": "yamunA",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "lwg__psp",
+                    "head_index": "2",
+                    "index": 3,
+                    "original_word": "से",
+                    "pos_tag": "PSP",
+                    "wx_word": "se",
+                    "morph_info": {
+                        "root": "se",
+                        "cat": "prsg"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "6",
+                    "index": 4,
+                    "original_word": "ज़्यादा",
+                    "pos_tag": "QF",
+                    "wx_word": "jZyAxA",
+                    "morph_info": {
+                        "root": "jZyAxA"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "6",
+                    "index": 5,
+                    "original_word": "लंबी",
+                    "pos_tag": "JJ",
+                    "wx_word": "laMbI",
+                    "morph_info": {
+                        "root": "laMbA",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "f",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 6,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "6",
+                    "index": 7,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                }
+            ],
+            "project_id": "1",
+            "sentence": "गंगा यमुना से ज़्यादा लंबी है ।",
+            "sentence_id": "13"
+        },
+        {
+            "parser_output": [
+                {
+                    "cnx_component": "begin",
+                    "cnx_index": 8,
+                    "dependency_relation": "pof__cn",
+                    "head_index": "2",
+                    "index": 1,
+                    "original_word": "राम",
+                    "pos_tag": "NNPC",
+                    "wx_word": "rAma",
+                    "morph_info": {
+                        "root": "rAma",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "cnx_component": "inside",
+                    "cnx_index": 8,
+                    "dependency_relation": "k5",
+                    "head_index": "6",
+                    "index": 2,
+                    "original_word": "मोहन",
+                    "pos_tag": "NNP",
+                    "wx_word": "mohana",
+                    "morph_info": {
+                        "root": "mohana",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "lwg__psp",
+                    "head_index": "2",
+                    "index": 3,
+                    "original_word": "से",
+                    "pos_tag": "PSP",
+                    "wx_word": "se",
+                    "morph_info": {
+                        "root": "se",
+                        "cat": "prsg"
+                    }
+                },
+                {
+                    "dependency_relation": "quant",
+                    "head_index": "5",
+                    "index": 4,
+                    "original_word": "कम",
+                    "pos_tag": "QF",
+                    "wx_word": "kama",
+                    "morph_info": {
+                        "root": "kama",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "6",
+                    "index": 5,
+                    "original_word": "बदमाश",
+                    "pos_tag": "NN",
+                    "wx_word": "baxamASa",
+                    "morph_info": {
+                        "root": "baxamASa",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 6,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "6",
+                    "index": 7,
                     "original_word": "।",
                     "pos_tag": "SYM",
                     "wx_word": "."
                 },
                 {
-                    "dependency_relation": "main",
-                    "head_index": "0",
-                    "index": 10,
-                    "original_word": "[cp_1]",
-                    "wx_word": "[cp_1]"
+                    "dependency_relation": "k5",
+                    "head_index": "6",
+                    "index": 8,
+                    "original_word": "[ne_0]",
+                    "wx_word": "[ne_0]"
                 }
             ],
             "project_id": "1",
-            "sentence": "शिक्षक ने मॉनिटर से कक्षा को शांत करवाया ।",
-            "sentence_id": "28"
+            "sentence": "राम मोहन से कम बदमाश है ।",
+            "sentence_id": "14"
+        },
+        {
+            "parser_output": [
+                {
+                    "cnx_component": "begin",
+                    "cnx_index": 8,
+                    "dependency_relation": "pof__cn",
+                    "head_index": "2",
+                    "index": 1,
+                    "original_word": "राम",
+                    "pos_tag": "NNPC",
+                    "wx_word": "rAma",
+                    "morph_info": {
+                        "root": "rAma",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "cnx_component": "inside",
+                    "cnx_index": 8,
+                    "dependency_relation": "intf",
+                    "head_index": "4",
+                    "index": 2,
+                    "original_word": "मोहन",
+                    "pos_tag": "NNP",
+                    "wx_word": "mohana",
+                    "morph_info": {
+                        "root": "mohana",
+                        "cat": "n",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "lwg__psp",
+                    "head_index": "2",
+                    "index": 3,
+                    "original_word": "से",
+                    "pos_tag": "PSP",
+                    "wx_word": "se",
+                    "morph_info": {
+                        "root": "se",
+                        "cat": "prsg"
+                    }
+                },
+                {
+                    "dependency_relation": "k1",
+                    "head_index": "6",
+                    "index": 4,
+                    "original_word": "कम",
+                    "pos_tag": "QF",
+                    "wx_word": "kama",
+                    "morph_info": {
+                        "root": "kama",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "k1s",
+                    "head_index": "6",
+                    "index": 5,
+                    "original_word": "बुद्धिमान",
+                    "pos_tag": "JJ",
+                    "wx_word": "buxXimAna",
+                    "morph_info": {
+                        "root": "buxXimAna",
+                        "cat": "adj",
+                        "case": "d",
+                        "gen": "m",
+                        "num": "s"
+                    }
+                },
+                {
+                    "dependency_relation": "main",
+                    "head_index": "0",
+                    "index": 6,
+                    "original_word": "है",
+                    "pos_tag": "VM",
+                    "wx_word": "hE",
+                    "morph_info": {
+                        "root": "hE",
+                        "cat": "v",
+                        "gen": "m",
+                        "num": "s",
+                        "per": "a",
+                        "tam": "hE"
+                    }
+                },
+                {
+                    "dependency_relation": "rsym",
+                    "head_index": "6",
+                    "index": 7,
+                    "original_word": "।",
+                    "pos_tag": "SYM",
+                    "wx_word": "."
+                },
+                {
+                    "dependency_relation": "intf",
+                    "head_index": "4",
+                    "index": 8,
+                    "original_word": "[ne_0]",
+                    "wx_word": "[ne_0]"
+                }
+            ],
+            "project_id": "1",
+            "sentence": "राम मोहन से कम बुद्धिमान है ।",
+            "sentence_id": "15"
         }
     ]
 }
