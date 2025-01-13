@@ -66,7 +66,7 @@ def format_sentence(sentence_data, discourse_data):
 
         parser_output = sentence_data['parser_output']
 
-        print('parser_output--------->', parser_output)
+        # print('parser_output--------->', parser_output)
         # Find the relevant discourse entry for this sentence_id (if any)
         relevant_discourse = next(
             (discourse for discourse in discourse_data 
