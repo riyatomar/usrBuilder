@@ -65,8 +65,8 @@ def format_sentence(sentence_data, discourse_data):
         result.append(f'#{sentence_text}')
 
         parser_output = sentence_data['parser_output']
-        sent_1_id = None
 
+        print('parser_output--------->', parser_output)
         # Find the relevant discourse entry for this sentence_id (if any)
         relevant_discourse = next(
             (discourse for discourse in discourse_data 
@@ -102,14 +102,14 @@ def format_sentence(sentence_data, discourse_data):
         result.append("\n\n")  # Blank line for separation
         return '\n'.join(result)
 
-    except KeyError as e:
-        print(f"KeyError: {e} - Please check the input data for missing keys.")
-        print(f"Discourse data: {discourse_data}")
-        print(f"Sentence data: {sentence_data}")
-        return f"Error processing sentence_id={sentence_data.get('sentence_id', 'Unknown')}.\n"
+    # except KeyError as e:
+    #     # print(f"KeyError: {e} - Please check the input data for missing keys.")
+    #     # print(f"Discourse data: {discourse_data}")
+    #     # print(f"Sentence data: {sentence_data}")
+    #     return f"Error processing sentence_id={sentence_data.get('sentence_id', 'Unknown')}.\n"
 
     except Exception as e:
-        print(f"Unexpected error: {e}")
-        print(f"Discourse data: {discourse_data}")
-        print(f"Sentence data: {sentence_data}")
+        # print(f"Unexpected error: {e}")
+        # print(f"Discourse data: {discourse_data}")
+        # print(f"Sentence data: {sentence_data}")
         return f"Error processing sentence_id={sentence_data.get('sentence_id', 'Unknown')}.\n"
