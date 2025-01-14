@@ -26,6 +26,9 @@ def format_entry(entry, parser_output, index, discourse_info):
     if original_word in ['बजे', 'सदी']:
         if prev_entry.get('pos_tag') == "QC" or prev_entry.get('wx_word').isdigit():
             return None
+    if wx_word == 'jI':
+        if prev_entry.get('pos_tag') in ['NN', 'NNP', 'NNPC', 'NNP']:
+            return None
             
     word = get_word(entry, parser_output, index)
     index = get_index(entry)

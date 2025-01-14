@@ -64,8 +64,7 @@ bajZAra_1	3	-	-	0:main	-	-	-	-
 
 <sent_id=7>
 #मोहन जी ने खाना खा लिया ।
-mohana	1	male	-	-	-	-	-	8:begin
-jI	2	male	-	-	-	-	-	8:inside
+mohana	1	male	-	-	-	salutation	-	8:begin
 KAnA_1	4	-	-	5:k2	-	-	-	-
 KA_1-yA_1	5	-	-	0:main	-	[shade:le_1]	-	-
 [ne_0]	8	-	-	5:k1	-	-	-	-
@@ -76,8 +75,7 @@ KA_1-yA_1	5	-	-	0:main	-	[shade:le_1]	-	-
 
 <sent_id=8>
 #हरि जी आज मंदिर जायेंगे ।
-hari	1	male	-	-	-	-	-	7:begin
-jI	2	male	-	-	-	-	-	7:inside
+hari	1	male	-	-	-	salutation	-	7:begin
 Aja_1	3	-	-	5:k7t	-	-	-	-
 maMxira_1	4	-	-	5:k2p	-	-	-	-
 jA_1-gA_1	5	-	-	0:main	-	-	-	-
@@ -134,7 +132,7 @@ hE_1-pres	5	-	-	0:main	-	-	-	-
 
 <sent_id=13>
 #अभी भी राम बाज़ार नहीं गया ।
-aBI	1	-	-	6:k7t	-	-	-	-
+aBI	1	-	-	6:k7t	-	BI	-	-
 rAma	3	male	-	-	-	-	-	8:begin
 bAjZAra_1	4	-	-	6:k2p	-	-	-	-
 nahIM_1	5	-	-	6:neg	-	-	-	-
@@ -147,7 +145,7 @@ jA_1-yA_1	6	-	-	0:main	-	-	-	-
 
 <sent_id=14>
 #राम ही बाज़ार जायेगा ।
-rAma	1	male	-	-	-	-	-	6:begin
+rAma	1	male	-	-	-	hI	-	6:begin
 bAjZAra_1	3	-	-	4:k2p	-	-	-	-
 jA_1-gA_1	4	-	-	0:main	-	-	-	-
 [ne_1]	6	per	-	4:k1	-	-	-	-
@@ -160,7 +158,7 @@ Error processing sentence_id=15.
 
 <sent_id=16>
 #आज से ही राम स्कूल जायेगा ।
-Aja_1	1	-	-	6:k7t	-	-	-	-
+Aja_1	1	-	-	6:k7t	-	hI	-	-
 rAma	4	male	-	-	-	-	-	8:begin
 skUla_1	5	-	-	6:k2p	-	-	-	-
 jA_1-gA_1	6	-	-	0:main	-	-	-	-
@@ -172,7 +170,7 @@ jA_1-gA_1	6	-	-	0:main	-	-	-	-
 
 <sent_id=17>
 #राम ही तो बाजार जाएगा ।
-rAma	1	male	-	-	-	-	-	7:begin
+rAma	1	male	-	-	-	hI/wo	-	7:begin
 bAjAra_1	4	-	-	5:k2p	-	-	-	-
 jA_1-gA_1	5	-	-	0:main	-	-	-	-
 [ne_1]	7	per	-	5:k1	-	-	-	-
@@ -183,9 +181,9 @@ jA_1-gA_1	5	-	-	0:main	-	-	-	-
 
 <sent_id=18>
 #मोहन भी तो सीता के साथ ही जायेगा ।
-mohana	1	male	-	8:k1	-	-	-	-
+mohana	1	male	-	8:k1	-	BI/wo	-	-
 sIwA	4	female	-	8:ras-k1	-	-	-	-
-sAWa_1	6	-	-	4:k7p	-	-	-	-
+sAWa_1	6	-	-	4:k7p	-	hI	-	-
 %affirmative
 </sent_id>
 
