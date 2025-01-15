@@ -1,5 +1,8 @@
-1       राम     राम     NNP     NNP     _       4       k1      _       _
-2       ही      ही      RP      RP      _       1       lwg__rp _       _
-3       बाज़ार   बाज़ार   NN      NN      _       4       k2p     _       _
-4       जायेगा   जायेगा   VM      VM      _       0       main    _       _
-5       ।       ।       SYM     SYM     _       4       rsym    _       _
+1       मनु      मनु      NNP     NNP     _       7       k1      _       _
+2       सुबह     सुबह     NN      NN      _       5       k7t     _       _
+3       सात     सात     QC      QC      _       4       nmod__adj       _       _
+4       बजे      बजे      NN      NN      _       5       k7t     _       _
+5       चलना    चलना    VM      VM      _       7       k2      _       _
+6       शुरू      शुरू      NN      NN      _       7       pof     _       _
+7       किया    किया    VM      VM      _       0       main    _       _
+8       ।       ।       SYM     SYM     _       7       rsym    _       _

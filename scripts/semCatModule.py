@@ -31,6 +31,9 @@ def get_original_word_info(entry, parser_output, index):
         elif next_word == 'saxi':
             return 'era'
 
+    if (wx_word.isdigit() or pos_tag == 'QC'):
+        return 'numex'
+
     if wx_word in DOW_UNITS:
         return 'dow'
     

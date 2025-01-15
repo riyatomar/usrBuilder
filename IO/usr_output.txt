@@ -1,189 +1,101 @@
-<sent_id=1>
-#राम ने आम खा लिया ।
-rAma	1	male	-	-	-	-	-	7:begin
-Ama_1	3	-	-	-	-	-	-	8:kriyAmUla
-KA_1-yA_1	4	-	-	-	-	[shade:le_1]	-	8:verbalizer
-[ne_1]	7	per	-	4:k1	-	-	-	-
-[cp_1]	8	-	-	0:main	-	-	-	-
+<sent_id=story_1>
+#मनु ने एक दिन बनारस से दिल्ली तक पैदल जाने की योजना बनाई ।
+manu	1	-	-	13:k1	-	-	-	-
+eka_1	3	numex	-	4:card	-	-	-	-
+xina_1	4	-	-	10:k7t	-	-	-	-
+banArasa	5	male	-	-	-	-	-	15:begin
+xillI	7	female	-	-	-	-	-	16:begin
+pExala_1	9	-	-	10:k2p	-	-	-	-
+jA_1	10	-	pl	12:r6	-	-	-	-
+yojanA_1	12	-	-	13:k2	-	-	-	-
+banA_1-yA_1	13	-	-	0:main	-	-	-	-
+[ne_1]	15	place	-	-	-	-	-	17:start
+[ne_2]	16	place	-	-	-	-	-	17:end
+[span_1]	17	-	-	10:k2p	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=2>
-#राम ने रावण को मार डाला ।
-rAma	1	male	-	-	-	-	-	8:begin
-rAvaNa	3	male	-	5:k2	-	-	-	-
-mAra_1-yA_1	5	-	-	0:main	-	[shade:dAla_1]	-	-
-[ne_1]	8	per	-	5:k1	-	-	-	-
-%affirmative
-</sent_id>
-
-
-
-<sent_id=3>
-#क्या तू आज बाज़ार जाएगा ?
-$kim	1	-	-	5:krvn	-	-	-	-
-$addressee	2	-	-	5:k1	-	informal	-	-
-Aja_1	3	-	-	5:k7t	-	-	-	-
-bAjZAra_1	4	-	-	5:k2p	-	-	-	-
-jA_1-gA_1	5	-	-	0:main	-	-	-	-
-%interrogative
-</sent_id>
-
-
-
-<sent_id=4>
-#तू कहाँ रहता है ?
-$addressee	1	-	-	2:k1	-	informal	-	-
-$kim	2	-	-	0:main	-	-	-	-
-%interrogative
-</sent_id>
-
-
-
-<sent_id=5>
-#आप कहाँ रहते हैं ?
-$addressee	1	-	-	3:k1	-	respect	-	-
-$kim	2	-	-	3:krvn	-	-	-	-
-raha_1-wA_hE_1	3	-	-	0:main	-	-	-	-
-%interrogative
-</sent_id>
-
-
-
-<sent_id=6>
-#आप आज बज़ार जायेंगे ।
-$addressee	1	-	-	0:k1	-	respect	-	-
-Aja_1	2	-	-	0:k7t	-	-	-	-
-bajZAra_1	3	-	-	0:main	-	-	-	-
-%affirmative
-</sent_id>
-
-
-
-<sent_id=7>
-#मोहन जी ने खाना खा लिया ।
-mohana	1	male	-	-	-	salutation	-	8:begin
-KAnA_1	4	-	-	5:k2	-	-	-	-
-KA_1-yA_1	5	-	-	0:main	-	[shade:le_1]	-	-
-[ne_0]	8	-	-	5:k1	-	-	-	-
-%affirmative
-</sent_id>
-
-
-
-<sent_id=8>
-#हरि जी आज मंदिर जायेंगे ।
-hari	1	male	-	-	-	salutation	-	7:begin
-Aja_1	3	-	-	5:k7t	-	-	-	-
-maMxira_1	4	-	-	5:k2p	-	-	-	-
-jA_1-gA_1	5	-	-	0:main	-	-	-	-
-[ne_0]	7	-	-	5:k1	-	-	-	-
-%affirmative
-</sent_id>
-
-
-
-<sent_id=9>
-#यह घर किसका है ?
-$wyax	1	-	-	2:dem	-	proximal	-	-
-Gara_1	2	-	-	0:k1	-	-	-	-
-$kim	3	-	-	0:main	-	-	-	-
-%interrogative
-</sent_id>
-
-
-
-<sent_id=10>
-#यह बैग यहाँ किसने रखा ।
-$wyax	1	-	-	2:dem	-	proximal	-	-
-bEga_1	2	-	-	5:k2	-	-	-	-
-yahAz	3	-	-	5:k7p	-	-	-	-
-$kim	4	-	-	5:krvn	-	-	-	-
-raKA_1-0_1	5	-	-	0:main	-	-	-	-
-%affirmative
-</sent_id>
-
-
-
-<sent_id=11>
-#वह सामान मेरा है ।
-$wyax	1	-	-	2:dem	-	distal	-	-
-sAmAna_1	2	-	-	4:k1	-	-	-	-
-$speaker	3	-	-	4:k1	-	-	-	-
-hE_1-pres	4	-	-	0:main	-	-	-	-
-%affirmative
-</sent_id>
-
-
-
-<sent_id=12>
-#वह घर बहुत सुंदर है ।
-$wyax	1	-	-	5:k1	-	distal	-	-
-Gara_1	2	-	-	5:k1	-	-	-	-
-bahuwa_1	3	-	-	4:intf	-	-	-	-
-suMxara_1	4	-	-	5:k1s	-	-	-	-
-hE_1-pres	5	-	-	0:main	-	-	-	-
-%affirmative
-</sent_id>
-
-
-
-<sent_id=13>
-#अभी भी राम बाज़ार नहीं गया ।
-aBI	1	-	-	6:k7t	-	BI	-	-
-rAma	3	male	-	-	-	-	-	8:begin
-bAjZAra_1	4	-	-	6:k2p	-	-	-	-
+<sent_id=story_2a>
+#पर उसे ये मालूम नहीं था ।
+$wyax	2	-	-	6:k4a	-	distal	-	-
+$wyax	3	-	pl	6:k1	-	proximal	-	-
+mAlUma_1	4	-	-	-	-	-	-	8:kriyAmUla
 nahIM_1	5	-	-	6:neg	-	-	-	-
-jA_1-yA_1	6	-	-	0:main	-	-	-	-
-[ne_1]	8	per	-	6:k1	-	-	-	-
+hE_1-past	6	-	-	-	-	-	-	8:verbalizer
+[cp_1]	8	-	-	-	-	-	-	9:op1
 %negative
 </sent_id>
 
 
 
-<sent_id=14>
-#राम ही बाज़ार जायेगा ।
-rAma	1	male	-	-	-	hI	-	6:begin
-bAjZAra_1	3	-	-	4:k2p	-	-	-	-
-jA_1-gA_1	4	-	-	0:main	-	-	-	-
-[ne_1]	6	per	-	4:k1	-	-	-	-
+<sent_id=story_2b>
+#कि उस दिन बारिश होगी ।
+$wyax	1	-	-	2:dem	-	distal	-	-
+xina_1	2	-	-	4:k7t	-	-	-	-
+bAriSa_1	3	-	-	-	-	-	-	6:kriyAmUla
+ho_1-gA_1	4	-	-	-	-	-	-	6:verbalizer
+[cp_1]	6	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-Error processing sentence_id=15.
+<sent_id=story_2c>
+#या बारिश नहीं होगी ।
+bAriSa_1	1	-	-	-	-	-	-	5:kriyAmUla
+nahIM_1	2	-	-	3:neg	-	-	-	-
+ho_1-gA_1	3	-	-	-	-	-	-	5:verbalizer
+[cp_1]	5	-	-	0:main	story_2a.5:anyawra	-	-	-
+%negative
+</sent_id>
 
-<sent_id=16>
-#आज से ही राम स्कूल जायेगा ।
-Aja_1	1	-	-	6:k7t	-	hI	-	-
-rAma	4	male	-	-	-	-	-	8:begin
-skUla_1	5	-	-	6:k2p	-	-	-	-
-jA_1-gA_1	6	-	-	0:main	-	-	-	-
-[ne_1]	8	per	-	5:pof__cn	-	-	-	-
+
+
+<sent_id=story_3>
+#इसलिये उसने एक दस ईंच का छाता ले लिया ।
+isaliye	1	-	-	8:rh	-	-	-	-
+$wyax	2	-	-	8:k1	-	distal	-	-
+eka_1	3	numex	-	5:card	-	-	-	-
+xasa	4	numex	pl	5:card	-	-	-	-
+IMca_1	5	-	-	7:r6	-	-	-	-
+CAwA_1	7	-	-	8:k2	-	-	-	-
+le_1-yA_1	8	-	-	0:main	-	[shade:le_1]	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=17>
-#राम ही तो बाजार जाएगा ।
-rAma	1	male	-	-	-	hI/wo	-	7:begin
-bAjAra_1	4	-	-	5:k2p	-	-	-	-
-jA_1-gA_1	5	-	-	0:main	-	-	-	-
-[ne_1]	7	per	-	5:k1	-	-	-	-
+<sent_id=story_4a>
+#मनु सुबह सात बजे चलना शुरू किया ।
+manu	1	-	-	7:k1	-	-	-	-
+subaha_1	2	-	-	5:k7t	-	-	-	-
+sAwa	3	clocktime	-	5:k7t	-	-	-	-
+cala_1	5	-	-	7:k2	-	-	-	-
+SurU_1	6	-	-	-	-	-	-	9:kriyAmUla
+kara_1-yA_1	7	-	-	-	-	-	-	9:verbalizer
+[cp_1]	9	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=18>
-#मोहन भी तो सीता के साथ ही जायेगा ।
-mohana	1	male	-	8:k1	-	BI/wo	-	-
-sIwA	4	female	-	8:ras-k1	-	-	-	-
-sAWa_1	6	-	-	4:k7p	-	hI	-	-
+<sent_id=story_4b>
+#तभी अचानक तुफान आ गया ।
+waBI	1	-	-	4:k7t	-	-	-	-
+acAnaka_1	2	-	-	4:krvn	-	-	-	-
+wuPAna_1	3	-	-	4:k1	-	-	-	-
+A_1-yA_1	4	-	-	0:main	-	[shade:jA_1]	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=story_4c>
+#और छाता उड गया ।
+CAwA_1	1	-	-	2:k1	-	-	-	-
+uda_1-yA_1	2	-	-	0:main	story_4b.2:samuccaya	[shade:jA_1]	-	-
 %affirmative
 </sent_id>
 
