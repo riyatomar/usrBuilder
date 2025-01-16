@@ -5,6 +5,12 @@ def get_num(entry, parser_output, index):
     prev_index = index - 2 
     prev_to_prev = index - 3
     next_index = index 
+
+    # Initialize with default values
+    prev_word = ''
+    prev_pos = ''
+    pre_to_prev_entry = {}
+
     if prev_index >= 0:
         prev_entry = parser_output[prev_index]
         pre_to_prev_entry = parser_output[prev_to_prev]
@@ -41,5 +47,8 @@ def get_num(entry, parser_output, index):
     
     if entry.get('pos_tag', '') in ['NN', 'NNP'] and next_word in ['vAlA', 'vAlI', 'vAle']:
         return 'mawupa'
-    
+
+    if ('-' in entry.get('wx_word', '') and entry.get('wx_word', '').split('-')[0] == entry.get('wx_word', '').split('-')[1]) or (entry.get('wx_word', '') == next_word) or (pre_to_prev_entry.get('wx_word', '') == entry.get('wx_word', '') and prev_word == '-'):
+        return 'xviwva'
+
     return 'pl' if num == 'p' else '-'

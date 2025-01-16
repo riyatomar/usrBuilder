@@ -40,6 +40,9 @@ def get_word(entry, parser_output, index):
     # Default concept assignment
     word = concept
 
+    if '-' in wx_word and wx_word.split('-')[0] == wx_word.split('-')[1]:
+        word = wx_word.split('-')[0] + '_1'
+        
     # Check if the current pos_tag is VM and the next pos_tag is VAUX
     if pos_tag == 'VM' and index + 1 < len(parser_output):
         next_entry = parser_output[index + 1]

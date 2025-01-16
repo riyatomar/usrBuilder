@@ -35,12 +35,16 @@ def format_parser_output(file_path, discourse_path, output_file):
     """Main function to format parser output from a JSON file."""
     data = load_json(file_path)
     discourse_data = load_json(discourse_path)
-    all_sentence_data = data['response']  # Include all sentence data for context
+    all_sentence_data = data['response']  
+
+    sent_id_list = []
+    for data in all_sentence_data:
+        sent_id_list.append(data['sentence_id'])
 
     results = []
     for sentence_data in all_sentence_data:
         # Pass all_sentence_data as the third argument
-        results.append(format_sentence(sentence_data, discourse_data))
+        results.append(format_sentence(sentence_data, discourse_data)) #sent_id_list, all_sentence_data))
 
     formatted_output = '\n'.join(results)
     save_output(output_file, formatted_output)
