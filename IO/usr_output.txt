@@ -1,63 +1,128 @@
-<sent_id=14>
-#खिड़की वाला कमरा ठंडा है ।
-KidZakI_1	1	-	mawupa	3:mod	-	-	-	-
-kamarA_1	3	-	-	5:k1	-	-	-	-
-TaMdA_1	4	-	-	5:k1s	-	-	-	-
-hE_1-pres	5	-	-	0:main	-	-	-	-
+<sent_id=1>
+#राम ने आम खा लिया ।
+rAma	1	male	-	-	-	-	-	7:begin
+Ama_1	3	-	-	-	-	-	-	8:kriyAmUla
+KA_1-yA_1	4	-	-	-	-	[shade:le_1]	-	8:verbalizer
+[ne_1]	7	per	-	4:k1	-	-	-	-
+[cp_1]	8	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=15>
-#बारिश वाला मौसम सुहाना लगता है ।
-bAriSa_1	1	-	mawupa	3:mod	-	-	-	-
-mOsama_1	3	-	-	5:k1	-	-	-	-
-suhAnA_1	4	-	-	5:k1s	-	-	-	-
-laga_1-wA_hE_1	5	-	-	0:main	-	-	-	-
+<sent_id=2>
+#राम ने रावण को मार डाला ।
+rAma	1	male	-	-	-	-	-	8:begin
+rAvaNa	3	male	-	5:k2	-	-	-	-
+mAra_1-yA_1	5	-	-	0:main	-	[shade:dAla_1]	-	-
+[ne_1]	8	per	-	5:k1	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=16>
-#पानी वाला घड़ा खाली है ।
-pAnI_1	1	-	mawupa	3:mod	-	-	-	-
-GadZA_1	3	-	-	5:k1	-	-	-	-
-KAlI_1	4	-	-	5:k1s	-	-	-	-
-hE_1-pres	5	-	-	0:main	-	-	-	-
+<sent_id=3>
+#क्या तू आज बाज़ार जाएगा ?
+$kim	1	-	-	5:krvn	-	-	-	-
+$addressee	2	-	-	5:k1	-	informal	-	-
+Aja_1	3	-	-	5:k7t	-	-	-	-
+bAjZAra_1	4	-	-	5:k2p	-	-	-	-
+jA_1-gA_1	5	-	-	0:main	-	-	-	-
+%interrogative
+</sent_id>
+
+
+
+<sent_id=4>
+#तू कहाँ रहता है ?
+$addressee	1	-	-	2:k1	-	informal	-	-
+$kim	2	-	-	0:main	-	-	-	-
+%interrogative
+</sent_id>
+
+
+
+<sent_id=5>
+#आप कहाँ रहते हैं ?
+$addressee	1	-	-	3:k1	-	respect	-	-
+$kim	2	-	-	3:krvn	-	-	-	-
+raha_1-wA_hE_1	3	-	-	0:main	4.3:samuccaya	-	-	-
+%interrogative
+</sent_id>
+
+
+
+<sent_id=6>
+#आप आज बज़ार जायेंगे
+$addressee	1	-	-	0:k1	-	respect	-	-
+Aja_1	2	-	-	0:k7t	-	-	-	-
+bajZAra_1	3	-	-	0:intf	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=17>
-#लाल रंग वाली कार तेज है ।
-lAla_1	1	-	-	2:mod	-	-	-	-
-raMga_1	2	-	mawupa	4:mod	-	-	-	-
-kAra_1	4	-	-	6:k1	-	-	-	-
-weja_1	5	-	-	6:k1s	-	-	-	-
-hE_1-pres	6	-	-	0:main	-	-	-	-
+<sent_id=7>
+#मोहन जी ने खाना खा लिया ।
+mohana	1	male	-	-	-	salutation	-	8:begin
+KAnA_1	4	-	-	5:k2	-	-	-	-
+KA_1-yA_1	5	-	-	0:main	-	[shade:le_1]	-	-
+[ne_0]	8	-	-	5:k1	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=18>
-#छत वाला मकान ऊंचा है ।
-Cawa_1	1	-	mawupa	3:mod	-	-	-	-
-makAna_1	3	-	-	5:k1	-	-	-	-
-UMcA_1	4	-	-	5:k1s	-	-	-	-
-hE_1-pres	5	-	-	0:main	-	-	-	-
+<sent_id=8>
+#हरि जी आज मंदिर जायेंगे ।
+hari	1	male	-	-	-	salutation	-	7:begin
+Aja_1	3	-	-	5:k7t	-	-	-	-
+maMxira_1	4	-	-	5:k2p	-	-	-	-
+jA_1-gA_1	5	-	-	0:main	-	-	-	-
+[ne_0]	7	-	-	5:k1	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
-<sent_id=19>
-#फूल वाला घर सुंदर है ।
-PUla_1	1	-	mawupa	3:mod	-	-	-	-
-Gara_1	3	-	-	5:k1	-	-	-	-
+<sent_id=9>
+#यह घर किसका है ?
+$wyax	1	-	-	2:dem	-	proximal	-	-
+Gara_1	2	-	-	0:k1	-	-	-	-
+$kim	3	-	-	0:main	-	-	-	-
+%interrogative
+</sent_id>
+
+
+
+<sent_id=10>
+#यह बैग यहाँ किसने रखा ।
+$wyax	1	-	-	2:dem	-	proximal	-	-
+bEga_1	2	-	-	5:k2	-	-	-	-
+yahAz	3	-	-	5:k7p	-	-	-	-
+$kim	4	-	-	5:krvn	-	-	-	-
+raKA_1-0_1	5	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=11>
+#वह सामान मेरा है ।
+$wyax	1	-	-	2:dem	-	distal	-	-
+sAmAna_1	2	-	-	4:k1	-	-	-	-
+$speaker	3	-	-	4:k1	-	-	-	-
+hE_1-pres	4	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=12>
+#वह घर बहुत सुंदर है ।
+$wyax	1	-	-	5:k1	-	distal	-	-
+Gara_1	2	-	-	5:k1	-	-	-	-
+bahuwa_1	3	-	-	4:intf	-	-	-	-
 suMxara_1	4	-	-	5:k1s	-	-	-	-
 hE_1-pres	5	-	-	0:main	-	-	-	-
 %affirmative
@@ -65,69 +130,202 @@ hE_1-pres	5	-	-	0:main	-	-	-	-
 
 
 
+<sent_id=13>
+#अभी भी राम बाज़ार नहीं गया ।
+aBI	1	-	-	6:k7t	-	BI	-	-
+rAma	3	male	-	-	-	-	-	8:begin
+bAjZAra_1	4	-	-	6:k2p	-	-	-	-
+nahIM_1	5	-	-	6:neg	-	-	-	-
+jA_1-yA_1	6	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	6:k1	-	-	-	-
+%negative
+</sent_id>
+
+
+
+<sent_id=14>
+#राम ही बाज़ार जायेगा ।
+rAma	1	male	-	-	-	hI	-	6:begin
+bAjZAra_1	3	-	-	4:k2p	-	-	-	-
+jA_1-gA_1	4	-	-	0:main	-	-	-	-
+[ne_1]	6	per	-	4:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=15>
+#कुछ ही लड़के बाज़ार गये ।
+kuCa_1	1	-	-	3:quant	-	hI	-	-
+ladZakA_1	3	-	pl	5:k1	-	-	-	-
+bAjZAra_1	4	-	-	5:k2p	-	-	-	-
+jA_1-yA_1	5	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=16>
+#आज से ही राम स्कूल जायेगा ।
+Aja_1	1	-	-	6:k7t	-	hI	-	-
+rAma	4	male	-	-	-	-	-	8:begin
+skUla_1	5	-	-	6:k2p	-	-	-	-
+jA_1-gA_1	6	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	5:pof__cn	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=17>
+#राम ही तो बाजार जाएगा ।
+rAma	1	male	-	-	-	hI/wo	-	7:begin
+bAjAra_1	4	-	-	5:k2p	-	-	-	-
+jA_1-gA_1	5	-	-	0:main	-	-	-	-
+[ne_1]	7	per	-	5:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=18>
+#मोहन भी तो सीता के साथ ही जायेगा ।
+mohana	1	male	-	8:k1	-	BI/wo	-	-
+sIwA	4	female	-	8:ras-k1	-	-	-	-
+sAWa_1	6	-	-	4:k7p	-	hI	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=19>
+#आप खाना खा लीजिए ।
+$addressee	1	-	-	3:k1	-	respect	-	-
+KAnA_1	2	-	-	3:k2	-	-	-	-
+KA_1-e_1	3	-	-	0:main	-	[shade:le_1]	-	-
+%affirmative
+</sent_id>
+
+
+
 <sent_id=20>
-#बच्चे खेल रहे है ।
-baccA_1	1	-	pl	2:k1	-	-	-	-
-Kela_1-0_raha_hE_1	2	-	-	0:main	-	-	-	-
+#राम ने वह किताब रख ली ।
+rAma	1	male	-	-	-	-	-	8:begin
+$wyax	3	-	-	4:dem	-	distal	-	-
+kiwAba_1	4	-	-	5:k2	-	-	-	-
+raKa_1-yA_1	5	-	-	0:main	-	[shade:le_1]	-	-
+[ne_1]	8	per	-	5:k1	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
 <sent_id=21>
-#बिल्लियाँ दूध पी रही हैं ।
-billI_1	1	-	pl	3:k1	-	-	-	-
-xUXa_1	2	-	-	3:k2	-	-	-	-
-pI_1-imper_raha_hE_1	3	-	-	0:main	-	-	-	-
+#मोहन भी आम खा लेगा ।
+mohana	1	male	-	4:k1	-	BI	-	-
+Ama_1	3	-	-	-	-	-	-	7:kriyAmUla
+KA_1-gA_1	4	-	-	-	-	[shade:le_1]	-	7:verbalizer
+[cp_1]	7	-	-	0:main	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
 <sent_id=22>
-#समुद्री जल का घनत्व हर स्थान पर अलग-अलग होता है ।
-samuxrI_1	1	-	-	2:mod	-	-	-	-
-jala_1	2	-	-	4:r6	-	-	-	-
-Ganawva_1	4	-	-	9:k1	-	-	-	-
-hara_1	5	-	-	6:quant	-	-	-	-
-sWAna_1	6	-	-	9:k7	-	-	-	-
-alaga_1	8	-	xviwva	-	-	-	-	12:kriyAmUla
-ho_1-wA_hE_1	9	-	-	-	-	-	-	12:verbalizer
-[cp_1]	12	-	-	0:main	-	-	-	-
+#हरि जी आज मंदिर भी जायेंगे ।
+hari	1	male	-	-	-	salutation	-	8:begin
+Aja_1	3	-	-	6:k7t	-	-	-	-
+maMxira_1	4	-	-	6:k2p	-	BI	-	-
+jA_1-gA_1	6	-	-	0:main	-	-	-	-
+[ne_0]	8	-	-	6:k1	-	-	-	-
 %affirmative
 </sent_id>
 
 
 
 <sent_id=23>
-#घर घर में दीवाली की तैयारी हो रही है ।
-Gara_1	1	-	xviwva	7:k7p	-	-	-	-
-xIvAlI_1	4	-	-	6:k1	-	-	-	-
-wEyArI_1	6	-	-	-	-	-	-	11:kriyAmUla
-ho_1-0_raha_ho_1	7	-	-	-	-	-	-	11:verbalizer
-[cp_1]	11	-	-	0:main	-	-	-	-
-%affirmative
+#आप ने यह घर कब लिया ?
+$addressee	1	-	-	6:k1	-	respect	-	-
+$wyax	3	-	-	4:dem	-	proximal	-	-
+Gara_1	4	-	-	6:k2	-	-	-	-
+$kim	5	-	-	6:k7t	-	-	-	-
+le_1-yA_1	6	-	-	0:main	-	-	-	-
+%interrogative
 </sent_id>
 
 
 
 <sent_id=24>
-#गाँव - गाँव में बिजली पहुँच चुकी है ।
-gAzva_1	3	-	xviwva	6:k7p	-	-	-	-
-bijalI_1	5	-	-	6:k1	-	-	-	-
-pahuzca_1-yA_hE_1	6	-	-	0:main	-	[shade:cuka_1]	-	-
-%affirmative
+#आप ने यह घर कब ले लिया ?
+$addressee	1	-	-	6:k1	-	respect	-	-
+$wyax	3	-	-	4:dem	-	proximal	-	-
+Gara_1	4	-	-	6:k2	-	-	-	-
+$kim	5	-	-	6:krvn	-	-	-	-
+le_1-yA_1	6	-	-	0:main	-	[shade:le_1]	-	-
+%interrogative
 </sent_id>
 
 
 
 <sent_id=25>
-#यंहा दूर-दूर तक हरियाली ही हरियाली है ।
-yaMhA_1	1	-	-	7:k1	-	-	-	-
-xUra_1	2	-	xviwva	7:k7t	-	-	-	-
-hariyAlI_1	4	-	-	7:k1	-	hI	-	-
-hariyAlI_1	6	-	-	7:k1	-	-	-	-
-hE_1-pres	7	-	-	0:main	-	-	-	-
+#तू ने भी वह किताब ले ली ।
+$addressee	1	-	-	6:k1	-	BI	-	-
+$wyax	4	-	-	5:dem	-	distal	-	-
+kiwAba_1	5	-	-	6:k2	-	-	-	-
+le_1-yA_1	6	-	-	0:main	-	[shade:le_1]	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=26>
+#राम ने वह किताब ही रख ली ।
+rAma	1	male	-	-	-	-	-	9:begin
+$wyax	3	-	-	4:dem	-	distal	-	-
+kiwAba_1	4	-	-	6:k2	-	hI	-	-
+raKa_1-yA_1	6	-	-	0:main	-	[shade:le_1]	-	-
+[ne_1]	9	per	-	6:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=27>
+#तू आज अपना काम कर लेगा ।
+$addressee	1	-	-	5:k1	-	informal	-	-
+Aja_1	2	-	-	5:k7t	-	-	-	-
+apanA	3	-	pl	4:k2	-	-	-	-
+kAma_1	4	-	-	5:k2	-	-	-	-
+kara_1-gA_1	5	-	-	0:main	-	[shade:le_1]	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=28>
+#यह किताब कहाँ से आ गयी ।
+$wyax	1	-	-	2:dem	-	proximal	-	-
+kiwAba_1	2	-	-	5:k1	-	-	-	-
+$kim	3	-	-	5:krvn	-	-	-	-
+A_1-yA_1	5	-	-	0:main	-	[shade:jA_1]	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=29>
+#तुम ही ले लो ।
+wU	1	-	-	3:k1	-	hI	-	-
+le_1-o_1	3	-	-	0:main	-	[shade:le_1]	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=30>
+#तुम भी खा लेना ।
+wU	1	-	-	3:k1	-	BI	-	-
+KA_1-nA_1	3	-	-	0:main	-	[shade:le_1]	-	-
 %affirmative
 </sent_id>
 
