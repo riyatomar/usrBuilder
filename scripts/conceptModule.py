@@ -11,7 +11,7 @@ def get_word(entry, parser_output, index):
     pos_tag = entry.get('pos_tag', '-')
     dependency = entry.get('dependency_relation', '-')
 
-    category_1 = ["wuma", "wumhArA", "wumako", "wuJe", "wU_1", "wuJako", "Apa"]
+    category_1 = ["wuma", "wumhArA", "wumako", "wuJe", "wU_1", "wU", "wuJako", "Apa"]
     category_2 = ["mEM", "hama", "hamArA", "hamako", "hameM", "muJe", "muJako"]
     category_3 = ["Ji"]
     category_4 = ["vaha", "yaha"]
