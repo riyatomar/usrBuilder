@@ -5,9 +5,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -16,9 +16,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम भी खा लेना",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
         "sent_2_id": "3"
     },
     {
@@ -27,9 +27,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम भी खा लेना",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
         "sent_1_id": "3",
-        "sent_2": "तू कहाँ रहता है ?",
+        "sent_2": "यह किताब लाल है",
         "sent_2_id": "4"
     },
     {
@@ -38,9 +38,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तू कहाँ रहता है ?",
+        "sent_1": "यह किताब लाल है",
         "sent_1_id": "4",
-        "sent_2": "आप कहाँ रहते हैं ?",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
         "sent_2_id": "5"
     },
     {
@@ -49,9 +49,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप कहाँ रहते हैं ?",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
         "sent_1_id": "5",
-        "sent_2": "आप आज बज़ार जायेंगे",
+        "sent_2": "तुम फूल को डाली के साथ जोडो",
         "sent_2_id": "6"
     },
     {
@@ -60,9 +60,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप आज बज़ार जायेंगे",
+        "sent_1": "तुम फूल को डाली के साथ जोडो",
         "sent_1_id": "6",
-        "sent_2": "मोहन जी ने खाना खा लिया",
+        "sent_2": "सीता ने बच्चे को एक बात कही",
         "sent_2_id": "7"
     },
     {
@@ -71,9 +71,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "मोहन जी ने खाना खा लिया",
+        "sent_1": "सीता ने बच्चे को एक बात कही",
         "sent_1_id": "7",
-        "sent_2": "हरि जी आज मंदिर जायेंगे",
+        "sent_2": "राम घर आया",
         "sent_2_id": "8"
     },
     {
@@ -82,9 +82,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "हरि जी आज मंदिर जायेंगे",
+        "sent_1": "राम घर आया",
         "sent_1_id": "8",
-        "sent_2": "यह घर किसका है ?",
+        "sent_2": "दही दूध से बनता है",
         "sent_2_id": "9"
     },
     {
@@ -93,9 +93,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "यह घर किसका है ?",
+        "sent_1": "दही दूध से बनता है",
         "sent_1_id": "9",
-        "sent_2": "आप खाना खा लीजिए",
+        "sent_2": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_2_id": "1"
     },
     {
@@ -104,9 +104,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "आप खाना खा लीजिए",
+        "sent_2": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_2_id": "1"
     },
     {
@@ -115,9 +115,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "आप खाना खा लीजिए",
+        "sent_2": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_2_id": "1"
     },
     {
@@ -126,9 +126,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "आप खाना खा लीजिए",
+        "sent_2": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_2_id": "1"
     },
     {
@@ -137,9 +137,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "आप खाना खा लीजिए",
+        "sent_2": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_2_id": "1"
     },
     {
@@ -148,9 +148,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "आप खाना खा लीजिए",
+        "sent_2": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_2_id": "1"
     },
     {
@@ -159,9 +159,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "आप खाना खा लीजिए",
+        "sent_2": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_2_id": "1"
     },
     {
@@ -170,9 +170,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "आप खाना खा लीजिए",
+        "sent_2": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_2_id": "1"
     },
     {
@@ -181,9 +181,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "आप खाना खा लीजिए",
+        "sent_2": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_2_id": "1"
     },
     {
@@ -192,9 +192,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "आप खाना खा लीजिए",
+        "sent_2": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_2_id": "1"
     },
     {
@@ -203,9 +203,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "आप खाना खा लीजिए",
+        "sent_1": "इस मण्डल को क्षोभमण्डल भी कहते हैं",
         "sent_1_id": "1",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -214,9 +214,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -225,9 +225,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -236,9 +236,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -247,9 +247,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -258,9 +258,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -269,9 +269,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -280,9 +280,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -291,9 +291,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -302,9 +302,9 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम ही ले लो",
+        "sent_2": "राम 7 बजे से पहले खाना खाया",
         "sent_2_id": "2"
     },
     {
@@ -313,9 +313,339 @@
         "discourse_relation": "समुच्चय",
         "head_sent_id": "None",
         "project_id": "1",
-        "sent_1": "तुम ही ले लो",
+        "sent_1": "राम 7 बजे से पहले खाना खाया",
         "sent_1_id": "2",
-        "sent_2": "तुम भी खा लेना",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
         "sent_2_id": "3"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_1_id": "3",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_2_id": "3"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_1_id": "3",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_2_id": "3"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_1_id": "3",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_2_id": "3"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_1_id": "3",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_2_id": "3"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_1_id": "3",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_2_id": "3"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_1_id": "3",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_2_id": "3"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_1_id": "3",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_2_id": "3"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_1_id": "3",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_2_id": "3"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_1_id": "3",
+        "sent_2": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_2_id": "3"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राधा मीरा की तुलना में अधिक सुंदर है",
+        "sent_1_id": "3",
+        "sent_2": "यह किताब लाल है",
+        "sent_2_id": "4"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "यह किताब लाल है",
+        "sent_1_id": "4",
+        "sent_2": "यह किताब लाल है",
+        "sent_2_id": "4"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "यह किताब लाल है",
+        "sent_1_id": "4",
+        "sent_2": "यह किताब लाल है",
+        "sent_2_id": "4"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "यह किताब लाल है",
+        "sent_1_id": "4",
+        "sent_2": "यह किताब लाल है",
+        "sent_2_id": "4"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "यह किताब लाल है",
+        "sent_1_id": "4",
+        "sent_2": "यह किताब लाल है",
+        "sent_2_id": "4"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "यह किताब लाल है",
+        "sent_1_id": "4",
+        "sent_2": "यह किताब लाल है",
+        "sent_2_id": "4"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "यह किताब लाल है",
+        "sent_1_id": "4",
+        "sent_2": "यह किताब लाल है",
+        "sent_2_id": "4"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "यह किताब लाल है",
+        "sent_1_id": "4",
+        "sent_2": "यह किताब लाल है",
+        "sent_2_id": "4"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "यह किताब लाल है",
+        "sent_1_id": "4",
+        "sent_2": "यह किताब लाल है",
+        "sent_2_id": "4"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "None",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "यह किताब लाल है",
+        "sent_1_id": "4",
+        "sent_2": "यह किताब लाल है",
+        "sent_2_id": "4"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "इस कारण",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "यह किताब लाल है",
+        "sent_1_id": "4",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_2_id": "5"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "इस कारण",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_1_id": "5",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_2_id": "5"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "इस कारण",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_1_id": "5",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_2_id": "5"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "इस कारण",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_1_id": "5",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_2_id": "5"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "इस कारण",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_1_id": "5",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_2_id": "5"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "इस कारण",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_1_id": "5",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_2_id": "5"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "इस कारण",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_1_id": "5",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_2_id": "5"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "इस कारण",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_1_id": "5",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_2_id": "5"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "इस कारण",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_1_id": "5",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_2_id": "5"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "इस कारण",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_1_id": "5",
+        "sent_2": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_2_id": "5"
+    },
+    {
+        "dependent_sent_id": "None",
+        "discourse_marker": "जबकि",
+        "discourse_relation": "समुच्चय",
+        "head_sent_id": "None",
+        "project_id": "1",
+        "sent_1": "राम वहाँ रहता है जहाँ बर्फ पड़ती है",
+        "sent_1_id": "5",
+        "sent_2": "तुम फूल को डाली के साथ जोडो",
+        "sent_2_id": "6"
     }
 ]

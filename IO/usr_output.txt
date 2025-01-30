@@ -1,0 +1,755 @@
+<sent_id=1>
+#राम खाना खाता है ।
+rAma	1	male	-	-	-	-	-	6:begin
+KAnA_1	2	-	-	3:k1	-	-	-	-
+KA_1-wA_hE_1	3	-	-	0:main	-	-	-	-
+[ne_1]	6	per	-	2:pof__cn	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=2>
+#राम ने चाकू से आम काटा ।
+rAma	1	male	-	-	-	-	-	8:begin
+cAkU_1	3	-	-	6:k3	-	-	-	-
+Ama_1	5	-	-	-	-	-	-	9:kriyAmUla
+kAta_1-yA_1	6	-	-	-	-	-	-	9:verbalizer
+[ne_1]	8	per	-	6:k1	-	-	-	-
+[cp_1]	9	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=3>
+#राम को दूध दो ।
+rAma	1	male	-	-	-	-	-	6:begin
+xUXa_1	3	-	-	4:k2	-	-	-	-
+xo	4	numex	-	0:main	-	-	-	-
+[ne_1]	6	per	-	4:k4	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=4>
+#पेड से आम गिरताहै ।
+peda_1	1	-	-	4:k5	-	-	-	-
+Ama_1	3	-	-	-	-	-	-	6:kriyAmUla
+girawAhE_1-wA_hE_1	4	-	-	-	-	-	-	6:verbalizer
+[cp_1]	6	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=5>
+#मोदी जी दिल्ली में ४ बजे राजनीति पर चर्चा कर रहे थे ।
+moxI	1	-	-	2:mod	-	salutation	-	-
+xillI	3	female	-	10:k7p	-	-	-	-
+4	5	clocktime	-	10:k7t	-	-	-	-
+rAjanIwi_1	7	-	-	10:k7	-	-	-	-
+carcA_1	9	-	-	-	-	-	-	14:kriyAmUla
+kara_1-0_raha_WA_1	10	-	-	-	-	-	-	14:verbalizer
+[cp_1]	14	-	-	0:main	4.14:samuccaya	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=6>
+#राम को आम पसंद है ।
+rAma	1	male	-	-	-	-	-	7:begin
+Ama_1	3	-	-	4:mod	-	-	-	-
+pasaMxa_1	4	-	-	5:k1s	-	-	-	-
+hE_1-pres	5	-	-	0:main	5.5:samuccaya	-	-	-
+[ne_1]	7	per	-	5:k4a	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=7>
+#सीता ने बच्चे को एक बात कही ।
+sIwA	1	female	-	7:k1	-	-	-	-
+baccA_1	3	-	pl	7:k2g	-	-	-	-
+eka_1	5	numex	-	6:card	-	-	-	-
+bAwa_1	6	-	-	7:k2	-	-	-	-
+kaha_1-yA_1	7	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=8>
+#राम घर आया ।
+rAma	1	male	-	-	-	-	-	5:begin
+Gara_1	2	-	-	3:k2p	-	-	-	-
+A_1-yA_1	3	-	-	0:main	-	-	-	-
+[ne_1]	5	per	-	3:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=9>
+#दही दूध से बनता है ।
+xahI_1	1	-	-	4:k1	-	-	-	-
+xUXa_1	2	-	-	4:rh	-	-	-	-
+bana_1-wA_hE_1	4	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=10>
+#माँ ने बच्चे को आया से खाना खिलवाया ।
+mA_1	1	-	pl	8:k1	-	-	-	-
+baccA_1	3	-	pl	5:k2	-	-	-	-
+A_1	5	-	-	8:k3	-	-	-	-
+KAnA_1	7	-	-	8:k2	-	-	-	-
+KilavA_1-yA_1	8	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=11>
+#राम के अनुसार सीता घर पर नहीं है ।
+rAma	1	male	-	-	-	-	-	10:begin
+sIwA	4	female	-	8:k1	-	-	-	-
+Gara_1	5	-	-	8:k7p	-	-	-	-
+nahIM_1	7	-	-	8:neg	-	-	-	-
+hE_1-pres	8	-	-	0:main	-	-	-	-
+[ne_1]	10	per	-	8:k7a	-	-	-	-
+%negative
+</sent_id>
+
+
+
+<sent_id=12>
+#राम के साथ मोहन बाजार गया ।
+rAma	1	male	-	-	-	-	-	8:begin
+sAWa_1	3	-	-	1:k7p	-	-	-	-
+mohana	4	male	-	6:k1	-	-	-	-
+bAjAra	5	male	-	6:k2p	-	-	-	-
+jA_1-yA_1	6	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	6:ras-k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=13>
+#राम ने दूध के साथ केला खाया ।
+rAma	1	male	-	-	-	-	-	9:begin
+xUXa_1	3	-	-	7:ras-k1	-	-	-	-
+sAWa_1	5	-	-	3:k7p	-	-	-	-
+kelA_1	6	-	-	7:k2	-	-	-	-
+KA_1-yA_1	7	-	-	0:main	-	-	-	-
+[ne_1]	9	per	-	7:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=14>
+#राम चम्मच के साथ काँटे से सब्जी खा रहा है ।
+rAma	1	male	-	-	-	-	-	12:begin
+cammaca_1	2	-	-	8:ras-k1	-	-	-	-
+sAWa_1	4	-	-	2:k7p	-	-	-	-
+kAztA_1	5	-	pl	8:k5	-	-	-	-
+sabjI_1	7	-	-	8:k2	-	-	-	-
+KA_1-0_raha_hE_1	8	-	-	0:main	-	-	-	-
+[ne_1]	12	per	-	2:mod	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=15>
+#राम गुरु के साथ शिष्यों को दक्षिणा देता है ।
+rAma	1	male	-	-	-	-	-	11:begin
+guru	2	male	-	8:ras-k1	-	-	-	-
+sAWa_1	4	-	-	2:k7p	-	-	-	-
+SiRya_1	5	-	pl	8:k4	-	-	-	-
+xakRiNA_1	7	-	-	8:k2	-	-	-	-
+xe_1-wA_hE_1	8	-	-	0:main	-	-	-	-
+[ne_1]	11	per	-	2:pof__cn	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=16>
+#बालकनी के साथ खिड़कियों से भी धूल आ रही है ।
+bAlakanI_1	1	-	-	8:ras-k1	-	-	-	-
+sAWa_1	3	-	-	1:k7p	-	-	-	-
+KidZakiyoM_1	4	-	-	8:k5	-	BI	-	-
+XUla_1	7	-	-	8:k1	-	-	-	-
+A_1-0_raha_hE_1	8	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=17>
+#राम ने राजनैतिक मुद्दों सहित अन्य विषयों पर किताबें लिखी हैं ।
+rAma	1	male	-	-	-	-	-	13:begin
+rAjanEwika_1	3	-	-	4:mod	-	-	-	-
+muxxA_1	4	-	pl	10:ras-k7	-	-	-	-
+anya_1	6	-	-	7:mod	-	-	-	-
+viRaya_1	7	-	pl	10:k7	-	-	-	-
+kiwAba_1	9	-	pl	10:k2	-	-	-	-
+liKa_1-yA_hE_1	10	-	-	0:main	-	-	-	-
+[ne_1]	13	per	-	10:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=18>
+#राम बुद्धिमान है ।
+rAma	1	male	-	-	-	-	-	5:begin
+buxXimAna_1	2	-	-	3:k1s	-	-	-	-
+hE_1-pres	3	-	-	0:main	-	-	-	-
+[ne_1]	5	per	-	3:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=19>
+#इस मण्डल को क्षोभमण्डल भी कहते हैं ।
+$wyax	1	-	-	2:dem	-	proximal	-	-
+maNdala_1	2	-	-	6:k2	-	-	-	-
+kRoBamaNdala_1	4	-	-	6:k2	-	BI	-	-
+kaha_1-wA_hE_1	6	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=20>
+#सफेद बिल्ली मेज़ पर सोती है ।
+saPexa_1	1	-	-	2:mod	-	-	-	-
+billA_1	2	-	-	5:k1	-	-	-	-
+mejZa_1	3	-	-	5:k7p	-	-	-	-
+so_1-wA_hE_1	5	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=21>
+#समुद्र तल में बनी हुई ढाल हैं ।
+samuxra_1	1	-	-	-	-	-	-	9:mod
+wala_1	2	-	-	-	-	-	-	9:head
+bana_1	4	-	-	6:rvks	-	-	-	-
+DAla_1	6	-	-	7:k1	-	-	-	-
+hE_1-pres	7	-	-	0:main	-	-	-	-
+[nc_1]	9	-	-	4:k7p	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=22>
+#मैंने उड़ती हुए सुंदर चिड़िया देखी ।
+$speaker	1	-	-	6:k1	-	-	-	-
+udZa_1	2	-	-	6:rsk	-	-	-	-
+suMxara_1	4	-	-	5:mod	-	-	-	-
+cidZiyA_1	5	-	-	6:k2	-	-	-	-
+xeKa_1-yA_1	6	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=23>
+#राम ने किताब पढ़ते समय खाना खाया
+rAma	1	male	-	-	-	-	-	8:begin
+kiwAba_1	3	-	-	4:k2	-	-	-	-
+paDZawe_1	4	-	-	5:rvks	-	-	-	-
+samaya_1	5	-	-	7:k7t	-	-	-	-
+KAnA_1	6	-	-	7:k2	-	-	-	-
+KA_1-yA_1	7	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	7:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=24>
+#राम ने किताब पढ़ने के बाद खाना खाया
+rAma	1	male	-	-	-	-	-	9:begin
+kiwAba_1	3	-	-	4:k2	-	-	-	-
+paDZane_1	4	-	-	8:rblpk	-	-	-	-
+bAxa_1	6	-	-	4:k7p	-	-	-	-
+KAnA_1	7	-	-	8:k2	-	-	-	-
+KA_1-yA_1	8	-	-	0:main	-	-	-	-
+[ne_1]	9	per	-	8:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=25>
+#राम ने किताब पढ़ने से पहले खाना खाया
+rAma	1	male	-	-	-	-	-	9:begin
+kiwAba_1	3	-	-	4:k2	-	-	-	-
+paDZane_1	4	-	-	8:rblak	-	-	-	-
+pahalA_1	6	-	pl	4:k7p	-	-	-	-
+KAnA_1	7	-	-	8:k2	-	-	-	-
+KA_1-yA_1	8	-	-	0:main	-	-	-	-
+[ne_1]	9	per	-	8:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=26>
+#राम ने खाना खाकर पानी पिया
+rAma	1	male	-	-	-	-	-	7:begin
+KAnA_1	3	-	-	4:k2	-	-	-	-
+KA_1	4	-	-	6:rpk	-	-	-	-
+pAnI_1	5	-	-	6:k2	-	-	-	-
+pI_1-yA_1	6	-	-	0:main	-	-	-	-
+[ne_1]	7	per	-	6:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=27>
+#राम ने किताब पढ़ते हुए खाना खाया
+rAma	1	male	-	-	-	-	-	8:begin
+kiwAba_1	3	-	-	4:k2	-	-	-	-
+paDZawe_1	4	-	-	7:rsk	-	-	-	-
+KAnA_1	6	-	-	7:k2	-	-	-	-
+KA_1-yA_1	7	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	7:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=28>
+#चंद्रमा पेड़ के ऊपर है
+caMxramA	1	male	-	2:mod	-	-	-	-
+pedZa_1	2	-	-	5:k7p	-	-	-	-
+Upara_1	4	-	-	2:k7p	-	-	-	-
+hE_1	5	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=29>
+#राम 7 बजे से पहले खाना खाया
+rAma	1	male	-	-	-	-	-	8:begin
+7	2	clocktime	-	7:k7t	-	-	-	-
+pahalA_1	5	-	pl	3:k7p	-	-	-	-
+KAnA_1	6	-	-	7:k2	-	-	-	-
+KA_1-yA_1	7	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	7:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=30>
+#राम ने मोहन के लिए सेब लाया
+rAma	1	male	-	-	-	-	-	8:begin
+mohana	3	male	-	7:rt	-	-	-	-
+seba_1	6	-	-	7:k2	-	-	-	-
+lA_1-yA_1	7	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	7:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=31>
+#मोहन के कारण राम को आना पड़ा
+mohana	1	male	-	6:rh	-	-	-	-
+rAma	4	male	-	-	-	-	-	8:begin
+A_1-nA_padZA_1	6	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	6:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=32>
+#कुछ वस्तुओं का निर्माण प्रकृति ने किया है जैसे पर्वत , नदियां , प्राणी
+kuCa_1	1	-	-	2:quant	-	-	-	-
+vaswu_1	2	-	pl	4:k2	-	-	-	-
+nirmANa_1	4	-	-	-	-	-	-	15:kriyAmUla
+prakqwi_1	5	-	-	7:k1	-	-	-	-
+kara_1-yA_hE_1	7	-	-	-	-	-	-	15:verbalizer
+parvawa_1	10	-	-	0:ccof	-	-	-	-
+naxiyAM_1	12	-	-	0:ccof	-	-	-	-
+prANI_1	14	-	-	0:mod	-	-	-	-
+[cp_1]	15	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=33>
+#आप ओजोन गैस का महत्व बताइए ।
+$addressee	1	-	-	6:k1	-	respect	-	-
+ojona_1	2	-	-	-	-	-	-	8:mod
+gEsa_1	3	-	-	-	-	-	-	8:head
+mahawva_1	5	-	-	6:k2	-	-	-	-
+bawA_1-o_1	6	-	-	0:main	-	-	-	-
+[nc_1]	8	-	-	5:r6	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=34>
+#राम का घर सुंदर है ।
+rAma	1	male	-	-	-	-	-	7:begin
+Gara_1	3	-	-	5:k1	-	-	-	-
+suMxara_1	4	-	-	5:k1s	-	-	-	-
+hE_1-pres	5	-	-	0:main	-	-	-	-
+[ne_1]	7	per	-	3:r6	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=35>
+#राम के पास किताब है ।
+rAma	1	male	-	-	-	-	-	7:begin
+pAsa_1	3	-	-	1:k7p	-	-	-	-
+kiwAba_1	4	-	-	5:k1	-	-	-	-
+hE_1-pres	5	-	-	0:main	-	-	-	-
+[ne_1]	7	per	-	5:k7	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=36>
+#राम के पास सीता की किताब है ।
+rAma	1	male	-	-	-	-	-	9:begin
+pAsa_1	3	-	-	1:k7p	-	-	-	-
+sIwA	4	female	-	6:r6	-	-	-	-
+kiwAba_1	6	-	-	7:k1	-	-	-	-
+hE_1-pres	7	-	-	0:main	-	-	-	-
+[ne_1]	9	per	-	7:k7	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=37>
+#राम के दो बेटे हैं ।
+rAma	1	male	-	-	-	-	-	7:begin
+xo	3	numex	-	4:card	-	-	-	-
+betA_1	4	-	pl	5:k1	-	-	-	-
+hE_1-pres	5	-	-	0:main	-	-	-	-
+[ne_1]	7	per	-	4:r6	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=38>
+#गुलाब जैसे फूल पानी में नहीं उगते है ।
+gulAba_1	1	-	-	4:mod	-	-	-	-
+PUla_1	3	-	-	4:mod	-	-	-	-
+pAnI_1	4	-	-	7:k7	-	-	-	-
+nahIM_1	6	-	-	7:neg	-	-	-	-
+uga_1-wA_hE_1	7	-	-	0:main	-	-	-	-
+%negative
+</sent_id>
+
+
+
+<sent_id=39>
+#राधा मीरा की तुलना में अधिक सुंदर है ।
+rAXA	1	female	-	-	-	-	-	10:begin
+mIrA	2	-	-	-	-	-	-	10:inside
+suMxara_1	7	-	compermore	8:k1s	-	-	-	-
+hE_1-pres	8	-	-	0:main	-	-	-	-
+[ne_0]	10	-	-	8:k7	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=40>
+#राम गाँव की ओर जा रहा था ।
+rAma	1	male	-	-	-	-	-	9:begin
+gAzva_1	2	-	-	5:rd	-	-	-	-
+ora_1	4	-	-	2:k7p	-	-	-	-
+jA_1-0_raha_WA_1	5	-	-	0:main	-	-	-	-
+[ne_1]	9	per	-	2:mod	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=41>
+#राम धीरे चलता है ।
+rAma	1	male	-	-	-	-	-	6:begin
+XIre_1	2	-	-	3:krvn	-	-	-	-
+cala_1-wA_hE_1	3	-	-	0:main	-	-	-	-
+[ne_1]	6	per	-	3:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=42>
+#राम नहीं जाता है ।
+rAma	1	male	-	-	-	-	-	6:begin
+nahIM_1	2	-	-	3:neg	-	-	-	-
+jA_1-wA_hE_1	3	-	-	0:main	-	-	-	-
+[ne_1]	6	per	-	3:k1	-	-	-	-
+%negative
+</sent_id>
+
+
+
+<sent_id=43>
+#राम शायद नहीं आएगा ।
+rAma	1	male	-	-	-	-	-	6:begin
+SAyaxa	2	-	-	4:k7t	-	-	-	-
+nahIM_1	3	-	-	4:neg	-	-	-	-
+A_1-gA_1	4	-	-	0:main	-	-	-	-
+[ne_1]	6	per	-	4:k1	-	-	-	-
+%negative
+</sent_id>
+
+
+
+<sent_id=44>
+#वह हमेशा यहाँ आता है ।
+$wyax	1	-	-	4:k1	-	distal	-	-
+hameSA_1	2	-	-	4:krvn	-	-	-	-
+yahAz	3	-	-	4:k7p	-	-	-	-
+A_1-wA_hE_1	4	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=45>
+#जल के बिना जीवन असम्भव है ।
+jala_1	1	-	-	6:vmod	-	binA	-	-
+jIvana_1	4	-	-	6:k1	-	-	-	-
+asamBava_1	5	-	-	6:k1s	-	-	-	-
+hE_1-pres	6	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=46>
+#कर्क रेखा इस महाद्वीप से होकर गुजरती है ।
+karka	1	male	-	-	-	-	-	10:begin
+reKA_1	2	-	-	-	-	-	-	10:inside
+$wyax	3	-	-	4:dem	-	proximal	-	-
+mahAxvIpa_1	4	-	-	6:k5	-	-	-	-
+ho_1	6	-	-	7:rpk	-	-	-	-
+gujara_1-wA_hE_1	7	-	-	0:main	-	-	-	-
+[ne_0]	10	-	-	7:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=47>
+#गायों में काली गाय सबसे ज्यादा दूध देती है ।
+gAya_1	1	-	pl	8:k7p	-	-	-	-
+kAlA_1	3	-	-	4:mod	-	-	-	-
+gAya_1	4	-	pl	8:k1	-	-	-	-
+jyAxA_1	6	-	superl	7:quant	-	-	-	-
+xUXa_1	7	-	-	8:k2	-	-	-	-
+xe_1-wA_hE_1	8	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=48>
+#हे ईश्वर आप हमारी रक्षा करो ।
+ISvara_1	2	-	-	6:k1	-	-	-	-
+$addressee	3	-	-	6:k1	-	respect	-	-
+$speaker	4	-	pl	5:k2	-	-	-	-
+rakRA_1	5	-	-	-	-	-	-	8:kriyAmUla
+kara_1-imper_o_1	6	-	-	-	-	-	-	8:verbalizer
+[cp_1]	8	-	-	-	-	-	-	9:op1
+%affirmative
+</sent_id>
+
+
+
+<sent_id=49>
+#यह किताब लाल है ।
+$wyax	1	-	-	2:dem	-	proximal	-	-
+kiwAba_1	2	-	-	4:k1	-	-	-	-
+lAla_1	3	-	-	4:k1s	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=50>
+#राम के पास दो कलम है ।
+rAma	1	male	-	-	-	-	-	8:begin
+pAsa_1	3	-	-	1:k7p	-	-	-	-
+xo	4	numex	-	5:card	-	-	-	-
+kalama_1	5	-	-	6:k1	-	-	-	-
+hE_1-pres	6	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	6:rsm	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=51>
+#राम दशरथ के प्रथम पुत्र हैं ।
+rAma	1	male	-	-	-	-	-	8:begin
+xaSaraWa	2	male	-	5:r6	-	-	-	-
+praWama_1	4	-	-	5:nmod__adj	-	-	-	-
+puwra_1	5	-	-	6:k1s	-	-	-	-
+hE_1-pres	6	-	-	0:main	-	-	-	-
+[ne_1]	8	per	-	2:pof__cn	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=52>
+#सब लड़के आएंगे ।
+saba_1	1	-	-	2:quant	-	-	-	-
+ladZakA_1	2	-	pl	3:k1	-	-	-	-
+A_1-gA_1	3	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=53>
+#राम बहुत मोटा है ।
+rAma	1	male	-	-	-	-	-	6:begin
+bahuwa_1	2	-	-	3:intf	-	-	-	-
+motA_1	3	-	-	4:k1s	-	-	-	-
+hE_1-pres	4	-	-	0:main	-	-	-	-
+[ne_1]	6	per	-	4:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=54>
+#मेरे पास दस से अधिक किताबें हैं ।
+$speaker	1	-	-	7:rsm	-	-	-	-
+pAsa_1	2	-	-	1:k7p	-	-	-	-
+xasa	3	numex	pl	5:intf	-	-	-	-
+kiwAba_1	6	-	pl	7:k1	-	-	-	-
+hE_1-pres	7	-	-	0:main	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=55>
+#राम के पास पाँच से कम कलमें हैं ।
+rAma	1	male	-	-	-	-	-	10:begin
+pAsa_1	3	-	-	1:k7p	-	-	-	-
+pAzca	4	numex	-	6:intf	-	-	-	-
+kalama_1	7	-	pl	8:k1	-	-	-	-
+hE_1-pres	8	-	-	0:main	-	-	-	-
+[ne_1]	10	per	-	8:rsm	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=56>
+#हिंद महासागर जो यूरोपीय देशों और एशियाई देशों को मिलाता है , भारत को केंद्रीय स्थिति प्रदान करता है ।
+hiMxa	1	male	-	-	-	-	-	21:begin
+mahAsAgara	2	male	-	-	-	-	-	21:inside
+$yax	3	-	-	10:k1	-	-	-	-
+yUropIya_1	4	-	-	5:mod	-	-	-	-
+xeSa_1	5	-	pl	-	-	-	-	23:op1
+eSiyAI_1	7	-	-	8:mod	-	-	-	-
+xeSa_1	8	-	pl	-	-	-	-	23:op2
+milA_1-wA_hE_1	10	-	-	0:main	-	-	-	-
+BArawa	13	male	-	18:k4	-	-	-	-
+keMxrIya_1	15	-	-	16:mod	-	-	-	-
+sWiwi_1	16	-	-	18:k2	-	-	-	-
+praxAna_1	17	-	-	-	-	-	-	22:kriyAmUla
+kara_1	18	-	-	-	-	-	-	22:verbalizer
+[ne_0]	21	-	-	10:k1	-	-	-	-
+[cp_1]	22	-	-	10:rc	-	-	-	-
+[conj_1]	23	-	-	10:k7	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=57>
+#राम ऐसा लड़का है जो ज्यादा मेहनत करता है
+rAma	1	male	-	-	-	-	-	10:begin
+EsA	2	-	-	3:dem	-	-	-	-
+ladZakA_1	3	-	-	4:k1s	-	-	-	-
+hE_1-pres	4	-	-	0:main	-	-	-	-
+$yax	5	-	-	8:k1	-	-	-	-
+mehanawa_1	7	-	-	-	-	-	-	11:kriyAmUla
+kara_1	8	-	-	-	-	-	-	11:verbalizer
+[ne_1]	10	per	-	4:k1	-	-	-	-
+[cp_1]	11	-	-	4:rc	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=58>
+#जब राम सो रहा था तब बारिश हो रही थी ।
+rAma	1	male	-	-	-	-	-	11:begin
+so_1-0_raha_WA_1	2	-	-	0:main	-	-	-	-
+waba	5	-	-	7:k7t	-	-	-	-
+bAriSa_1	6	-	-	-	-	-	-	12:kriyAmUla
+ho_1	7	-	-	-	-	-	-	12:verbalizer
+[ne_1]	11	per	-	2:k1	-	-	-	-
+[cp_1]	12	-	-	2:rc	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=59>
+#राम वहाँ रहता है जहाँ बर्फ पड़ती है ।
+rAma	1	male	-	-	-	-	-	10:begin
+vahAz	2	-	pl	3:k7p	-	-	-	-
+raha_1-wA_hE_1	3	-	-	0:main	-	-	-	-
+jahAz	5	-	-	7:k7p	-	-	-	-
+barPa_1	6	-	-	7:k1	-	-	-	-
+padZa_1	7	-	-	3:rc	-	-	-	-
+[ne_1]	10	per	-	3:k1	-	-	-	-
+%affirmative
+</sent_id>
+
+
+
+<sent_id=60>
+#तुम फूल को डाली के साथ जोडो
+$addressee	1	-	-	0:k1	-	-	-	-
+PUla_1	2	-	-	4:k2	-	-	-	-
+dAla_1	4	-	-	0:ras-k2	-	-	-	-
+sAWa_1	6	-	-	4:k7p	-	-	-	-
+joda_1	7	-	-	0:mod	-	-	-	-
+%affirmative
+</sent_id>
+
+
